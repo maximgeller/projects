@@ -90,10 +90,10 @@ Awesome, we're doing great already. We can already see that the `subject` column
 # examine the unique article subjects
 fake["subject"].unique()
 ```
-
+I'll let you handle the other dataframe by calling the same function, `.unique()` again. It's interesting that there are many more categories in the dataframe with fake entries, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTQ1NjMxNjMsLTE2MTg2NDE4NjIsLT
-M1MzgyMzIxNywtMTE4MjgyMDk3MCwtNDE4NjUzMDk5LC0xMjYy
-NzYzNTk4LDE1ODk4NTU1NDYsLTMwOTA4MjEwMSwtMTMwNjgzOD
-A5NiwtMzUxNjY0NTExLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNjA0MDMwNzU1LC0xNjE4NjQxODYyLC0zNT
+M4MjMyMTcsLTExODI4MjA5NzAsLTQxODY1MzA5OSwtMTI2Mjc2
+MzU5OCwxNTg5ODU1NTQ2LC0zMDkwODIxMDEsLTEzMDY4MzgwOT
+YsLTM1MTY2NDUxMSw3MzA5OTgxMTZdfQ==
 -->
