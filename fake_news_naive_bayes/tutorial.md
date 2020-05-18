@@ -215,13 +215,22 @@ from sklearn.naive_bayes import MultinomialNB
 Naive = MultinomialNB()
 Naive.fit(X_train_counts, y_train)
 ```
-We have our model! Let's take a look at how accurate it is 
+We have our model! Let's take a look at how accurate it is using a handy sklearn tool called `accuracy_score`.
+```python
+from sklearn.metrics import accuracy_score
+# predict the labels on validation dataset
+predictions_NB = Naive.predict(X_test)
+# Use accuracy_score function to get the accuracy
+# very accurate bc of assumption of independence!
+print("Accuracy Score:",accuracy_score(predictions_NB, y_test)*100) 
+```
+When I did this, my model consistently achieved ~93% accuracy, which seems pretty good to me! There's a lot of 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQ2MTcxMDgsLTEzMjQ0ODA0NTAsLT
-g2ODQyNTAzOCwtMjA0MDM1Mzc1NCwtMjAwMDU1MjIzNCwzMDc0
-MTk4OTQsMjEwMTExMzE3NiwtMTk2NTQ3Mzc2MCwtMTM0NDI0NT
-IyNSwtMTYxODY0MTg2MiwtMzUzODIzMjE3LC0xMTgyODIwOTcw
-LC00MTg2NTMwOTksLTEyNjI3NjM1OTgsMTU4OTg1NTU0NiwtMz
-A5MDgyMTAxLC0xMzA2ODM4MDk2LC0zNTE2NjQ1MTEsNzMwOTk4
-MTE2XX0=
+eyJoaXN0b3J5IjpbMzQ5NDAzNDM2LC0xMzI0NDgwNDUwLC04Nj
+g0MjUwMzgsLTIwNDAzNTM3NTQsLTIwMDA1NTIyMzQsMzA3NDE5
+ODk0LDIxMDExMTMxNzYsLTE5NjU0NzM3NjAsLTEzNDQyNDUyMj
+UsLTE2MTg2NDE4NjIsLTM1MzgyMzIxNywtMTE4MjgyMDk3MCwt
+NDE4NjUzMDk5LC0xMjYyNzYzNTk4LDE1ODk4NTU1NDYsLTMwOT
+A4MjEwMSwtMTMwNjgzODA5NiwtMzUxNjY0NTExLDczMDk5ODEx
+Nl19
 -->
