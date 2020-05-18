@@ -176,11 +176,16 @@ df.head()
 </details>
 
 ## Naive Multinomial Bayes with sklearn
+Let's begin setting up our classifier by splitting the data up into independent and dependent variables. In this case, what do you think our dependent variable is? 
+<details>
+<summary><b>Solution</b> </summary>
 
+
+</details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxOTY5MDA2MSwyMTAxMTEzMTc2LC0xOT
-Y1NDczNzYwLC0xMzQ0MjQ1MjI1LC0xNjE4NjQxODYyLC0zNTM4
-MjMyMTcsLTExODI4MjA5NzAsLTQxODY1MzA5OSwtMTI2Mjc2Mz
-U5OCwxNTg5ODU1NTQ2LC0zMDkwODIxMDEsLTEzMDY4MzgwOTYs
-LTM1MTY2NDUxMSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbODg3OTM5NzAsMjEwMTExMzE3NiwtMTk2NT
+Q3Mzc2MCwtMTM0NDI0NTIyNSwtMTYxODY0MTg2MiwtMzUzODIz
+MjE3LC0xMTgyODIwOTcwLC00MTg2NTMwOTksLTEyNjI3NjM1OT
+gsMTU4OTg1NTU0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MDk2LC0z
+NTE2NjQ1MTEsNzMwOTk4MTE2XX0=
 -->
