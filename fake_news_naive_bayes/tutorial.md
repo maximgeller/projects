@@ -103,9 +103,9 @@ Let's fix this by removing all of the starting information in order to make the 
 ```python
 just_text = just_text.str.extractall(r"^.* - (?P<text>.*)")
 ```
-
+So what the heck is in the function? Let's do a quick crash course in regex. First we told pandas we want the strings in the `just_text` column, and then called `extractall()` on it. In the parenthesis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5Mzg5OTEwMiwtMTk2NTQ3Mzc2MCwtMT
+eyJoaXN0b3J5IjpbMTYxMDgwNzUxNCwtMTk2NTQ3Mzc2MCwtMT
 M0NDI0NTIyNSwtMTYxODY0MTg2MiwtMzUzODIzMjE3LC0xMTgy
 ODIwOTcwLC00MTg2NTMwOTksLTEyNjI3NjM1OTgsMTU4OTg1NT
 U0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MDk2LC0zNTE2NjQ1MTEs
