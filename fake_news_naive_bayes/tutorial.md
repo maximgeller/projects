@@ -126,9 +126,15 @@ Even though we got the text out, the dataframe it created has multiple indices. 
 just_text = just_text.droplevel(1)
 ```
 Check your dataframe to see it's much nicer looking now.
-The last step we have to take before we are ready to concatenate the dataframes is reassign `
+The last step we have to take before we are ready to concatenate the dataframes is reassign `just_text` to the `text` column in our `true` dataframe. Pandas helps us again here with the `.assign()` function
+```python
+true = true.assign(text=just_text["text"]) # switcharoo on the columns
+```
+## Combining and Saving the Data
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjIxMDExMTQsLTE5NjU0NzM3NjAsLT
+eyJoaXN0b3J5IjpbLTIwOTk4NzkxMDQsLTE5NjU0NzM3NjAsLT
 EzNDQyNDUyMjUsLTE2MTg2NDE4NjIsLTM1MzgyMzIxNywtMTE4
 MjgyMDk3MCwtNDE4NjUzMDk5LC0xMjYyNzYzNTk4LDE1ODk4NT
 U1NDYsLTMwOTA4MjEwMSwtMTMwNjgzODA5NiwtMzUxNjY0NTEx
