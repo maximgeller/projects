@@ -92,10 +92,11 @@ fake["subject"].unique()
 ```
 I'll let you handle the other dataframe by calling the same function, `.unique()` again. It's interesting that there are many more categories in the dataframe with fake entries, and it might be a cool project to categorize what kind of news an article is, but that's not our goal right now.
 ## Extracting Text in Pandas
-
+You probably already noticed something different about the text column in the `true` dataframe. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQyNDUyMjUsLTE2MTg2NDE4NjIsLT
-M1MzgyMzIxNywtMTE4MjgyMDk3MCwtNDE4NjUzMDk5LC0xMjYy
-NzYzNTk4LDE1ODk4NTU1NDYsLTMwOTA4MjEwMSwtMTMwNjgzOD
-A5NiwtMzUxNjY0NTExLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE2NTIzNTk3NDAsLTEzNDQyNDUyMjUsLT
+E2MTg2NDE4NjIsLTM1MzgyMzIxNywtMTE4MjgyMDk3MCwtNDE4
+NjUzMDk5LC0xMjYyNzYzNTk4LDE1ODk4NTU1NDYsLTMwOTA4Mj
+EwMSwtMTMwNjgzODA5NiwtMzUxNjY0NTExLDczMDk5ODExNl19
+
 -->
