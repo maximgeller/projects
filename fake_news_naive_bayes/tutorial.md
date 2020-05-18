@@ -208,12 +208,20 @@ X_test = count_vect.transform(X_test["text"]) # note: we don't fit it to the mod
 The count vectorizer does two things for us. First, it creates a bag of words by parsing all of the unique words in all of the text and mapping it to a dictionary where the value for each word is the number of times it appears. Then it *transforms* the text into a matrix with each document and term. Print out `X_train_counts` or `X_test` if you're interested to see what this looks like!
 ### Multinomial Bayes
 Before we train our model, let's talk about what specifically the **Multinomial Bayes** classifier is. We are calculating **Naive Bayes** on a lot of words in all of the data. In our case, this means answering the question "What is the probability a particular word appears given that the article is true?" If you look at the formula for **Bayes' Theorem**, this is in part determined by the probability that the news article is true (or fake!) *given that a particular word exists in it*. This is repeated for every unique word in our vocabulary. The summation from all of these calculations then assigns the article to be real or not. 
-
+Pretty cool right? Now let's do it ourselves.
+```python
+from sklearn.naive_bayes import MultinomialNB
+# fit the training dataset on the NB classifier
+Naive = MultinomialNB()
+Naive.fit(X_train_counts, y_train)
+```
+We have our model! Let's take a look at how accurate it is 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjQ0ODA0NTAsLTg2ODQyNTAzOCwtMj
-A0MDM1Mzc1NCwtMjAwMDU1MjIzNCwzMDc0MTk4OTQsMjEwMTEx
-MzE3NiwtMTk2NTQ3Mzc2MCwtMTM0NDI0NTIyNSwtMTYxODY0MT
-g2MiwtMzUzODIzMjE3LC0xMTgyODIwOTcwLC00MTg2NTMwOTks
-LTEyNjI3NjM1OTgsMTU4OTg1NTU0NiwtMzA5MDgyMTAxLC0xMz
-A2ODM4MDk2LC0zNTE2NjQ1MTEsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE1MDQ2MTcxMDgsLTEzMjQ0ODA0NTAsLT
+g2ODQyNTAzOCwtMjA0MDM1Mzc1NCwtMjAwMDU1MjIzNCwzMDc0
+MTk4OTQsMjEwMTExMzE3NiwtMTk2NTQ3Mzc2MCwtMTM0NDI0NT
+IyNSwtMTYxODY0MTg2MiwtMzUzODIzMjE3LC0xMTgyODIwOTcw
+LC00MTg2NTMwOTksLTEyNjI3NjM1OTgsMTU4OTg1NTU0NiwtMz
+A5MDgyMTAxLC0xMzA2ODM4MDk2LC0zNTE2NjQ1MTEsNzMwOTk4
+MTE2XX0=
 -->
