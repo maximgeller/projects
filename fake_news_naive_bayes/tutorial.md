@@ -49,14 +49,14 @@ from google.colab import drive
 drive.mount('/content/drive/') # you will need to authenticate
 cd My\ Drive/ # cd into the directory where your data is stored, for me it's the My Drive folder
 ```
+Before we load in our data, we have to import the pandas library to read it as a `DataFrame` object.
 
 
 
 
 
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNzkzNjcwNSwtMTYxODY0MTg2MiwtMz
+eyJoaXN0b3J5IjpbMTYyMTM5ODgxNywtMTYxODY0MTg2MiwtMz
 UzODIzMjE3LC0xMTgyODIwOTcwLC00MTg2NTMwOTksLTEyNjI3
 NjM1OTgsMTU4OTg1NTU0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MD
 k2LC0zNTE2NjQ1MTEsNzMwOTk4MTE2XX0=
