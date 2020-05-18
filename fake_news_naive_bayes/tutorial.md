@@ -107,12 +107,15 @@ So what the heck is in the function? Let's do a quick crash course in regex. Fir
 |regex| meaning |
 |--|--|
 | ^ | only at the start of the string|
-| . | 
+| . | any character|
+| * | repeated 0 or more times|
+| ( ) | the text we actually want to capture|
+|?P<text | 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NTU5NjEzMiwtMTk2NTQ3Mzc2MCwtMT
-M0NDI0NTIyNSwtMTYxODY0MTg2MiwtMzUzODIzMjE3LC0xMTgy
-ODIwOTcwLC00MTg2NTMwOTksLTEyNjI3NjM1OTgsMTU4OTg1NT
-U0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MDk2LC0zNTE2NjQ1MTEs
-NzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbODU2MTkzODY4LC0xOTY1NDczNzYwLC0xMz
+Q0MjQ1MjI1LC0xNjE4NjQxODYyLC0zNTM4MjMyMTcsLTExODI4
+MjA5NzAsLTQxODY1MzA5OSwtMTI2Mjc2MzU5OCwxNTg5ODU1NT
+Q2LC0zMDkwODIxMDEsLTEzMDY4MzgwOTYsLTM1MTY2NDUxMSw3
+MzA5OTgxMTZdfQ==
 -->
