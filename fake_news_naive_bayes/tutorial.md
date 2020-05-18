@@ -5,7 +5,7 @@ In this section, let's cover what a **classifier** is, what **Naive Bayes** is, 
 ### Classification
 In machine learning, classification refer to a type of predictive modeling where the model attempts to predict the labels for a set of input data. The simplest example of this is spam filtering in your email inbox. An algorithm sorts incoming email by analyzing their text (something we're going to get into in just a bit) and decides whether or not to put it in your inbox or your junk. Here's another representation
 
-<image for classification>
+![enter image description here](https://raw.githubusercontent.com/maximgeller/projects/master/fake_news_naive_bayes/img/classification.png)
 
 In this tutorial we'll be doing the same thing, but with news stories!
 ### The Bag of Words Model 
@@ -33,7 +33,7 @@ Cool, so you might already be able to see how this plays into the theorem. Bayes
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxODY1MzA5OSwtMTI2Mjc2MzU5OCwxNT
-g5ODU1NTQ2LC0zMDkwODIxMDEsLTEzMDY4MzgwOTYsLTM1MTY2
-NDUxMSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTExODI4MjA5NzAsLTQxODY1MzA5OSwtMT
+I2Mjc2MzU5OCwxNTg5ODU1NTQ2LC0zMDkwODIxMDEsLTEzMDY4
+MzgwOTYsLTM1MTY2NDUxMSw3MzA5OTgxMTZdfQ==
 -->
