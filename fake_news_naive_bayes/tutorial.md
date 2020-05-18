@@ -101,12 +101,13 @@ All of these articles start with a location and "Reuters" written at the start. 
 
 Let's fix this by removing all of the starting information in order to make the text from both dataframes as similar as possible. To do this, pandas has a handy function called `extractall()` that accepts a regular expression (regex) pattern as an argument. We're going to extract all of the text that comes after the hyphen that follows Reuters.
 ```python
-just_text = just_text.str.extractall(r".* - (?P<text>.*)")
+just_text = just_text.str.extractall(r"^.* - (?P<text>.*)")
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjU0NzM3NjAsLTEzNDQyNDUyMjUsLT
-E2MTg2NDE4NjIsLTM1MzgyMzIxNywtMTE4MjgyMDk3MCwtNDE4
-NjUzMDk5LC0xMjYyNzYzNTk4LDE1ODk4NTU1NDYsLTMwOTA4Mj
-EwMSwtMTMwNjgzODA5NiwtMzUxNjY0NTExLDczMDk5ODExNl19
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTM5Mzg5OTEwMiwtMTk2NTQ3Mzc2MCwtMT
+M0NDI0NTIyNSwtMTYxODY0MTg2MiwtMzUzODIzMjE3LC0xMTgy
+ODIwOTcwLC00MTg2NTMwOTksLTEyNjI3NjM1OTgsMTU4OTg1NT
+U0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MDk2LC0zNTE2NjQ1MTEs
+NzMwOTk4MTE2XX0=
 -->
