@@ -113,10 +113,10 @@ So what the heck is in the function? Let's do a quick crash course in regex. Fir
 |?P<text\> | name the column our text is extracted under to be called "text"|
 Here's a quick question for you. What are we expecting to catch with the pattern `.*` that follows `?P<text\>`?
 <details>
-<summary><b>Solution</b>
+<summary>
+<b>Solution</b>
 
 All of the words that follow the hyphen i.e. the actual news article!
-
 </details>
 
 Amazing, now we have a new dataframe called `just_text` with all of our real news stories without the preceding markers. Imagine trying to change this for all 21,000+ entries manually? Thank you regex!
@@ -141,9 +141,10 @@ We no longer have a fake or true news dataframe, it's all in one large one. Luck
 ```python
 df = df.drop(["subject", "date", "title"], axis = 1) # we won't use these columns in our model
 ```
-This time we drop from axis = 1 because we want to remove columns.
+This time we drop from `axis = 1` because we want to remove columns.
+Before 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDc3OTc3NiwyMTAxMTEzMTc2LC0xOT
+eyJoaXN0b3J5IjpbLTI1NjE4MjQyOSwyMTAxMTEzMTc2LC0xOT
 Y1NDczNzYwLC0xMzQ0MjQ1MjI1LC0xNjE4NjQxODYyLC0zNTM4
 MjMyMTcsLTExODI4MjA5NzAsLTQxODY1MzA5OSwtMTI2Mjc2Mz
 U5OCwxNTg5ODU1NTQ2LC0zMDkwODIxMDEsLTEzMDY4MzgwOTYs
