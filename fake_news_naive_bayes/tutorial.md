@@ -3,7 +3,7 @@ In today's online world, it can sometimes be difficult to discern whether the ne
 ## Intuition
 In this section, let's cover what a **classifier** is, what **Naive Bayes** is, and some of the assumptions we'll be making in order to build this project. <br/>
 ### Classification
-In machine learning, classification refer to a type of predictive modeling where the model attempts to predict the labels for a set of input data. The simplest example of this is spam filtering in your email inbox. An algorithm sorts incoming email by analyzing their text (something we're going to get into in just a bit) and decides whether or not to put it in your inbox or your junk. Here's another representation
+In machine learning, classification refer to a type of predictive modeling where the model attempts to predict the labels for a set of input data. The simplest example of this is spam filtering in your email inbox. An algorithm sorts incoming email by analyzing their text (something we're going to get into in just a bit) and decides whether or not to put it in your inbox or your junk by appropriately labeling each email. Here's another representation:
 
 ![Classification Graph](https://github.com/maximgeller/projects/blob/master/fake_news_naive_bayes/img/classification.png?raw=true)
 
@@ -20,7 +20,8 @@ Okay, this might confusing to look at, so let's start with the idea of  **condit
 
 > The likelihood of event A happening given event B does happen.
 
-Cool, so you might already be able to see how this plays into the theorem. Bayes Theorem calculates the probability that A is true given event B based on the inverse probability, probability of B given A. If you want to learn more and see a derivation, I highly suggest researching the **law of total probability**, but it's 
+Cool, so you might already be able to see how this plays into the theorem. Bayes Theorem calculates the probability that A is true given event B based on the inverse probability, probability of B given A. If you want to learn more about it and see a derivation, I highly suggest researching the **law of total probability**, but it's a bit beyond the scope for what we need to know for this project.
+
 
 
 ### Optional: Google Colab
@@ -33,8 +34,8 @@ Cool, so you might already be able to see how this plays into the theorem. Bayes
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM0MDUwMzMyLC0zNTM4MjMyMTcsLTExOD
-I4MjA5NzAsLTQxODY1MzA5OSwtMTI2Mjc2MzU5OCwxNTg5ODU1
-NTQ2LC0zMDkwODIxMDEsLTEzMDY4MzgwOTYsLTM1MTY2NDUxMS
-w3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTgwODU2MjI2NSwtMzUzODIzMjE3LC0xMT
+gyODIwOTcwLC00MTg2NTMwOTksLTEyNjI3NjM1OTgsMTU4OTg1
+NTU0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MDk2LC0zNTE2NjQ1MT
+EsNzMwOTk4MTE2XX0=
 -->
