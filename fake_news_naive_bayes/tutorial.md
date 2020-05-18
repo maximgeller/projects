@@ -196,14 +196,14 @@ from sklearn.model_selection import train_test_split
 # we train on 75% of the data, test on the rest
 X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.25)
 ```
-Next we need to convert all of our words into the **bag of words** model from before using sklearn's 
-
+Next we need to convert all of our words into the **bag of words** model from before using sklearn's `CountVectorizer`
+```pyt
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzExNjQxNjkxLC0yMDAwNTUyMjM0LDMwNz
-QxOTg5NCwyMTAxMTEzMTc2LC0xOTY1NDczNzYwLC0xMzQ0MjQ1
-MjI1LC0xNjE4NjQxODYyLC0zNTM4MjMyMTcsLTExODI4MjA5Nz
-AsLTQxODY1MzA5OSwtMTI2Mjc2MzU5OCwxNTg5ODU1NTQ2LC0z
-MDkwODIxMDEsLTEzMDY4MzgwOTYsLTM1MTY2NDUxMSw3MzA5OT
-gxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEyNjMzMDQxMzgsLTIwMDA1NTIyMzQsMz
+A3NDE5ODk0LDIxMDExMTMxNzYsLTE5NjU0NzM3NjAsLTEzNDQy
+NDUyMjUsLTE2MTg2NDE4NjIsLTM1MzgyMzIxNywtMTE4MjgyMD
+k3MCwtNDE4NjUzMDk5LC0xMjYyNzYzNTk4LDE1ODk4NTU1NDYs
+LTMwOTA4MjEwMSwtMTMwNjgzODA5NiwtMzUxNjY0NTExLDczMD
+k5ODExNl19
 -->
