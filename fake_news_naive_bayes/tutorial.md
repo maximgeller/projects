@@ -27,7 +27,7 @@ The **Naive Bayes** method for text classification is very popular because it sc
 $$
 P(I\>walked \>to\> the\> zoo\> today) = P(I) * P(walked) * P(to) * P(the) * P(zoo) * P(today)
 $$
-For our classifier, we assume th
+For our classifier, we assume the above equation to be true. However, in real life you know that sentences aren't formed this way. Let's kee[
 
 ### Optional: Google Colab
 
@@ -39,8 +39,8 @@ For our classifier, we assume th
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDE2NDAzNzksLTE2MTg2NDE4NjIsLT
-M1MzgyMzIxNywtMTE4MjgyMDk3MCwtNDE4NjUzMDk5LC0xMjYy
-NzYzNTk4LDE1ODk4NTU1NDYsLTMwOTA4MjEwMSwtMTMwNjgzOD
-A5NiwtMzUxNjY0NTExLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTQwMDY1MTA0MywtMTYxODY0MTg2MiwtMz
+UzODIzMjE3LC0xMTgyODIwOTcwLC00MTg2NTMwOTksLTEyNjI3
+NjM1OTgsMTU4OTg1NTU0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MD
+k2LC0zNTE2NjQ1MTEsNzMwOTk4MTE2XX0=
 -->
