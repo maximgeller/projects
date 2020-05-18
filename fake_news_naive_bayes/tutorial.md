@@ -20,7 +20,7 @@ Okay, this might confusing to look at, so let's start with the idea of  **condit
 
 > The likelihood of event A happening given event B does happen.
 
-Cool, so you might already be able to see how this plays into the theorem. Bayes Theorem calcuates that the probability that A is true given event B 
+Cool, so you might already be able to see how this plays into the theorem. Bayes Theorem calculates the probability that A is true given event B based on the inverse probability, probability of B given A. If you want to learn more and see a derivation, I highly suggest researching the **law of total probability**, but it's 
 
 
 ### Optional: Google Colab
@@ -33,7 +33,7 @@ Cool, so you might already be able to see how this plays into the theorem. Bayes
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAwNTkwNTM5LC0zNTM4MjMyMTcsLTExOD
+eyJoaXN0b3J5IjpbNTM0MDUwMzMyLC0zNTM4MjMyMTcsLTExOD
 I4MjA5NzAsLTQxODY1MzA5OSwtMTI2Mjc2MzU5OCwxNTg5ODU1
 NTQ2LC0zMDkwODIxMDEsLTEzMDY4MzgwOTYsLTM1MTY2NDUxMS
 w3MzA5OTgxMTZdfQ==
