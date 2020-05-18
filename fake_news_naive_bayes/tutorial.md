@@ -47,16 +47,24 @@ If you're working in a Google Colab notebook, you'll have to mount it to your dr
 ```python
 from google.colab import drive 
 drive.mount('/content/drive/') # you will need to authenticate
-cd My\ Drive/ # cd into the directory where your data is stored, for me it's the My Drive folder
+# cd into the directory where your data is stored, for me it's the My Drive folder
+cd My\ Drive/ 
 ```
 Before we load in our data, we have to import the pandas library to read it as a `DataFrame` object.
-
-
+```python
+import pandas as pd # calling it pd is convention
+```
+Now let's load in the `Fake.csv` and `True.csv` datasets!
+```python
+# loading in our two datasets..we'll combine them later on
+# if you load in the data set as I do, they'll need to be placed in the same directory
+fake = pd.read_csv("Fake.csv")
+true = pd.read_csv("True.csv")
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMTM5ODgxNywtMTYxODY0MTg2MiwtMz
+eyJoaXN0b3J5IjpbLTQzNTAyMzI2OSwtMTYxODY0MTg2MiwtMz
 UzODIzMjE3LC0xMTgyODIwOTcwLC00MTg2NTMwOTksLTEyNjI3
 NjM1OTgsMTU4OTg1NTU0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MD
 k2LC0zNTE2NjQ1MTEsNzMwOTk4MTE2XX0=
