@@ -110,10 +110,10 @@ So what the heck is in the function? Let's do a quick crash course in regex. Fir
 | . | any character|
 | * | repeated 0 or more times|
 | ( ) | the text we actually want to capture|
-|?P<text | 
+|?P<text\> | name the column our text is extracted under to be called "text"|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2MTkzODY4LC0xOTY1NDczNzYwLC0xMz
+eyJoaXN0b3J5IjpbLTMyNjYyODUxLC0xOTY1NDczNzYwLC0xMz
 Q0MjQ1MjI1LC0xNjE4NjQxODYyLC0zNTM4MjMyMTcsLTExODI4
 MjA5NzAsLTQxODY1MzA5OSwtMTI2Mjc2MzU5OCwxNTg5ODU1NT
 Q2LC0zMDkwODIxMDEsLTEzMDY4MzgwOTYsLTM1MTY2NDUxMSw3
