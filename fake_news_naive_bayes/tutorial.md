@@ -142,9 +142,12 @@ We no longer have a fake or true news dataframe, it's all in one large one. Luck
 df = df.drop(["subject", "date", "title"], axis = 1) # we won't use these columns in our model
 ```
 This time we drop from `axis = 1` because we want to remove columns.
-Before 
+
+Let's also check if we have any missing records and use the pandas function `.dropna()` to remove them. 
+```df.info()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MDA4NTYwMiwyMTAxMTEzMTc2LC0xOT
+eyJoaXN0b3J5IjpbMTc1MzQ1NDAzNywyMTAxMTEzMTc2LC0xOT
 Y1NDczNzYwLC0xMzQ0MjQ1MjI1LC0xNjE4NjQxODYyLC0zNTM4
 MjMyMTcsLTExODI4MjA5NzAsLTQxODY1MzA5OSwtMTI2Mjc2Mz
 U5OCwxNTg5ODU1NTQ2LC0zMDkwODIxMDEsLTEzMDY4MzgwOTYs
