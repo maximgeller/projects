@@ -144,12 +144,14 @@ df = df.drop(["subject", "date", "title"], axis = 1) # we won't use these column
 This time we drop from `axis = 1` because we want to remove columns.
 
 Let's also check if we have any missing records and use the pandas function `.dropna()` to remove them. 
-```df.info()
+```python
+df.info()
 ```
+We can see that there a few entries missing from the text column. There must have been blank entries in parts of our original datasets. Try and call `.dropna()` to remove the rows with missing data. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MzQ1NDAzNywyMTAxMTEzMTc2LC0xOT
-Y1NDczNzYwLC0xMzQ0MjQ1MjI1LC0xNjE4NjQxODYyLC0zNTM4
-MjMyMTcsLTExODI4MjA5NzAsLTQxODY1MzA5OSwtMTI2Mjc2Mz
-U5OCwxNTg5ODU1NTQ2LC0zMDkwODIxMDEsLTEzMDY4MzgwOTYs
-LTM1MTY2NDUxMSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNzY1MTIyMTExLDIxMDExMTMxNzYsLTE5Nj
+U0NzM3NjAsLTEzNDQyNDUyMjUsLTE2MTg2NDE4NjIsLTM1Mzgy
+MzIxNywtMTE4MjgyMDk3MCwtNDE4NjUzMDk5LC0xMjYyNzYzNT
+k4LDE1ODk4NTU1NDYsLTMwOTA4MjEwMSwtMTMwNjgzODA5Niwt
+MzUxNjY0NTExLDczMDk5ODExNl19
 -->
