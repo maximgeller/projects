@@ -148,11 +148,19 @@ Let's also check if we have any missing records and use the pandas function `.dr
 df.info()
 ```
 We can see that there a few entries missing from the text column. There must have been blank entries in parts of our original datasets. Try and call `.dropna()` to remove the rows with missing data. Think about what axis you want to work with too, but you technically don't need to specify an axis  in this case.
+<details>
+<summary><b>Solution</b> </summary>
 
+```python
+df = df.dropna(axis = 0) 
+# axis defaults to zero, so I'm just showing off
+```
+</details>
+We're ready to move to the ne
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzE0NTMxLDIxMDExMTMxNzYsLTE5Nj
-U0NzM3NjAsLTEzNDQyNDUyMjUsLTE2MTg2NDE4NjIsLTM1Mzgy
-MzIxNywtMTE4MjgyMDk3MCwtNDE4NjUzMDk5LC0xMjYyNzYzNT
-k4LDE1ODk4NTU1NDYsLTMwOTA4MjEwMSwtMTMwNjgzODA5Niwt
-MzUxNjY0NTExLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE3NzYzMDkyNywyMTAxMTEzMTc2LC0xOT
+Y1NDczNzYwLC0xMzQ0MjQ1MjI1LC0xNjE4NjQxODYyLC0zNTM4
+MjMyMTcsLTExODI4MjA5NzAsLTQxODY1MzA5OSwtMTI2Mjc2Mz
+U5OCwxNTg5ODU1NTQ2LC0zMDkwODIxMDEsLTEzMDY4MzgwOTYs
+LTM1MTY2NDUxMSw3MzA5OTgxMTZdfQ==
 -->
