@@ -12,7 +12,7 @@ In this tutorial we'll be doing the same thing, but with news stories!
 In order to classify news as fake or not, our model needs a vocabulary! This is where our bag of words comes in. In this project, we'll be using sklearn's [CountVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html) in order to convert our text into a dictionary that maps every unique word to the number of times it appears in the data. This feature extractor will also *convert the words into vectors* that we can fit to our model. <br/>
 Think about it this way: your brain generally finds patterns in the language of spammy emails versus ones that are actually important to you. You have a bag of words for the emails that tend to end up in your inbox, and another separate bag for those that go to your spam. Our model works the same way!
 ### Bayes' Theorem and Naive Bayes
-Bayes is a big name in probability as well as in machine learning! In this project, our classifier is called **Naive Bayes** and it's based on **Bayes' Theorem**. It looks something like this:
+Bayes is a big name in probability as well as in machine learning! In this project, our classifier is called **Naive Bayes** and it's based on **Bayes' Theorem**. It looks like this:
 $$
 P (A\mid B) =  \frac{P(B\mid A)P(A) }{P(B)}
 $$
@@ -33,8 +33,8 @@ Cool, so you might already be able to see how this plays into the theorem. Bayes
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MzgyMzIxNywtMTE4MjgyMDk3MCwtND
-E4NjUzMDk5LC0xMjYyNzYzNTk4LDE1ODk4NTU1NDYsLTMwOTA4
-MjEwMSwtMTMwNjgzODA5NiwtMzUxNjY0NTExLDczMDk5ODExNl
-19
+eyJoaXN0b3J5IjpbLTc3MDE1MjEzOSwtMzUzODIzMjE3LC0xMT
+gyODIwOTcwLC00MTg2NTMwOTksLTEyNjI3NjM1OTgsMTU4OTg1
+NTU0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MDk2LC0zNTE2NjQ1MT
+EsNzMwOTk4MTE2XX0=
 -->
