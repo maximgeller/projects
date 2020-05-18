@@ -3,7 +3,7 @@ In today's online world, it can sometimes be difficult to discern whether the ne
 ## Intuition
 In this section, let's cover what a **classifier** is, what **Naive Bayes** is, and some of the assumptions we'll be making in order to build this project. <br/>
 ### Classification
-In machine learning, classification refer to a type of predictive modeling where the model attempts to predict the labels for a set of input data. The simplest 
+In machine learning, classification refer to a type of predictive modeling where the model attempts to predict the labels for a set of input data. The simplest example of this is spam filtering 
 
 ### Optional: Google Colab
 
@@ -15,6 +15,6 @@ In machine learning, classification refer to a type of predictive modeling where
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4MjkxMjM3LC0xMzA2ODM4MDk2LC0zNT
-E2NjQ1MTEsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTMwOTA4MjEwMSwtMTMwNjgzODA5NiwtMz
+UxNjY0NTExLDczMDk5ODExNl19
 -->
