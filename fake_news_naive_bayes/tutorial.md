@@ -135,11 +135,11 @@ We're finally ready to concatenate the dataframes. Let's combine `fake` and `tru
 ```python
 df = pd.concat([fake, true], axis = 0)
 ```
-We choose to comb
+We choose to combine on `axis = 0` because we want to stack the rows on top of each other. If we chose `axis = 1`, it would 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODEzOTc4NDgsLTE5NjU0NzM3NjAsLT
-EzNDQyNDUyMjUsLTE2MTg2NDE4NjIsLTM1MzgyMzIxNywtMTE4
-MjgyMDk3MCwtNDE4NjUzMDk5LC0xMjYyNzYzNTk4LDE1ODk4NT
-U1NDYsLTMwOTA4MjEwMSwtMTMwNjgzODA5NiwtMzUxNjY0NTEx
-LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTI5Nzk1NjAyOCwtMTk2NTQ3Mzc2MCwtMT
+M0NDI0NTIyNSwtMTYxODY0MTg2MiwtMzUzODIzMjE3LC0xMTgy
+ODIwOTcwLC00MTg2NTMwOTksLTEyNjI3NjM1OTgsMTU4OTg1NT
+U0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MDk2LC0zNTE2NjQ1MTEs
+NzMwOTk4MTE2XX0=
 -->
