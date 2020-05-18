@@ -14,7 +14,7 @@ Think about it this way: your brain generally finds patterns in the language of 
 ### Bayes' Theorem and Naive Bayes
 Bayes is a big name in probability as well as in machine learning! In this project, our classifier is called **Naive Bayes** and it's based on **Bayes' Theorem**. This theorem comes from the idea of **conditional probability**, and it looks something like this:
 $$
-P (A\mid B) = P(B\mid A
+P (A\mid B) = P(B\mid A)P(A) 
 $$
 
 
@@ -29,7 +29,7 @@ $$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTExMDA4OTIzLDE1ODk4NTU1NDYsLTMwOT
-A4MjEwMSwtMTMwNjgzODA5NiwtMzUxNjY0NTExLDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbLTEzMzAyNDE0NTQsMTU4OTg1NTU0NiwtMz
+A5MDgyMTAxLC0xMzA2ODM4MDk2LC0zNTE2NjQ1MTEsNzMwOTk4
+MTE2XX0=
 -->
