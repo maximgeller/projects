@@ -41,7 +41,7 @@ P(I\>walked \>to\> the\> zoo\> today) = P(I) * P(walked) * P(to) * P(the) * P(zo
 $$
 For our classifier, we assume the above equation to be true. However, in real life you know that sentences aren't formed this way. Let's keep this in mind when we get to modeling, but for now let's get started with our dataset!
 # Importing and Cleaning
-We'll be working with the fake news dataset from Kaggle. Download both sets of data and place them in the same folder as your `exploration.ipynb` file. 
+We'll be working with the [fake news dataset](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset) from Kaggle. Download both sets of data and place them in the same folder as your `exploration.ipynb` file. 
 ### Optional: Google Colab
 If you're working in a Google Colab notebook, you'll have to mount it to your drive. Run this in your notebook:
 ```python
@@ -192,9 +192,9 @@ Now let's start using our fun toolkit from sklearn. We'll begin by splitting our
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MjI3NDQ4MCwyMTAxMTEzMTc2LC0xOT
-Y1NDczNzYwLC0xMzQ0MjQ1MjI1LC0xNjE4NjQxODYyLC0zNTM4
-MjMyMTcsLTExODI4MjA5NzAsLTQxODY1MzA5OSwtMTI2Mjc2Mz
-U5OCwxNTg5ODU1NTQ2LC0zMDkwODIxMDEsLTEzMDY4MzgwOTYs
-LTM1MTY2NDUxMSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMzA3NDE5ODk0LDIxMDExMTMxNzYsLTE5Nj
+U0NzM3NjAsLTEzNDQyNDUyMjUsLTE2MTg2NDE4NjIsLTM1Mzgy
+MzIxNywtMTE4MjgyMDk3MCwtNDE4NjUzMDk5LC0xMjYyNzYzNT
+k4LDE1ODk4NTU1NDYsLTMwOTA4MjEwMSwtMTMwNjgzODA5Niwt
+MzUxNjY0NTExLDczMDk5ODExNl19
 -->
