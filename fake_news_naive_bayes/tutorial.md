@@ -98,10 +98,12 @@ just_text = true["text"]
 just_text.head()
 ```
 All of these articles start with a location and "Reuters" written at the start. If we trained on this data as is, the model would quickly learn that articles that have Reuters in them are true and so the rest aren't. So while we might be able to get a really accurate model that way, what about a real article that doesn't have Reuters in it? It would probably get classified as fake. 
+
+Let's fix this by removing all of the starting information in order to make the text from both dataframes as similar as possible. To do th
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODE3MDY5NCwtMTM0NDI0NTIyNSwtMT
-YxODY0MTg2MiwtMzUzODIzMjE3LC0xMTgyODIwOTcwLC00MTg2
-NTMwOTksLTEyNjI3NjM1OTgsMTU4OTg1NTU0NiwtMzA5MDgyMT
-AxLC0xMzA2ODM4MDk2LC0zNTE2NjQ1MTEsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbODY4NjQzNzM0LC0xMzQ0MjQ1MjI1LC0xNj
+E4NjQxODYyLC0zNTM4MjMyMTcsLTExODI4MjA5NzAsLTQxODY1
+MzA5OSwtMTI2Mjc2MzU5OCwxNTg5ODU1NTQ2LC0zMDkwODIxMD
+EsLTEzMDY4MzgwOTYsLTM1MTY2NDUxMSw3MzA5OTgxMTZdfQ==
 
 -->
