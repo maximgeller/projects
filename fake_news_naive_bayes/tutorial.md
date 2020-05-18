@@ -315,13 +315,19 @@ def classifier(text):
     
     predict = Naive.predict(word_vec)
     return "Fake News Story" if predict[0] else "Real News Story"
-    
+   ```
+
+## Resources/References
+[Pandas](https://pandas.pydata.org/pandas-docs/stable/index.html)
+[MultinomialNB](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html)
+
+   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDY2NDI1OTksLTEzMjQ0ODA0NTAsLT
-g2ODQyNTAzOCwtMjA0MDM1Mzc1NCwtMjAwMDU1MjIzNCwzMDc0
-MTk4OTQsMjEwMTExMzE3NiwtMTk2NTQ3Mzc2MCwtMTM0NDI0NT
-IyNSwtMTYxODY0MTg2MiwtMzUzODIzMjE3LC0xMTgyODIwOTcw
-LC00MTg2NTMwOTksLTEyNjI3NjM1OTgsMTU4OTg1NTU0NiwtMz
-A5MDgyMTAxLC0xMzA2ODM4MDk2LC0zNTE2NjQ1MTEsNzMwOTk4
-MTE2XX0=
+eyJoaXN0b3J5IjpbNzM4MDMzMDE0LC0xMzI0NDgwNDUwLC04Nj
+g0MjUwMzgsLTIwNDAzNTM3NTQsLTIwMDA1NTIyMzQsMzA3NDE5
+ODk0LDIxMDExMTMxNzYsLTE5NjU0NzM3NjAsLTEzNDQyNDUyMj
+UsLTE2MTg2NDE4NjIsLTM1MzgyMzIxNywtMTE4MjgyMDk3MCwt
+NDE4NjUzMDk5LC0xMjYyNzYzNTk4LDE1ODk4NTU1NDYsLTMwOT
+A4MjEwMSwtMTMwNjgzODA5NiwtMzUxNjY0NTExLDczMDk5ODEx
+Nl19
 -->
