@@ -41,9 +41,9 @@ P(I\>walked \>to\> the\> zoo\> today) = P(I) * P(walked) * P(to) * P(the) * P(zo
 $$
 For our classifier, we assume the above equation to be true. However, in real life you know that sentences aren't formed this way. Let's keep this in mind when we get to modeling, but for now let's get started with our dataset!
 ## Importing and Cleaning
-We'll be working with the fake news dataset from Kaggle. Download both sets of data and place them in the same directory as your 
+We'll be working with the fake news dataset from Kaggle. Download both sets of data and place them in the same folder as your `exploration.ipynb` file. 
 ### Optional: Google Colab
-
+If you're working in a Google Colab notebook, 
 
 
 
@@ -52,7 +52,7 @@ We'll be working with the fake news dataset from Kaggle. Download both sets of d
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NjUzOTg5MywtMTYxODY0MTg2MiwtMz
+eyJoaXN0b3J5IjpbMTY2NDc3NzI4NSwtMTYxODY0MTg2MiwtMz
 UzODIzMjE3LC0xMTgyODIwOTcwLC00MTg2NTMwOTksLTEyNjI3
 NjM1OTgsMTU4OTg1NTU0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MD
 k2LC0zNTE2NjQ1MTEsNzMwOTk4MTE2XX0=
