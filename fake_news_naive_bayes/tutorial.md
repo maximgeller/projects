@@ -147,9 +147,10 @@ Let's also check if we have any missing records and use the pandas function `.dr
 ```python
 df.info()
 ```
-We can see that there a few entries missing from the text column. There must have been blank entries in parts of our original datasets. Try and call `.dropna()` to remove the rows with missing data. 
+We can see that there a few entries missing from the text column. There must have been blank entries in parts of our original datasets. Try and call `.dropna()` to remove the rows with missing data. Think about what axis you want to work with too, but you technically don't need to specify an axis  in this case.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY1MTIyMTExLDIxMDExMTMxNzYsLTE5Nj
+eyJoaXN0b3J5IjpbLTg0MzE0NTMxLDIxMDExMTMxNzYsLTE5Nj
 U0NzM3NjAsLTEzNDQyNDUyMjUsLTE2MTg2NDE4NjIsLTM1Mzgy
 MzIxNywtMTE4MjgyMDk3MCwtNDE4NjUzMDk5LC0xMjYyNzYzNT
 k4LDE1ODk4NTU1NDYsLTMwOTA4MjEwMSwtMTMwNjgzODA5Niwt
