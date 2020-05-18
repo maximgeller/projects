@@ -20,7 +20,7 @@ Okay, this might confusing to look at, so let's start with the idea of  **condit
 
 > The likelihood of event A happening given event B does happen.
 
-Cool, so you might already be able to see how this plays into the theorem. Bayes Theorem says that the probability that A is true given B is equal to 
+Cool, so you might already be able to see how this plays into the theorem. Bayes Theorem says that the probability that A is true given eB is equal to 
 
 
 ### Optional: Google Colab
@@ -33,8 +33,8 @@ Cool, so you might already be able to see how this plays into the theorem. Bayes
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MDE1MjEzOSwtMzUzODIzMjE3LC0xMT
-gyODIwOTcwLC00MTg2NTMwOTksLTEyNjI3NjM1OTgsMTU4OTg1
-NTU0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MDk2LC0zNTE2NjQ1MT
-EsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMjgzNTYyNTQyLC0zNTM4MjMyMTcsLTExOD
+I4MjA5NzAsLTQxODY1MzA5OSwtMTI2Mjc2MzU5OCwxNTg5ODU1
+NTQ2LC0zMDkwODIxMDEsLTEzMDY4MzgwOTYsLTM1MTY2NDUxMS
+w3MzA5OTgxMTZdfQ==
 -->
