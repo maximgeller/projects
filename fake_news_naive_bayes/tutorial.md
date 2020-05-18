@@ -73,14 +73,17 @@ Great, we see each entry has a title, text, a subject, and date published. Howev
 # In this case, the real articles are equal to 0
 true["fake_news"] = 0 
 fake["fake_news"] = 1
+```
+We just created a brand new column in both dataframes and populated all of their entries with either a 0 or 1. Take a look if you don't believe me with the `.head()` function again.
 
-A
-wesome, we're doing great already. We can already see that the `subject` column looks a little different between the two dataframes. Let's explore this some more.
+Awesome, we're doing great already. We can already see that the `subject` column looks a little different between the two dataframes. Let's explore this some more.
+```python
+# examine the unique article subjects
+fake["subject"].unique()
 ```
 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NzgxNTQzMywtMTYxODY0MTg2MiwtMz
+eyJoaXN0b3J5IjpbMTY1ODczODgxMSwtMTYxODY0MTg2MiwtMz
 UzODIzMjE3LC0xMTgyODIwOTcwLC00MTg2NTMwOTksLTEyNjI3
 NjM1OTgsMTU4OTg1NTU0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MD
 k2LC0zNTE2NjQ1MTEsNzMwOTk4MTE2XX0=
