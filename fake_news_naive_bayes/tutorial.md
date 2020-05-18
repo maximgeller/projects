@@ -67,11 +67,12 @@ true.head()
 # load in fake in a separate cell
 fake.csv()
 ```
-Awesome, we're doing great already. We can already see that the `subject` column looks a little different between
+Awesome, we're doing great already. We can already see that the `subject` column looks a little different between the two dataframes. Let's explore this some more.
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzA2MTgzMTUsLTE2MTg2NDE4NjIsLT
+eyJoaXN0b3J5IjpbLTE1MTY5NTc4MTEsLTE2MTg2NDE4NjIsLT
 M1MzgyMzIxNywtMTE4MjgyMDk3MCwtNDE4NjUzMDk5LC0xMjYy
 NzYzNTk4LDE1ODk4NTU1NDYsLTMwOTA4MjEwMSwtMTMwNjgzOD
 A5NiwtMzUxNjY0NTExLDczMDk5ODExNl19
