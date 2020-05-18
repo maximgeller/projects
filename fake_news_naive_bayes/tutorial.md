@@ -250,13 +250,15 @@ predict_onion = Naive.predict(onion_vec) # applying it to the trained model
 # 1: fake news!
 print(predict_onion)
 ```
-What did you get? I hope your m
+What did you get? I hope your model could tell this wasn't an actual news story.
+## The New York Times
+Let's do the same thing but this time with the [New York Times](https://www.nytimes.com/). We are going to consider these articles as reputable and **true**. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjI3ODE2ODYsLTEzMjQ0ODA0NTAsLT
-g2ODQyNTAzOCwtMjA0MDM1Mzc1NCwtMjAwMDU1MjIzNCwzMDc0
-MTk4OTQsMjEwMTExMzE3NiwtMTk2NTQ3Mzc2MCwtMTM0NDI0NT
-IyNSwtMTYxODY0MTg2MiwtMzUzODIzMjE3LC0xMTgyODIwOTcw
-LC00MTg2NTMwOTksLTEyNjI3NjM1OTgsMTU4OTg1NTU0NiwtMz
-A5MDgyMTAxLC0xMzA2ODM4MDk2LC0zNTE2NjQ1MTEsNzMwOTk4
-MTE2XX0=
+eyJoaXN0b3J5IjpbLTc3NzgwMzQ4MywtMTMyNDQ4MDQ1MCwtOD
+Y4NDI1MDM4LC0yMDQwMzUzNzU0LC0yMDAwNTUyMjM0LDMwNzQx
+OTg5NCwyMTAxMTEzMTc2LC0xOTY1NDczNzYwLC0xMzQ0MjQ1Mj
+I1LC0xNjE4NjQxODYyLC0zNTM4MjMyMTcsLTExODI4MjA5NzAs
+LTQxODY1MzA5OSwtMTI2Mjc2MzU5OCwxNTg5ODU1NTQ2LC0zMD
+kwODIxMDEsLTEzMDY4MzgwOTYsLTM1MTY2NDUxMSw3MzA5OTgx
+MTZdfQ==
 -->
