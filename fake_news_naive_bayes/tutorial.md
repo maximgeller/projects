@@ -11,7 +11,7 @@ In this tutorial we'll be doing the same thing, but with news stories!
 ### The Bag of Words Model 
 In order to classify news as fake or not, our model needs a vocabulary. This is where our bag of words comes in. In this project, we'll be using sklearn's [CountVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html) in order to convert our text into a dictionary that maps every unique word to the number of times it appears in the data. This feature extractor will also *convert the words into vectors* that we can fit to our model. <br/>
 Think about it this way: your brain generally finds patterns in the language of spammy emails versus ones that are actually important to you. You have a bag of words for the emails that tend to end up in your inbox, and another separate bag for those that go to your spam. Our model works the same way!
-### Bayes' Theorem and Naive Bayes
+### Bayes' Theorem
 Bayes is a big name in probability as well as in machine learning! In this project, our classifier is called **Naive Bayes** and it's based on **Bayes' Theorem**. It looks like this:
 $$
 P (A\mid B) =  \frac{P(B\mid A)P(A) }{P(B)}
@@ -21,8 +21,8 @@ Okay, this might confusing to look at, so let's start with the idea of  **condit
 > The likelihood of event A happening given event B does happen.
 
 Cool, so you might already be able to see how this plays into the theorem. Bayes Theorem calculates the probability that A is true given event B based on the inverse probability, probability of B given A. If you want to learn more about it and see a derivation, I highly suggest researching the **law of total probability**, but it's a bit beyond the scope for what we need to know for this project.
-
-
+### Naive Bayes & Assumptions
+We've almost got all of the understanding we need to know. The last thing we are going to take
 
 ### Optional: Google Colab
 
@@ -34,8 +34,8 @@ Cool, so you might already be able to see how this plays into the theorem. Bayes
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTg2NDE4NjIsLTM1MzgyMzIxNywtMT
-E4MjgyMDk3MCwtNDE4NjUzMDk5LC0xMjYyNzYzNTk4LDE1ODk4
-NTU1NDYsLTMwOTA4MjEwMSwtMTMwNjgzODA5NiwtMzUxNjY0NT
-ExLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTI2NzEwODkzOCwtMTYxODY0MTg2MiwtMz
+UzODIzMjE3LC0xMTgyODIwOTcwLC00MTg2NTMwOTksLTEyNjI3
+NjM1OTgsMTU4OTg1NTU0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MD
+k2LC0zNTE2NjQ1MTEsNzMwOTk4MTE2XX0=
 -->
