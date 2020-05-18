@@ -253,12 +253,58 @@ print(predict_onion)
 What did you get? I hope your model could tell this wasn't an actual news story.
 ## The New York Times
 Let's do the same thing but this time with the [New York Times](https://www.nytimes.com/). We are going to consider these articles as reputable and **true**. 
+```python
+# link: https://www.nytimes.com/2020/05/16/us/politics/linick-investigation-pompeo.html?action=click&module=Top%20Stories&pgtype=Homepage
+nyt = ["""Two top congressional Democrats opened an investigation on Saturday into President Trump’s removal of 
+          Steve A. Linick, who led the office of the inspector general at the State Department, citing a pattern 
+          of “politically-motivated firing of inspectors general.” Mr. Trump told Speaker Nancy Pelosi late 
+          Friday night that he was ousting Mr. Linick, who was named by President Barack Obama to the State 
+          Department post, and replacing him with an ambassador with close ties to Vice President Mike Pence in 
+          the latest purge of inspectors general whom Mr. Trump has deemed insufficiently loyal to his 
+          administration. In letters to the White House, State Department, and Mr. Linick, Representative Eliot 
+          L. Engel of New York, the chairman of the House Foreign Affairs Committee, and Senator Bob Menendez of 
+          New Jersey, the top Democrat on the Senate Foreign Relations Committee, requested that the administration
+          turn over records and information related to the firing of Mr. Linick as well as “records of all I.G. 
+          investigations involving the Office of the Secretary that were open, pending, or incomplete at the 
+          time of Mr. Linick’s firing.” Mr. Engel and Mr. Menendez said in their letters that they believe 
+          Secretary of State Mike Pompeo recommended Mr. Linick’s ouster because he had opened an investigation 
+          into Mr. Pompeo’s conduct. The lawmakers did not provide any more details, but a Democratic aide said 
+          that Mr. Linick had been looking into whether Mr. Pompeo had misused a political appointee at the State 
+          Department to perform personal tasks for himself and his wife. “Such an action, transparently designed to
+          protect Secretary Pompeo from personal accountability, would undermine the foundation of our democratic 
+          institutions and may be an illegal act of retaliation,” the lawmakers wrote. Under law, the administration
+          must notify Congress 30 days before formally terminating an inspector general. Mr. Linick is expected to 
+          leave his post then. Mr. Trump’s decision to remove Mr. Linick is the latest in a series of ousters aimed
+          at inspectors general who the president and his allies believe are opposed to his agenda. In May, Mr. 
+          Trump moved to oust Christi A. Grimm, the principal deputy inspector general for the Department of Health
+          and Human Services, whose office had issued a report revealing the dire state of the nation’s response to
+          the pathogen. He has also taken steps to remove two other inspectors general, for the intelligence
+          community and for the Defense Department. Mr. Linick was spotlighted during the impeachment inquiry when 
+          he requested an urgent meeting with congressional staff members to give them copies of documents related 
+          to the State Department and Ukraine, signaling they could be relevant to the House investigation into 
+          whether President Trump pressured Ukraine to investigate former Vice President Joseph R. Biden Jr. and 
+          his son Hunter Biden. The documents — a record of contacts between Rudolph W. Giuliani, the president’s 
+          personal lawyer, and Ukrainian prosecutors, as well as accounts of Ukrainian law enforcement proceedings 
+          — turned out to be largely inconsequential."""]
+```
+Transform this into a vector yourself and see what you get!
+<details>
+<summary><b>Solution</b> </summary>
+
+```python
+nyt_vec = count_vect.transform(nyt)
+predict_nyt = Naive.predict(nyt_vec)
+# 0: not fake!
+print(predict_nyt)
+```
+</details>
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NzgwMzQ4MywtMTMyNDQ4MDQ1MCwtOD
-Y4NDI1MDM4LC0yMDQwMzUzNzU0LC0yMDAwNTUyMjM0LDMwNzQx
-OTg5NCwyMTAxMTEzMTc2LC0xOTY1NDczNzYwLC0xMzQ0MjQ1Mj
-I1LC0xNjE4NjQxODYyLC0zNTM4MjMyMTcsLTExODI4MjA5NzAs
-LTQxODY1MzA5OSwtMTI2Mjc2MzU5OCwxNTg5ODU1NTQ2LC0zMD
-kwODIxMDEsLTEzMDY4MzgwOTYsLTM1MTY2NDUxMSw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbMjg3OTE5NzgwLC0xMzI0NDgwNDUwLC04Nj
+g0MjUwMzgsLTIwNDAzNTM3NTQsLTIwMDA1NTIyMzQsMzA3NDE5
+ODk0LDIxMDExMTMxNzYsLTE5NjU0NzM3NjAsLTEzNDQyNDUyMj
+UsLTE2MTg2NDE4NjIsLTM1MzgyMzIxNywtMTE4MjgyMDk3MCwt
+NDE4NjUzMDk5LC0xMjYyNzYzNTk4LDE1ODk4NTU1NDYsLTMwOT
+A4MjEwMSwtMTMwNjgzODA5NiwtMzUxNjY0NTExLDczMDk5ODEx
+Nl19
 -->
