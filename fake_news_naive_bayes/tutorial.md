@@ -1,5 +1,7 @@
 # Introduction
 In today's online world, it can sometimes be difficult to discern whether the news you're reading is likely true or not. What if you had a model that could tell you if that article you think is real is actually **fake news?** <br/>In this tutorial, we'll be building a text **classification** model using the Naive Bayes classifier. Our data will come from the [fake and real news dataset on Kaggle](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset). By the end, you'll have your very own machine learning model trained on a vast dataset to recognize when news might not be authentic. Let's dive in!
+### Suggested Dependencies
+This tutorial will cover some concepts in probability and we will be coding in Python using a notebook (.ipynb) envi
 ## Intuition
 In this section, let's cover what a **classifier** is, what **Naive Bayes** is, and some of the assumptions we'll be making in order to build this project. <br/>
 ### Classification
@@ -27,7 +29,7 @@ The **Naive Bayes** method for text classification is very popular because it sc
 $$
 P(I\>walked \>to\> the\> zoo\> today) = P(I) * P(walked) * P(to) * P(the) * P(zoo) * P(today)
 $$
-For our classifier, we assume the above equation to be true. However, in real life you know that sentences aren't formed this way. Let's kee[
+For our classifier, we assume the above equation to be true. However, in real life you know that sentences aren't formed this way. Let's keep this in mind when we get to modeling, but for now let's get started with our dataset!
 
 ### Optional: Google Colab
 
@@ -39,7 +41,7 @@ For our classifier, we assume the above equation to be true. However, in real li
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMDY1MTA0MywtMTYxODY0MTg2MiwtMz
+eyJoaXN0b3J5IjpbMTI4MzkyNjQwMywtMTYxODY0MTg2MiwtMz
 UzODIzMjE3LC0xMTgyODIwOTcwLC00MTg2NTMwOTksLTEyNjI3
 NjM1OTgsMTU4OTg1NTU0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MD
 k2LC0zNTE2NjQ1MTEsNzMwOTk4MTE2XX0=
