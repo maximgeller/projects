@@ -156,9 +156,16 @@ df = df.dropna(axis = 0)
 # axis defaults to zero, so I'm just showing off
 ```
 </details>
-We're ready to move to the ne
+We're ready to move to the next notebook file and do some modeling. Last thing we have to do is save the new dataframe as it's own csv file.
+
+```python
+# save the cleaned csv for other modeling
+clean_text = df.to_csv("cleaned_news.csv", index = False) # prevents having two indices
+```
+## Load in Clean Data 
+In a new notebook
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzYzMDkyNywyMTAxMTEzMTc2LC0xOT
+eyJoaXN0b3J5IjpbMTc5OTg5MDEyNiwyMTAxMTEzMTc2LC0xOT
 Y1NDczNzYwLC0xMzQ0MjQ1MjI1LC0xNjE4NjQxODYyLC0zNTM4
 MjMyMTcsLTExODI4MjA5NzAsLTQxODY1MzA5OSwtMTI2Mjc2Mz
 U5OCwxNTg5ODU1NTQ2LC0zMDkwODIxMDEsLTEzMDY4MzgwOTYs
