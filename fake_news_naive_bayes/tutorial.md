@@ -119,11 +119,16 @@ All of the words that follow the hyphen i.e. the actual news article!
 
 </details>
 
-
 Amazing, now we have a new dataframe called `just_text` with all of our real news stories without the preceding markers. Imagine trying to change this for all 21,000+ entries manually? Thank you regex!
-Even though we got the text out, the dataframe it created has multiple indices. This is a nuisance but we quickly take care of it like this  
+
+Even though we got the text out, the dataframe it created has multiple indices. This is a nuisance but we quickly take care of it like this:
+```python
+just_text = just_text.droplevel(1)
+```
+Check your dataframe to see it's much nicer looking now.
+The last step we have to take before we are ready to concatenate the dataframes is reassign `
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTEwOTMwOTAsLTE5NjU0NzM3NjAsLT
+eyJoaXN0b3J5IjpbLTIwMjIxMDExMTQsLTE5NjU0NzM3NjAsLT
 EzNDQyNDUyMjUsLTE2MTg2NDE4NjIsLTM1MzgyMzIxNywtMTE4
 MjgyMDk3MCwtNDE4NjUzMDk5LC0xMjYyNzYzNTk4LDE1ODk4NT
 U1NDYsLTMwOTA4MjEwMSwtMTMwNjgzODA5NiwtMzUxNjY0NTEx
