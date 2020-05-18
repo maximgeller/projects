@@ -13,7 +13,9 @@ In order to classify news as fake or not, our model needs a vocabulary! This is 
 Think about it this way: your brain generally finds patterns in the language of spammy emails versus ones that are actually important to you. You have a bag of words for the emails that tend to end up in your inbox, and another separate bag for those that go to your spam. Our model works the same way!
 ### Bayes' Theorem and Naive Bayes
 Bayes is a big name in probability as well as in machine learning! In this project, our classifier is called **Naive Bayes** and it's based on **Bayes' Theorem**. This theorem comes from the idea of **conditional probability**, and it looks something like this
+$$
 
+$$
 
 
 
@@ -27,7 +29,7 @@ Bayes is a big name in probability as well as in machine learning! In this proje
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NzA0NTk1MywxNTg5ODU1NTQ2LC0zMD
-kwODIxMDEsLTEzMDY4MzgwOTYsLTM1MTY2NDUxMSw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbMTYwNTk4NjI3LDE1ODk4NTU1NDYsLTMwOT
+A4MjEwMSwtMTMwNjgzODA5NiwtMzUxNjY0NTExLDczMDk5ODEx
+Nl19
 -->
