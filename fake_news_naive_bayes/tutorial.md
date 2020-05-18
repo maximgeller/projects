@@ -205,12 +205,12 @@ X_train_counts = count_vect.fit_transform(X_train["text"])
 # print(count_vect.vocabulary_) # here is our bag of words! 
 X_test = count_vect.transform(X_test["text"]) # note: we don't fit it to the model! Or else this is all useless
 ```
-The count 
+The count vectorizer does two things for us. First, it creates a bag of words by parsing all of the unique words in all of the text and mapp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDAzNTM3NTQsLTIwMDA1NTIyMzQsMz
-A3NDE5ODk0LDIxMDExMTMxNzYsLTE5NjU0NzM3NjAsLTEzNDQy
-NDUyMjUsLTE2MTg2NDE4NjIsLTM1MzgyMzIxNywtMTE4MjgyMD
-k3MCwtNDE4NjUzMDk5LC0xMjYyNzYzNTk4LDE1ODk4NTU1NDYs
-LTMwOTA4MjEwMSwtMTMwNjgzODA5NiwtMzUxNjY0NTExLDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbMTc3NDc3NzkzNywtMjA0MDM1Mzc1NCwtMj
+AwMDU1MjIzNCwzMDc0MTk4OTQsMjEwMTExMzE3NiwtMTk2NTQ3
+Mzc2MCwtMTM0NDI0NTIyNSwtMTYxODY0MTg2MiwtMzUzODIzMj
+E3LC0xMTgyODIwOTcwLC00MTg2NTMwOTksLTEyNjI3NjM1OTgs
+MTU4OTg1NTU0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MDk2LC0zNT
+E2NjQ1MTEsNzMwOTk4MTE2XX0=
 -->
