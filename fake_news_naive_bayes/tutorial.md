@@ -188,13 +188,13 @@ X = df.drop([DV], axis = 1) # drop from our X array because this is the text dat
 y = df[DV]
 ```
 </details>
-Now let's start using our fun toolkit from sklearn. We'll begin by splitting our entire dataset up into testing and training portions. This is super important to do because 
+Now let's start using our fun toolkit from sklearn. We'll begin by splitting our entire dataset up into testing and training portions. This is super important to do because we need to save a portion of our data to **validate** our text results on.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3NDE5ODk0LDIxMDExMTMxNzYsLTE5Nj
-U0NzM3NjAsLTEzNDQyNDUyMjUsLTE2MTg2NDE4NjIsLTM1Mzgy
-MzIxNywtMTE4MjgyMDk3MCwtNDE4NjUzMDk5LC0xMjYyNzYzNT
-k4LDE1ODk4NTU1NDYsLTMwOTA4MjEwMSwtMTMwNjgzODA5Niwt
-MzUxNjY0NTExLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTkwMzgxMjQyMCwzMDc0MTk4OTQsMjEwMT
+ExMzE3NiwtMTk2NTQ3Mzc2MCwtMTM0NDI0NTIyNSwtMTYxODY0
+MTg2MiwtMzUzODIzMjE3LC0xMTgyODIwOTcwLC00MTg2NTMwOT
+ksLTEyNjI3NjM1OTgsMTU4OTg1NTU0NiwtMzA5MDgyMTAxLC0x
+MzA2ODM4MDk2LC0zNTE2NjQ1MTEsNzMwOTk4MTE2XX0=
 -->
