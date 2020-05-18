@@ -9,7 +9,7 @@ In machine learning, classification refer to a type of predictive modeling where
 
 In this tutorial we'll be doing the same thing, but with news stories!
 ### The Bag of Words Model 
-In order to classify news as fake or not, our model needs a vocabulary! This is where our bag of words comes in. In this project, we'll be using sklearn's CountVectorizer in order to convert our text into 
+In order to classify news as fake or not, our model needs a vocabulary! This is where our bag of words comes in. In this project, we'll be using sklearn's CountVectorizer in order to convert our text into a dictionary that maps every unique word to the number of times it appears in the data. This feature extractor will also *convert the words into vectors* that we can fit to our model. 
 
 
 
@@ -24,7 +24,7 @@ In order to classify news as fake or not, our model needs a vocabulary! This is 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE3MDU5MjY1LDE1ODk4NTU1NDYsLTMwOT
-A4MjEwMSwtMTMwNjgzODA5NiwtMzUxNjY0NTExLDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbLTIxMzA2NzgwMjksMTU4OTg1NTU0NiwtMz
+A5MDgyMTAxLC0xMzA2ODM4MDk2LC0zNTE2NjQ1MTEsNzMwOTk4
+MTE2XX0=
 -->
