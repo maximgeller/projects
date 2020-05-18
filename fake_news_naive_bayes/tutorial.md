@@ -205,9 +205,9 @@ X_train_counts = count_vect.fit_transform(X_train["text"])
 # print(count_vect.vocabulary_) # here is our bag of words! 
 X_test = count_vect.transform(X_test["text"]) # note: we don't fit it to the model! Or else this is all useless
 ```
-The count vectorizer does two things for us. First, it creates a bag of words by parsing all of the unique words in all of the text and mapp
+The count vectorizer does two things for us. First, it creates a bag of words by parsing all of the unique words in all of the text and mapping it to a dictionary where the value for each word is the number of times it appears. Then it *transforms* the text into a matrix with each document and term. Print out 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NDc3NzkzNywtMjA0MDM1Mzc1NCwtMj
+eyJoaXN0b3J5IjpbLTM3Mjk1MzEzNiwtMjA0MDM1Mzc1NCwtMj
 AwMDU1MjIzNCwzMDc0MTk4OTQsMjEwMTExMzE3NiwtMTk2NTQ3
 Mzc2MCwtMTM0NDI0NTIyNSwtMTYxODY0MTg2MiwtMzUzODIzMj
 E3LC0xMTgyODIwOTcwLC00MTg2NTMwOTksLTEyNjI3NjM1OTgs
