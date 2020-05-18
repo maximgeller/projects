@@ -16,9 +16,11 @@ Bayes is a big name in probability as well as in machine learning! In this proje
 $$
 P (A\mid B) =  \frac{P(B\mid A)P(A) }{P(B)}
 $$
-Okay, this might confusing to look at, so let's start with the idea of  **conditional probability**, which is defined in the following way:
+Okay, this might confusing to look at, so let's start with the idea of  **conditional probability**, which we'll define in the following way:
 
-> Blockquote
+> The likelihood of event A happening given event B does happen.
+
+Cool, so you might already be able to see how this plays into the theorem. Bayes
 
 
 ### Optional: Google Colab
@@ -31,7 +33,7 @@ Okay, this might confusing to look at, so let's start with the idea of  **condit
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODM1NTM3MDMsMTU4OTg1NTU0NiwtMz
-A5MDgyMTAxLC0xMzA2ODM4MDk2LC0zNTE2NjQ1MTEsNzMwOTk4
-MTE2XX0=
+eyJoaXN0b3J5IjpbNDUyNDc3ODUyLDE1ODk4NTU1NDYsLTMwOT
+A4MjEwMSwtMTMwNjgzODA5NiwtMzUxNjY0NTExLDczMDk5ODEx
+Nl19
 -->
