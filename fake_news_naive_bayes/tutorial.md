@@ -40,10 +40,11 @@ $$
 P(I\>walked \>to\> the\> zoo\> today) = P(I) * P(walked) * P(to) * P(the) * P(zoo) * P(today)
 $$
 For our classifier, we assume the above equation to be true. However, in real life you know that sentences aren't formed this way. Let's keep this in mind when we get to modeling, but for now let's get started with our dataset!
+## Importing and Cleaning
 
 ### Optional: Google Colab
 
-## Importing and Cleaning
+
 
 
 
@@ -51,8 +52,8 @@ For our classifier, we assume the above equation to be true. However, in real li
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAxNDMwNDYxLC0xNjE4NjQxODYyLC0zNT
-M4MjMyMTcsLTExODI4MjA5NzAsLTQxODY1MzA5OSwtMTI2Mjc2
-MzU5OCwxNTg5ODU1NTQ2LC0zMDkwODIxMDEsLTEzMDY4MzgwOT
-YsLTM1MTY2NDUxMSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEwNTc1NDY2NTEsLTE2MTg2NDE4NjIsLT
+M1MzgyMzIxNywtMTE4MjgyMDk3MCwtNDE4NjUzMDk5LC0xMjYy
+NzYzNTk4LDE1ODk4NTU1NDYsLTMwOTA4MjEwMSwtMTMwNjgzOD
+A5NiwtMzUxNjY0NTExLDczMDk5ODExNl19
 -->
