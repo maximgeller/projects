@@ -163,11 +163,20 @@ We're ready to move to the next notebook file and do some modeling. Last thing w
 clean_text = df.to_csv("cleaned_news.csv", index = False) # prevents having two indices
 ```
 ## Load in Clean Data 
-In a new notebook
+Create a new notebook called `nb_model` in the same folder as your other files for this project. Try and import the pandas module as well as your cleaned dataframe. If you
+<details>
+<summary><b>Solution</b> </summary>
+
+```python
+import pandas as pd
+df = pd.read_csv("cleaned_news.csv")
+df.head()
+```
+</details>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTg5MDEyNiwyMTAxMTEzMTc2LC0xOT
-Y1NDczNzYwLC0xMzQ0MjQ1MjI1LC0xNjE4NjQxODYyLC0zNTM4
-MjMyMTcsLTExODI4MjA5NzAsLTQxODY1MzA5OSwtMTI2Mjc2Mz
-U5OCwxNTg5ODU1NTQ2LC0zMDkwODIxMDEsLTEzMDY4MzgwOTYs
-LTM1MTY2NDUxMSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTIxMjEwNjY3NjEsMjEwMTExMzE3NiwtMT
+k2NTQ3Mzc2MCwtMTM0NDI0NTIyNSwtMTYxODY0MTg2MiwtMzUz
+ODIzMjE3LC0xMTgyODIwOTcwLC00MTg2NTMwOTksLTEyNjI3Nj
+M1OTgsMTU4OTg1NTU0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MDk2
+LC0zNTE2NjQ1MTEsNzMwOTk4MTE2XX0=
 -->
