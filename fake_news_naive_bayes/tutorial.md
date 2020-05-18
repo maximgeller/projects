@@ -181,14 +181,18 @@ Let's begin setting up our classifier by splitting the data up into independent 
 <summary><b>Solution</b> </summary>
 
 The fake news marker! It tells us which category the model thinks the story falls under. Let's create our `X` and `y`
+```python
+# split the data
+DV = "fake_news" # the dependent variable, text is the independent variable here
+X = df.drop([DV], axis = 1) # drop from our X array because this is the text data that gets trained
+y = df[DV]
 ```
-
-
 </details>
+Now let's start using our fun toolkit from sklearn. We'll begin by splitting our entire dataset up into testing and training portions. This is super important to do because 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNjU1MDQ3MiwyMTAxMTEzMTc2LC0xOT
+eyJoaXN0b3J5IjpbMTI5MjI3NDQ4MCwyMTAxMTEzMTc2LC0xOT
 Y1NDczNzYwLC0xMzQ0MjQ1MjI1LC0xNjE4NjQxODYyLC0zNTM4
 MjMyMTcsLTExODI4MjA5NzAsLTQxODY1MzA5OSwtMTI2Mjc2Mz
 U5OCwxNTg5ODU1NTQ2LC0zMDkwODIxMDEsLTEzMDY4MzgwOTYs
