@@ -131,10 +131,13 @@ The last step we have to take before we are ready to concatenate the dataframes 
 true = true.assign(text=just_text["text"]) # switcharoo on the columns
 ```
 ## Combining and Saving the Data
-
-
+We're finally ready to concatenate the dataframes. Let's combine `fake` and `true` into a new dataframe called `df`
+```python
+df = pd.concat([fake, true], axis = 0)
+```
+We choose to comb
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTk4NzkxMDQsLTE5NjU0NzM3NjAsLT
+eyJoaXN0b3J5IjpbLTEyODEzOTc4NDgsLTE5NjU0NzM3NjAsLT
 EzNDQyNDUyMjUsLTE2MTg2NDE4NjIsLTM1MzgyMzIxNywtMTE4
 MjgyMDk3MCwtNDE4NjUzMDk5LC0xMjYyNzYzNTk4LDE1ODk4NT
 U1NDYsLTMwOTA4MjEwMSwtMTMwNjgzODA5NiwtMzUxNjY0NTEx
