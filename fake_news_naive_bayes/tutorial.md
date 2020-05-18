@@ -74,8 +74,10 @@ Great, we see each entry has a title, text, a subject, and date published. Howev
 true["fake_news"] = 0 
 ```
 Now it's your turn! Create a column in `fake` that has all of its entries equal to 1. 
+
 <details>
-<summary>Solution</summary> 
+<summary><b>Solution</b></summary> 
+
 ```python
 fake["fake_news"] = 1
 ```
@@ -90,8 +92,8 @@ fake["subject"].unique()
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNDk0MDI3NiwtMTYxODY0MTg2MiwtMz
-UzODIzMjE3LC0xMTgyODIwOTcwLC00MTg2NTMwOTksLTEyNjI3
-NjM1OTgsMTU4OTg1NTU0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MD
-k2LC0zNTE2NjQ1MTEsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEzNTQ1NjMxNjMsLTE2MTg2NDE4NjIsLT
+M1MzgyMzIxNywtMTE4MjgyMDk3MCwtNDE4NjUzMDk5LC0xMjYy
+NzYzNTk4LDE1ODk4NTU1NDYsLTMwOTA4MjEwMSwtMTMwNjgzOD
+A5NiwtMzUxNjY0NTExLDczMDk5ODExNl19
 -->
