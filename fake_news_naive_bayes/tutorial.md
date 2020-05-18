@@ -7,7 +7,11 @@ If you are not in an Anaconda environment, install the following packages using 
 pip install pandas
 pip install -U scikit-learn
 ```
-In Anaconda, run these commands (tho
+In Anaconda, run these commands (though you likely will already have them installed)
+```bash
+conda install pandas
+conda install scikit-learn
+```
 ## Intuition
 In this section, let's cover what a **classifier** is, what **Naive Bayes** is, and some of the assumptions we'll be making in order to build this project. <br/>
 ### Classification
@@ -47,8 +51,8 @@ For our classifier, we assume the above equation to be true. However, in real li
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDU2NjMwOTIsLTE2MTg2NDE4NjIsLT
-M1MzgyMzIxNywtMTE4MjgyMDk3MCwtNDE4NjUzMDk5LC0xMjYy
-NzYzNTk4LDE1ODk4NTU1NDYsLTMwOTA4MjEwMSwtMTMwNjgzOD
-A5NiwtMzUxNjY0NTExLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNTAxNDMwNDYxLC0xNjE4NjQxODYyLC0zNT
+M4MjMyMTcsLTExODI4MjA5NzAsLTQxODY1MzA5OSwtMTI2Mjc2
+MzU5OCwxNTg5ODU1NTQ2LC0zMDkwODIxMDEsLTEzMDY4MzgwOT
+YsLTM1MTY2NDUxMSw3MzA5OTgxMTZdfQ==
 -->
