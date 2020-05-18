@@ -205,12 +205,12 @@ X_train_counts = count_vect.fit_transform(X_train["text"])
 # print(count_vect.vocabulary_) # here is our bag of words! 
 X_test = count_vect.transform(X_test["text"]) # note: we don't fit it to the model! Or else this is all useless
 ```
-
+The count 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMTQ3NjgwNiwtMjAwMDU1MjIzNCwzMD
-c0MTk4OTQsMjEwMTExMzE3NiwtMTk2NTQ3Mzc2MCwtMTM0NDI0
-NTIyNSwtMTYxODY0MTg2MiwtMzUzODIzMjE3LC0xMTgyODIwOT
-cwLC00MTg2NTMwOTksLTEyNjI3NjM1OTgsMTU4OTg1NTU0Niwt
-MzA5MDgyMTAxLC0xMzA2ODM4MDk2LC0zNTE2NjQ1MTEsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbLTIwNDAzNTM3NTQsLTIwMDA1NTIyMzQsMz
+A3NDE5ODk0LDIxMDExMTMxNzYsLTE5NjU0NzM3NjAsLTEzNDQy
+NDUyMjUsLTE2MTg2NDE4NjIsLTM1MzgyMzIxNywtMTE4MjgyMD
+k3MCwtNDE4NjUzMDk5LC0xMjYyNzYzNTk4LDE1ODk4NTU1NDYs
+LTMwOTA4MjEwMSwtMTMwNjgzODA5NiwtMzUxNjY0NTExLDczMD
+k5ODExNl19
 -->
