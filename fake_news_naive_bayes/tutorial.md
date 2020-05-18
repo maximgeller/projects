@@ -60,12 +60,15 @@ Now let's load in the `Fake.csv` and `True.csv` datasets!
 # if you load in the data set as I do, they'll need to be placed in the same directory
 fake = pd.read_csv("Fake.csv")
 true = pd.read_csv("True.csv")
-
+```
+It's a good idea to take a peek at the first few rows of both dataframes to see what we're dealing with, so let's use the `.head()` function.
+```python
+true.head() # notice reuters is in all the real articles, will need to extract it
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTAyMzI2OSwtMTYxODY0MTg2MiwtMz
-UzODIzMjE3LC0xMTgyODIwOTcwLC00MTg2NTMwOTksLTEyNjI3
-NjM1OTgsMTU4OTg1NTU0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MD
-k2LC0zNTE2NjQ1MTEsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE5NzQ5NTUzMzcsLTE2MTg2NDE4NjIsLT
+M1MzgyMzIxNywtMTE4MjgyMDk3MCwtNDE4NjUzMDk5LC0xMjYy
+NzYzNTk4LDE1ODk4NTU1NDYsLTMwOTA4MjEwMSwtMTMwNjgzOD
+A5NiwtMzUxNjY0NTExLDczMDk5ODExNl19
 -->
