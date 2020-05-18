@@ -196,11 +196,11 @@ from sklearn.model_selection import train_test_split
 # we train on 75% of the data, test on the rest
 X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.25)
 ```
-Next we need to convert all of our words into the **bag of words** model from before. 
+Next we need to convert all of our words into the **bag of words** model from before using sklearn's 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjkyNjQ1LC0yMDAwNTUyMjM0LDMwNz
+eyJoaXN0b3J5IjpbNzExNjQxNjkxLC0yMDAwNTUyMjM0LDMwNz
 QxOTg5NCwyMTAxMTEzMTc2LC0xOTY1NDczNzYwLC0xMzQ0MjQ1
 MjI1LC0xNjE4NjQxODYyLC0zNTM4MjMyMTcsLTExODI4MjA5Nz
 AsLTQxODY1MzA5OSwtMTI2Mjc2MzU5OCwxNTg5ODU1NTQ2LC0z
