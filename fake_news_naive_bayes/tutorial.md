@@ -180,12 +180,17 @@ Let's begin setting up our classifier by splitting the data up into independent 
 <details>
 <summary><b>Solution</b> </summary>
 
+The fake news marker! It tells us which category the model thinks the story falls under. Let's create our `X` and `y`
+```
+
 
 </details>
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg3OTM5NzAsMjEwMTExMzE3NiwtMTk2NT
-Q3Mzc2MCwtMTM0NDI0NTIyNSwtMTYxODY0MTg2MiwtMzUzODIz
-MjE3LC0xMTgyODIwOTcwLC00MTg2NTMwOTksLTEyNjI3NjM1OT
-gsMTU4OTg1NTU0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MDk2LC0z
-NTE2NjQ1MTEsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTYwNjU1MDQ3MiwyMTAxMTEzMTc2LC0xOT
+Y1NDczNzYwLC0xMzQ0MjQ1MjI1LC0xNjE4NjQxODYyLC0zNTM4
+MjMyMTcsLTExODI4MjA5NzAsLTQxODY1MzA5OSwtMTI2Mjc2Mz
+U5OCwxNTg5ODU1NTQ2LC0zMDkwODIxMDEsLTEzMDY4MzgwOTYs
+LTM1MTY2NDUxMSw3MzA5OTgxMTZdfQ==
 -->
