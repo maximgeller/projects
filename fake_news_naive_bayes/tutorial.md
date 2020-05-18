@@ -188,21 +188,22 @@ X = df.drop([DV], axis = 1) # drop from our X array because this is the text dat
 y = df[DV]
 ```
 </details>
-Now let's start using our fun toolkit from sklearn. We'll begin by splitting our entire dataset up into testing and training portions. This is super important to do because we need to save a portion of our data to validate our text results on. We will train on 75% of the dataset and test on the remaining 25%.
+
+Now let's start using our fun toolkit from sklearn. We'll begin by splitting our entire dataset up into testing and training portions. This is super important to do because we need to save a portion of our data to *validate* our text results on. We will train on 75% of the dataset and test on the remaining 25%.
 
 ```python
 from sklearn.model_selection import train_test_split
 # we train on 75% of the data, test on the rest
 X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.25)
 ```
-
+Next we need to convert all of our words into the **bag of words** model from before. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MDMyNTYyOCwtMjAwMDU1MjIzNCwzMD
-c0MTk4OTQsMjEwMTExMzE3NiwtMTk2NTQ3Mzc2MCwtMTM0NDI0
-NTIyNSwtMTYxODY0MTg2MiwtMzUzODIzMjE3LC0xMTgyODIwOT
-cwLC00MTg2NTMwOTksLTEyNjI3NjM1OTgsMTU4OTg1NTU0Niwt
-MzA5MDgyMTAxLC0xMzA2ODM4MDk2LC0zNTE2NjQ1MTEsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbLTYwMjkyNjQ1LC0yMDAwNTUyMjM0LDMwNz
+QxOTg5NCwyMTAxMTEzMTc2LC0xOTY1NDczNzYwLC0xMzQ0MjQ1
+MjI1LC0xNjE4NjQxODYyLC0zNTM4MjMyMTcsLTExODI4MjA5Nz
+AsLTQxODY1MzA5OSwtMTI2Mjc2MzU5OCwxNTg5ODU1NTQ2LC0z
+MDkwODIxMDEsLTEzMDY4MzgwOTYsLTM1MTY2NDUxMSw3MzA5OT
+gxMTZdfQ==
 -->
