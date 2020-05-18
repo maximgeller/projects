@@ -227,13 +227,14 @@ print("Accuracy Score:",accuracy_score(predictions_NB, y_test)*100)
 When I did this, my model consistently achieved ~93% accuracy, which seems pretty good to me! There's a lot of **hyperparameter tuning** we can do on this to make it better, but I encourage you to do that on your own and share what you can do! Just remember to think like a data scientist when deciding on different approaches to refine the model. 
 # Putting It to The Test!
 ## The Onion
-[The Onion](https://www.theonion.com/) is a satirical newspaper that publishes stories that make fun of our 
+[The Onion](https://www.theonion.com/) is a satirical newspaper that publishes stories that make fun of our local, national, and international news. By all metrics, these stories are **not real**. Let's see if our classifier feels the same way.
+```p
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MjQxNjk0NiwtMTMyNDQ4MDQ1MCwtOD
-Y4NDI1MDM4LC0yMDQwMzUzNzU0LC0yMDAwNTUyMjM0LDMwNzQx
-OTg5NCwyMTAxMTEzMTc2LC0xOTY1NDczNzYwLC0xMzQ0MjQ1Mj
-I1LC0xNjE4NjQxODYyLC0zNTM4MjMyMTcsLTExODI4MjA5NzAs
-LTQxODY1MzA5OSwtMTI2Mjc2MzU5OCwxNTg5ODU1NTQ2LC0zMD
-kwODIxMDEsLTEzMDY4MzgwOTYsLTM1MTY2NDUxMSw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbMzQ1NDM3NDUwLC0xMzI0NDgwNDUwLC04Nj
+g0MjUwMzgsLTIwNDAzNTM3NTQsLTIwMDA1NTIyMzQsMzA3NDE5
+ODk0LDIxMDExMTMxNzYsLTE5NjU0NzM3NjAsLTEzNDQyNDUyMj
+UsLTE2MTg2NDE4NjIsLTM1MzgyMzIxNywtMTE4MjgyMDk3MCwt
+NDE4NjUzMDk5LC0xMjYyNzYzNTk4LDE1ODk4NTU1NDYsLTMwOT
+A4MjEwMSwtMTMwNjgzODA5NiwtMzUxNjY0NTExLDczMDk5ODEx
+Nl19
 -->
