@@ -205,7 +205,7 @@ X_train_counts = count_vect.fit_transform(X_train["text"])
 # print(count_vect.vocabulary_) # here is our bag of words! 
 X_test = count_vect.transform(X_test["text"]) # note: we don't fit it to the model! Or else this is all useless
 ```
-The count vectorizer does two things for us. First, it creates a bag of words by parsing all of the unique words in all of the text and mapping it to a dictionary where the value for each word is the number of times it appears. Then it *transforms* the text into a matrix with each document and term. Print out `X_train_counts` or `X_test` if you're interested to see what this looks like!
+The count vectorizer does two things for us. First, it creates a bag of words by parsing all of the unique words in all of the text and mapping it to a dictionary where the value for each word is the number of times it appears. Then it *transforms* the text into a matrix with each document and term. It's important to notice here that we do not fit `X_test` because we want our model to actually work on data it hasn't seen before. Print out `X_train_counts` or `X_test` if you're interested to see what this looks like!
 ### Multinomial Bayes
 Before we train our model, let's talk about what specifically the **Multinomial Bayes** classifier is. We are calculating **Naive Bayes** on a lot of words in all of the data. In our case, this means answering the question "What is the probability a particular word appears given that the article is true?" If you look at the formula for **Bayes' Theorem**, this is in part determined by the probability that the news article is true (or fake!) *given that a particular word exists in it*. This is repeated for every unique word in our vocabulary. The summation from all of these calculations then assigns the article to be real or not. 
 Pretty cool right? Now let's do it ourselves.
@@ -228,13 +228,28 @@ When I did this, my model consistently achieved ~93% accuracy, which seems prett
 # Putting It to The Test!
 ## The Onion
 [The Onion](https://www.theonion.com/) is a satirical newspaper that publishes stories that make fun of our local, national, and international news. By all metrics, these stories are **not real**. Let's see if our classifier feels the same way.
-```p
+```python
+# real life article prediction
+# link: https://entertainment.theonion.com/drake-fans-accuse-kenny-chesney-of-manipulating-billboa-1843484082
+onion = ["""Calling the country singer’s place at the top of Top 200 completely illegitimate, fans of the 
+            rapper–singer Drake took to social media Friday to accuse Kenny Chesney of manipulating Billboard’s 
+            algorithm by putting effort into his album. “It’s just unfair that this guy could keep Drake from his
+            rightful place on the charts by putting out quality music that he actually cares about,” said Aiden 
+            Howard, 14, who echoed the sentiments of Drake fans worldwide in his assertion that the artist’s 
+            mediocre B-sides deserved more acclaim and recognition. “He clearly gamed the streaming numbers when 
+            he decided to put time and energy into his craft. It’s such horseshit that Billboard rewards that 
+            behavior and punishes Drizzy for making a half-assed mixtape full of songs he’d already dropped on 
+            SoundCloud. How the hell is ‘Toosie Slide’ going to compare to a song that the artist thought about 
+            for more than 15 minutes?” At press time, Drake released a statement asking fans to ignore Kenny 
+            Chesney and focus on the horseshit that he just released."""]
+```
+Like before, let's vectorize
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ1NDM3NDUwLC0xMzI0NDgwNDUwLC04Nj
-g0MjUwMzgsLTIwNDAzNTM3NTQsLTIwMDA1NTIyMzQsMzA3NDE5
-ODk0LDIxMDExMTMxNzYsLTE5NjU0NzM3NjAsLTEzNDQyNDUyMj
-UsLTE2MTg2NDE4NjIsLTM1MzgyMzIxNywtMTE4MjgyMDk3MCwt
-NDE4NjUzMDk5LC0xMjYyNzYzNTk4LDE1ODk4NTU1NDYsLTMwOT
-A4MjEwMSwtMTMwNjgzODA5NiwtMzUxNjY0NTExLDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbLTExMzI2NjEzNjgsLTEzMjQ0ODA0NTAsLT
+g2ODQyNTAzOCwtMjA0MDM1Mzc1NCwtMjAwMDU1MjIzNCwzMDc0
+MTk4OTQsMjEwMTExMzE3NiwtMTk2NTQ3Mzc2MCwtMTM0NDI0NT
+IyNSwtMTYxODY0MTg2MiwtMzUzODIzMjE3LC0xMTgyODIwOTcw
+LC00MTg2NTMwOTksLTEyNjI3NjM1OTgsMTU4OTg1NTU0NiwtMz
+A5MDgyMTAxLC0xMzA2ODM4MDk2LC0zNTE2NjQ1MTEsNzMwOTk4
+MTE2XX0=
 -->
