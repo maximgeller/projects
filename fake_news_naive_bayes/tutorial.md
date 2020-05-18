@@ -67,13 +67,21 @@ true.head()
 # load in fake in a separate cell
 fake.csv()
 ```
-Awesome, we're doing great already. We can already see that the `subject` column looks a little different between the two dataframes. Let's explore this some more.
+Great, we see each entry has a title, text, a subject, and date published. However, the only way we can tell which stories are fake is by which dataset it is in. Since we're going to be combining the dataframes later on, let's put a flag in as a feature to both dataframes
+```python
+# setting entire column to 0 so when we concat the dataframes we know which were real and which were fake
+# In this case, the real articles are equal to 0
+true["fake_news"] = 0 
+fake["fake_news"] = 1
+
+A
+wesome, we're doing great already. We can already see that the `subject` column looks a little different between the two dataframes. Let's explore this some more.
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTY5NTc4MTEsLTE2MTg2NDE4NjIsLT
-M1MzgyMzIxNywtMTE4MjgyMDk3MCwtNDE4NjUzMDk5LC0xMjYy
-NzYzNTk4LDE1ODk4NTU1NDYsLTMwOTA4MjEwMSwtMTMwNjgzOD
-A5NiwtMzUxNjY0NTExLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTQ2NzgxNTQzMywtMTYxODY0MTg2MiwtMz
+UzODIzMjE3LC0xMTgyODIwOTcwLC00MTg2NTMwOTksLTEyNjI3
+NjM1OTgsMTU4OTg1NTU0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MD
+k2LC0zNTE2NjQ1MTEsNzMwOTk4MTE2XX0=
 -->
