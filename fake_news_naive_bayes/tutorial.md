@@ -243,9 +243,16 @@ onion = ["""Calling the country singer’s place at the top of Top 200 completel
             for more than 15 minutes?” At press time, Drake released a statement asking fans to ignore Kenny 
             Chesney and focus on the horseshit that he just released."""]
 ```
-Like before, let's vectorize
+Like before, let's vectorize the text and then feed this article into our classifier. If you remember from when we created the `fake_news` feature, an output of `1` tells us we are reading fake news!
+```python
+onion_vec = count_vect.transform(onion) # create bag of words
+predict_onion = Naive.predict(onion_vec) # applying it to the trained model
+# 1: fake news!
+print(predict_onion)
+```
+What did you get? I hope your m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzI2NjEzNjgsLTEzMjQ0ODA0NTAsLT
+eyJoaXN0b3J5IjpbLTE0MjI3ODE2ODYsLTEzMjQ0ODA0NTAsLT
 g2ODQyNTAzOCwtMjA0MDM1Mzc1NCwtMjAwMDU1MjIzNCwzMDc0
 MTk4OTQsMjEwMTExMzE3NiwtMTk2NTQ3Mzc2MCwtMTM0NDI0NT
 IyNSwtMTYxODY0MTg2MiwtMzUzODIzMjE3LC0xMTgyODIwOTcw
