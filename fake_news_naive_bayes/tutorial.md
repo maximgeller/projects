@@ -22,7 +22,8 @@ Okay, this might confusing to look at, so let's start with the idea of  **condit
 
 Cool, so you might already be able to see how this plays into the theorem. Bayes Theorem calculates the probability that A is true given event B based on the inverse probability, probability of B given A. If you want to learn more about it and see a derivation, I highly suggest researching the **law of total probability**, but it's a bit beyond the scope for what we need to know for this project.
 ### Naive Bayes & Assumptions
-We've almost got all of the understanding we need to know. The last thing we are going to take
+We've almost got all of the understanding we need to know. The last thing we are going to talk about is our classifier and the assumptions we'll be making.
+The **Naive Bayes** method for text classification is very popular because it scales very easily. But what is it, and why do we call it naive? Well, Bayes 
 
 ### Optional: Google Colab
 
@@ -34,8 +35,8 @@ We've almost got all of the understanding we need to know. The last thing we are
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzEwODkzOCwtMTYxODY0MTg2MiwtMz
-UzODIzMjE3LC0xMTgyODIwOTcwLC00MTg2NTMwOTksLTEyNjI3
-NjM1OTgsMTU4OTg1NTU0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MD
-k2LC0zNTE2NjQ1MTEsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNzkxMDYzOTU0LC0xNjE4NjQxODYyLC0zNT
+M4MjMyMTcsLTExODI4MjA5NzAsLTQxODY1MzA5OSwtMTI2Mjc2
+MzU5OCwxNTg5ODU1NTQ2LC0zMDkwODIxMDEsLTEzMDY4MzgwOT
+YsLTM1MTY2NDUxMSw3MzA5OTgxMTZdfQ==
 -->
