@@ -3,10 +3,11 @@ In today's online world, it can sometimes be difficult to discern whether the ne
 ### Suggested Dependencies
 This tutorial will cover some concepts in probability and we will be coding in Python using a notebook (.ipynb) environment such as Jupyter or Google Colab. Familiarity with both would be helpful, but is not a necessity. Coding in a regular Python (.py) file works just as well!
 If you are not in an Anaconda environment, install the following packages using these commands in your terminal:
-```
+```bash
 pip install pandas
-
+pip install -U scikit-learn
 ```
+In Anaconda, run these commands (tho
 ## Intuition
 In this section, let's cover what a **classifier** is, what **Naive Bayes** is, and some of the assumptions we'll be making in order to build this project. <br/>
 ### Classification
@@ -46,8 +47,8 @@ For our classifier, we assume the above equation to be true. However, in real li
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMDI5NzQxMywtMTYxODY0MTg2MiwtMz
-UzODIzMjE3LC0xMTgyODIwOTcwLC00MTg2NTMwOTksLTEyNjI3
-NjM1OTgsMTU4OTg1NTU0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MD
-k2LC0zNTE2NjQ1MTEsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEwMDU2NjMwOTIsLTE2MTg2NDE4NjIsLT
+M1MzgyMzIxNywtMTE4MjgyMDk3MCwtNDE4NjUzMDk5LC0xMjYy
+NzYzNTk4LDE1ODk4NTU1NDYsLTMwOTA4MjEwMSwtMTMwNjgzOD
+A5NiwtMzUxNjY0NTExLDczMDk5ODExNl19
 -->
