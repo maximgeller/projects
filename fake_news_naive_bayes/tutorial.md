@@ -227,9 +227,9 @@ print("Accuracy Score:",accuracy_score(predictions_NB, y_test)*100)
 When I did this, my model consistently achieved ~93% accuracy, which seems pretty good to me! There's a lot of **hyperparameter tuning** we can do on this to make it better, but I encourage you to do that on your own and share what you can do! Just remember to think like a data scientist when deciding on different approaches to refine the model. 
 # Putting It to The Test!
 ## The Onion
-[The Onion](https://www.theonion.com/) is a satirical newspaper that publishes stories that make fun of 
+[The Onion](https://www.theonion.com/) is a satirical newspaper that publishes stories that make fun of our 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NTgzODQ5OCwtMTMyNDQ4MDQ1MCwtOD
+eyJoaXN0b3J5IjpbLTc4MjQxNjk0NiwtMTMyNDQ4MDQ1MCwtOD
 Y4NDI1MDM4LC0yMDQwMzUzNzU0LC0yMDAwNTUyMjM0LDMwNzQx
 OTg5NCwyMTAxMTEzMTc2LC0xOTY1NDczNzYwLC0xMzQ0MjQ1Mj
 I1LC0xNjE4NjQxODYyLC0zNTM4MjMyMTcsLTExODI4MjA5NzAs
