@@ -111,12 +111,13 @@ So what the heck is in the function? Let's do a quick crash course in regex. Fir
 | * | repeated 0 or more times|
 | ( ) | the text we actually want to capture|
 |?P<text\> | name the column our text is extracted under to be called "text"|
+Here's a quick question for you. What are we expecting to catch with the pattern `.*` that follows 
 Amazing, now we have a new dataframe called `just_text` with all of our real news stories without the preceding markers. Imagine trying to change this for all 21,000+ entries manually? Thank you regex!
 Even though we got the text out, the dataframe it created has multiple indices. This is a nuisance but we quickly take care of it like this  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NzU3MzkxLC0xOTY1NDczNzYwLC0xMz
-Q0MjQ1MjI1LC0xNjE4NjQxODYyLC0zNTM4MjMyMTcsLTExODI4
-MjA5NzAsLTQxODY1MzA5OSwtMTI2Mjc2MzU5OCwxNTg5ODU1NT
-Q2LC0zMDkwODIxMDEsLTEzMDY4MzgwOTYsLTM1MTY2NDUxMSw3
-MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE0NDkxMjIzNDQsLTE5NjU0NzM3NjAsLT
+EzNDQyNDUyMjUsLTE2MTg2NDE4NjIsLTM1MzgyMzIxNywtMTE4
+MjgyMDk3MCwtNDE4NjUzMDk5LC0xMjYyNzYzNTk4LDE1ODk4NT
+U1NDYsLTMwOTA4MjEwMSwtMTMwNjgzODA5NiwtMzUxNjY0NTEx
+LDczMDk5ODExNl19
 -->
