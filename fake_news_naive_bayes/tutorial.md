@@ -43,8 +43,12 @@ For our classifier, we assume the above equation to be true. However, in real li
 ## Importing and Cleaning
 We'll be working with the fake news dataset from Kaggle. Download both sets of data and place them in the same folder as your `exploration.ipynb` file. 
 ### Optional: Google Colab
-If you're working in a Google Colab notebook, 
-
+If you're working in a Google Colab notebook, you'll have to mount it to your drive. Run this in your notebook:
+```python
+from google.colab import drive 
+drive.mount('/content/drive/') # you will need to authenticate
+cd My\ Drive/ # cd into the directory where your data is stored, for me it's the My Drive folder
+```
 
 
 
@@ -52,7 +56,7 @@ If you're working in a Google Colab notebook,
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NDc3NzI4NSwtMTYxODY0MTg2MiwtMz
+eyJoaXN0b3J5IjpbMTYwNzkzNjcwNSwtMTYxODY0MTg2MiwtMz
 UzODIzMjE3LC0xMTgyODIwOTcwLC00MTg2NTMwOTksLTEyNjI3
 NjM1OTgsMTU4OTg1NTU0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MD
 k2LC0zNTE2NjQ1MTEsNzMwOTk4MTE2XX0=
