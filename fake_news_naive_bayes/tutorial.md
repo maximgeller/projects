@@ -97,9 +97,9 @@ You probably already noticed something different about the text column in the `t
 just_text = true["text"]
 just_text.head()
 ```
-All of these articles start with a location and "Reuters" written at the start. If we trained on this data as is, the model w
+All of these articles start with a location and "Reuters" written at the start. If we trained on this data as is, the model would quickly learn that articles that have Reuters in them are true and so the rest aren't. So while we might be able to get a really accurate model that way, what about a real article that doesn't have Reuters in it? It would probably get classified as fake. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzkxMTE4NSwtMTM0NDI0NTIyNSwtMT
+eyJoaXN0b3J5IjpbLTE0ODE3MDY5NCwtMTM0NDI0NTIyNSwtMT
 YxODY0MTg2MiwtMzUzODIzMjE3LC0xMTgyODIwOTcwLC00MTg2
 NTMwOTksLTEyNjI3NjM1OTgsMTU4OTg1NTU0NiwtMzA5MDgyMT
 AxLC0xMzA2ODM4MDk2LC0zNTE2NjQ1MTEsNzMwOTk4MTE2XX0=
