@@ -206,11 +206,13 @@ X_train_counts = count_vect.fit_transform(X_train["text"])
 X_test = count_vect.transform(X_test["text"]) # note: we don't fit it to the model! Or else this is all useless
 ```
 The count vectorizer does two things for us. First, it creates a bag of words by parsing all of the unique words in all of the text and mapping it to a dictionary where the value for each word is the number of times it appears. Then it *transforms* the text into a matrix with each document and term. Print out `X_train_counts` or `X_test` if you're interested to see what this looks like!
+### Multinomial Bayes
+Before we train our model, let's talk about what specifically the Multinomial Bayes classifier is. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzE0MzEzMDksLTIwNDAzNTM3NTQsLT
-IwMDA1NTIyMzQsMzA3NDE5ODk0LDIxMDExMTMxNzYsLTE5NjU0
-NzM3NjAsLTEzNDQyNDUyMjUsLTE2MTg2NDE4NjIsLTM1MzgyMz
-IxNywtMTE4MjgyMDk3MCwtNDE4NjUzMDk5LC0xMjYyNzYzNTk4
-LDE1ODk4NTU1NDYsLTMwOTA4MjEwMSwtMTMwNjgzODA5NiwtMz
-UxNjY0NTExLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTg2ODQyNTAzOCwtMjA0MDM1Mzc1NCwtMj
+AwMDU1MjIzNCwzMDc0MTk4OTQsMjEwMTExMzE3NiwtMTk2NTQ3
+Mzc2MCwtMTM0NDI0NTIyNSwtMTYxODY0MTg2MiwtMzUzODIzMj
+E3LC0xMTgyODIwOTcwLC00MTg2NTMwOTksLTEyNjI3NjM1OTgs
+MTU4OTg1NTU0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MDk2LC0zNT
+E2NjQ1MTEsNzMwOTk4MTE2XX0=
 -->
