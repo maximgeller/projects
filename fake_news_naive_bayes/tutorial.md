@@ -188,7 +188,7 @@ X = df.drop([DV], axis = 1) # drop from our X array because this is the text dat
 y = df[DV]
 ```
 </details>
-Now let's start using our fun toolkit from sklearn. We'll begin by splitting our entire dataset up into testing and training portions. This is super important to do because we need to save a portion of our data to **validate** our text results on. We will train on 75% of the dataset and test on the remaining 25%.
+Now let's start using our fun toolkit from sklearn. We'll begin by splitting our entire dataset up into testing and training portions. This is super important to do because we need to save a portion of our data to validate our text results on. We will train on 75% of the dataset and test on the remaining 25%.
 
 ```python
 from sklearn.model_selection import train_test_split
@@ -197,10 +197,12 @@ X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.25)
 ```
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDA1NTIyMzQsMzA3NDE5ODk0LDIxMD
-ExMTMxNzYsLTE5NjU0NzM3NjAsLTEzNDQyNDUyMjUsLTE2MTg2
-NDE4NjIsLTM1MzgyMzIxNywtMTE4MjgyMDk3MCwtNDE4NjUzMD
-k5LC0xMjYyNzYzNTk4LDE1ODk4NTU1NDYsLTMwOTA4MjEwMSwt
-MTMwNjgzODA5NiwtMzUxNjY0NTExLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTQ5MDMyNTYyOCwtMjAwMDU1MjIzNCwzMD
+c0MTk4OTQsMjEwMTExMzE3NiwtMTk2NTQ3Mzc2MCwtMTM0NDI0
+NTIyNSwtMTYxODY0MTg2MiwtMzUzODIzMjE3LC0xMTgyODIwOT
+cwLC00MTg2NTMwOTksLTEyNjI3NjM1OTgsMTU4OTg1NTU0Niwt
+MzA5MDgyMTAxLC0xMzA2ODM4MDk2LC0zNTE2NjQ1MTEsNzMwOT
+k4MTE2XX0=
 -->
