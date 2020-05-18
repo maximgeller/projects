@@ -162,7 +162,8 @@ We're ready to move to the next notebook file and do some modeling. Last thing w
 # save the cleaned csv for other modeling
 clean_text = df.to_csv("cleaned_news.csv", index = False) # prevents having two indices
 ```
-# Load in Clean Data 
+# Training Our Classifier
+## Load In Clean Data
 Create a new notebook called `nb_model.ipynb` in the same folder as your other files for this project. Try and import the pandas module as well as your cleaned dataframe. If you're using Colab, follow the same steps as we did in the `exploration.ipynb` notebook.
 <details>
 <summary><b>Solution</b> </summary>
@@ -173,9 +174,11 @@ df = pd.read_csv("cleaned_news.csv")
 df.head()
 ```
 </details>
-## 
+
+## Naive Multinomial Bayes with sklearn
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxODk2OTMzMCwyMTAxMTEzMTc2LC0xOT
+eyJoaXN0b3J5IjpbLTYxOTY5MDA2MSwyMTAxMTEzMTc2LC0xOT
 Y1NDczNzYwLC0xMzQ0MjQ1MjI1LC0xNjE4NjQxODYyLC0zNTM4
 MjMyMTcsLTExODI4MjA5NzAsLTQxODY1MzA5OSwtMTI2Mjc2Mz
 U5OCwxNTg5ODU1NTQ2LC0zMDkwODIxMDEsLTEzMDY4MzgwOTYs
