@@ -104,14 +104,15 @@ Let's fix this by removing all of the starting information in order to make the 
 just_text = just_text.str.extractall(r"^.* - (?P<text>.*)")
 ```
 So what the heck is in the function? Let's do a quick crash course in regex. First we told pandas we want the strings in the `just_text` column, and then called `extractall()` on it. In the parenthesis, here's a quick guide to the syntax
-|.| any char |
+|regex| meaning |
 |--|--|
-|  |  |
+| ^ | only at the start of the string|
+| . | 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNDA4MDczLC0xOTY1NDczNzYwLC0xMz
-Q0MjQ1MjI1LC0xNjE4NjQxODYyLC0zNTM4MjMyMTcsLTExODI4
-MjA5NzAsLTQxODY1MzA5OSwtMTI2Mjc2MzU5OCwxNTg5ODU1NT
-Q2LC0zMDkwODIxMDEsLTEzMDY4MzgwOTYsLTM1MTY2NDUxMSw3
-MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTc0NTU5NjEzMiwtMTk2NTQ3Mzc2MCwtMT
+M0NDI0NTIyNSwtMTYxODY0MTg2MiwtMzUzODIzMjE3LC0xMTgy
+ODIwOTcwLC00MTg2NTMwOTksLTEyNjI3NjM1OTgsMTU4OTg1NT
+U0NiwtMzA5MDgyMTAxLC0xMzA2ODM4MDk2LC0zNTE2NjQ1MTEs
+NzMwOTk4MTE2XX0=
 -->
