@@ -299,12 +299,29 @@ print(predict_nyt)
 ```
 </details>
 
+Congratulations! You've trained and tested your very own text classifier!
+
+# Appendix
+Next steps for this kind of project would be to write this into functions to smooth over the whole process. Allow a user to submit a link for a story, scrape the text, and feed it into the model then give an output of whether it's a factual news story or not. In addition, look up some information about tuning this model further. We can make it better by removing stop words such as articles and function words like "what". This can increase the accuracy of the model! <br/> I hope you found this tutorial useful, and please feel free to leave a comment sharing your experience with it!
+## A Function to Test News With
+Here's a quick function I wrote that will summarize what we did with the modeling. The only parameter is a list object containing the text in the news story!
+```python
+def classifier(text):
+    Naive = MultinomialNB()
+    Naive.fit(X_train_counts, y_train)
+    
+    # n.b: you may need to wrap the argument in brackets to make it a vector if you passed in a string
+    word_vec = count_vect.transform(text) 
+    
+    predict = Naive.predict(word_vec)
+    return "Fake News Story" if predict[0] else "Real News Story"
+    
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg3OTE5NzgwLC0xMzI0NDgwNDUwLC04Nj
-g0MjUwMzgsLTIwNDAzNTM3NTQsLTIwMDA1NTIyMzQsMzA3NDE5
-ODk0LDIxMDExMTMxNzYsLTE5NjU0NzM3NjAsLTEzNDQyNDUyMj
-UsLTE2MTg2NDE4NjIsLTM1MzgyMzIxNywtMTE4MjgyMDk3MCwt
-NDE4NjUzMDk5LC0xMjYyNzYzNTk4LDE1ODk4NTU1NDYsLTMwOT
-A4MjEwMSwtMTMwNjgzODA5NiwtMzUxNjY0NTExLDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbLTExMDY2NDI1OTksLTEzMjQ0ODA0NTAsLT
+g2ODQyNTAzOCwtMjA0MDM1Mzc1NCwtMjAwMDU1MjIzNCwzMDc0
+MTk4OTQsMjEwMTExMzE3NiwtMTk2NTQ3Mzc2MCwtMTM0NDI0NT
+IyNSwtMTYxODY0MTg2MiwtMzUzODIzMjE3LC0xMTgyODIwOTcw
+LC00MTg2NTMwOTksLTEyNjI3NjM1OTgsMTU4OTg1NTU0NiwtMz
+A5MDgyMTAxLC0xMzA2ODM4MDk2LC0zNTE2NjQ1MTEsNzMwOTk4
+MTE2XX0=
 -->
