@@ -9,7 +9,7 @@ In machine learning, classification refer to a type of predictive modeling where
 
 In this tutorial we'll be doing the same thing, but with news stories!
 ### The Bag of Words Model 
-In order to 
+In order to classify news as fake or not, our model needs a vocabulary!
 
 
 
@@ -24,6 +24,6 @@ In order to
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODY2NDcwNzIsLTMwOTA4MjEwMSwtMT
-MwNjgzODA5NiwtMzUxNjY0NTExLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTU4OTg1NTU0NiwtMzA5MDgyMTAxLC0xMz
+A2ODM4MDk2LC0zNTE2NjQ1MTEsNzMwOTk4MTE2XX0=
 -->
