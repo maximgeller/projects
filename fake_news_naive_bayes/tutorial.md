@@ -99,11 +99,14 @@ just_text.head()
 ```
 All of these articles start with a location and "Reuters" written at the start. If we trained on this data as is, the model would quickly learn that articles that have Reuters in them are true and so the rest aren't. So while we might be able to get a really accurate model that way, what about a real article that doesn't have Reuters in it? It would probably get classified as fake. 
 
-Let's fix this by removing all of the starting information in order to make the text from both dataframes as similar as possible. To do th
+Let's fix this by removing all of the starting information in order to make the text from both dataframes as similar as possible. To do this, pandas has a handy function called `extractall()` that accepts a regular expression (regex) pattern as an argument. We're going to extract all of the text that comes after the hyphen that follows Reuters.
+```python
+just_text = just_text.str.extractall(r".* - (?P<text>.*)")
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY4NjQzNzM0LC0xMzQ0MjQ1MjI1LC0xNj
-E4NjQxODYyLC0zNTM4MjMyMTcsLTExODI4MjA5NzAsLTQxODY1
-MzA5OSwtMTI2Mjc2MzU5OCwxNTg5ODU1NTQ2LC0zMDkwODIxMD
-EsLTEzMDY4MzgwOTYsLTM1MTY2NDUxMSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE5NjU0NzM3NjAsLTEzNDQyNDUyMjUsLT
+E2MTg2NDE4NjIsLTM1MzgyMzIxNywtMTE4MjgyMDk3MCwtNDE4
+NjUzMDk5LC0xMjYyNzYzNTk4LDE1ODk4NTU1NDYsLTMwOTA4Mj
+EwMSwtMTMwNjgzODA5NiwtMzUxNjY0NTExLDczMDk5ODExNl19
 
 -->
