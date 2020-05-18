@@ -137,9 +137,13 @@ df = pd.concat([fake, true], axis = 0)
 ```
 We choose to combine on `axis = 0` because we want to stack the rows on top of each other. If we chose `axis = 1`, it would line the columns up together from left to right which isn't helpful to us. 
 ![concat dataframes](https://github.com/maximgeller/projects/blob/master/fake_news_naive_bayes/img/concat.png?raw=true)
-We no longer have a fake or true news dataframe, it's all in one large one. Luckil
+We no longer have a fake or true news dataframe, it's all in one large one. Luckily, we created a feature earlier on to help us determine which dataframe each entry came from. We don't any other columns though, so let's drop them.
+```python
+df = df.drop(["subject", "date", "title"], axis = 1) # we won't use these columns in our model
+```
+This time we drop from axis = 1 because we want to remove columns.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NzUzODMzMywyMTAxMTEzMTc2LC0xOT
+eyJoaXN0b3J5IjpbLTEzNDc3OTc3NiwyMTAxMTEzMTc2LC0xOT
 Y1NDczNzYwLC0xMzQ0MjQ1MjI1LC0xNjE4NjQxODYyLC0zNTM4
 MjMyMTcsLTExODI4MjA5NzAsLTQxODY1MzA5OSwtMTI2Mjc2Mz
 U5OCwxNTg5ODU1NTQ2LC0zMDkwODIxMDEsLTEzMDY4MzgwOTYs
