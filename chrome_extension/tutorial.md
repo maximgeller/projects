@@ -74,11 +74,12 @@ Awesome, now we are going to take a quick look at how the extension looks in our
 
 # JavaScript & The Chrome API
 ## Extension Architecture
-We need to JavaScript files to make this extension work. The first one is `popup.js`and this file contains the JavaScript we want to inject into `popup.html`. This will be the text that gets selected by your cursor! It also has to communicate with `background.js` in order to source the text that will get displayed in the popup. 
+We need to JavaScript files to make this extension work. The first one is `popup.js`and this file contains the JavaScript we want to inject into `popup.html`. This will be the text that gets selected by your cursor! It also has to communicate with `background.js` in order to source the text that will get displayed in the popup. Take a look at the overview of the architecture in this image.
 ![Chrome extension architecture](https://github.com/maximgeller/projects/blob/master/chrome_extension/img/popuparc.png?raw=true)
 [Source](https://developer.chrome.com/extensions/overview)
 
+We're going to utilize Chrome's API in order to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyODAzMDUwOCwtNTE2MzU0NjE4LDQ4NT
-c3NDcyNCwxOTg2OTM3MDc4XX0=
+eyJoaXN0b3J5IjpbLTE0NTMxNTU0NjQsLTUxNjM1NDYxOCw0OD
+U3NzQ3MjQsMTk4NjkzNzA3OF19
 -->
