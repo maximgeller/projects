@@ -100,12 +100,12 @@ window.onload  =  function() {
 	code: "window.getSelection().toString();"
 	}, function(selection) {
 	chrome.runtime.sendMessage({selection: selection[0]}, function(response) {
-	document.getElementById("output").innerHTML  =  response.clips;	
+	document.getElementById("output").innerHTML  =  null;	
 	});
 });
 ```
-Okay, we did a lot here. First we defined a function that sends a message that contains the highlighted text. Then we defined a function that contains the response 
+Okay, we did a lot here. First we defined a function that sends a message that contains the highlighted text. Then we defined a function that contains the response *from* `background.js` that will contain the array of all clipped text. Right now this is set to `null` because we haven't 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4OTQ2OTUwOCwtNTE2MzU0NjE4LDQ4NT
-c3NDcyNCwxOTg2OTM3MDc4XX0=
+eyJoaXN0b3J5IjpbLTE2ODI2NzI3MDAsLTM4OTQ2OTUwOCwtNT
+E2MzU0NjE4LDQ4NTc3NDcyNCwxOTg2OTM3MDc4XX0=
 -->
