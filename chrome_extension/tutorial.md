@@ -80,9 +80,14 @@ We need to JavaScript files to make this extension work. The first one is `popup
 
 We're going to utilize Chrome's API in order to allow the different files to send messages to each other and store text in the browser's storage. 
 ## Calling The Text With popup.js
-We're going to start by creating a function in `popup.js` that gets the text you select with your cursor. 
+We're going to start by creating a function in `popup.js` that gets the text you select with your cursor. Let's do this by creating a script that executes when the tab you're on loads.
+```javascript
+window.onload  =  function() {
+}
+```
+Great! Let's use the Chrome API to run the command that will grab our text for us.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NDkyMjA1OCwtNTE2MzU0NjE4LDQ4NT
-c3NDcyNCwxOTg2OTM3MDc4XX0=
+eyJoaXN0b3J5IjpbLTE3NDQ0MzE2ODIsLTUxNjM1NDYxOCw0OD
+U3NzQ3MjQsMTk4NjkzNzA3OF19
 -->
