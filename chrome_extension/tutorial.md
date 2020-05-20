@@ -93,8 +93,17 @@ window.onload  =  function() {
 	}
 }
 ```
-The next part of the function we are going to need to define is the part that will send the text to 
+The next part of the function we are going to need to define is the part that will send the text to `background.js` in order to be stored by Chrome. We need another function that takes the selected text as a parameter in order to send it. After that, we'll start working on fleshing out `background.js`.
+```javascript
+window.onload  =  function() {
+	chrome.tabs.executeScript( {
+	code: "window.getSelection().toString();"
+	}, function(selection) {
+	
+}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzMwNTgzMjksLTUxNjM1NDYxOCw0OD
-U3NzQ3MjQsMTk4NjkzNzA3OF19
+eyJoaXN0b3J5IjpbNDc4MjcyNDEsLTUxNjM1NDYxOCw0ODU3Nz
+Q3MjQsMTk4NjkzNzA3OF19
 -->
