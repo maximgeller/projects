@@ -104,8 +104,8 @@ window.onload  =  function() {
 	});
 });
 ```
-Okay, we did a lot here. First we defined a fu
+Okay, we did a lot here. First we defined a function that sends a message that contains the highlighted text. Then we defined a function that contains the response 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4OTYzNzcwOSwtNTE2MzU0NjE4LDQ4NT
+eyJoaXN0b3J5IjpbLTM4OTQ2OTUwOCwtNTE2MzU0NjE4LDQ4NT
 c3NDcyNCwxOTg2OTM3MDc4XX0=
 -->
