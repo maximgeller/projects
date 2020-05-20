@@ -4,8 +4,12 @@ intuition
 [Source](https://developer.chrome.com/extensions/overview)
 ## Setting Up Files
 
+## Writing the Manifest and HTML
+### manifest.json
+### popup.html
+# JavaScript & The Chrome API
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NzU0OTI3LC00MDM1NDIyNTJdfQ==
+eyJoaXN0b3J5IjpbODgwMjI1OTE4LC00MDM1NDIyNTJdfQ==
 -->
