@@ -105,10 +105,11 @@ window.onload  =  function() {
 });
 ```
 Okay, we did a lot here. First we defined a function that sends a message that contains the highlighted text. Then we defined a function that contains the response *from* `background.js` that will contain the array of all clipped text. Right now this is set to `null` because we haven't actually encoded yet what the response is equal to. However, we know we will want to set it to be located under the `div` with `id="output"`. 
-Let's write our `background.js` code now. 
+
+Let's write our `background.js` code now. This piece of code is going to wait until it gets a request from `popup.js` before adding the `selection` text to 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMzI1NzMyOCw1NDkxNzAwMTYsLTM4OT
+eyJoaXN0b3J5IjpbLTcyNTQyNTc5OCw1NDkxNzAwMTYsLTM4OT
 Q2OTUwOCwtNTE2MzU0NjE4LDQ4NTc3NDcyNCwxOTg2OTM3MDc4
 XX0=
 -->
