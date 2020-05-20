@@ -78,8 +78,10 @@ We need to JavaScript files to make this extension work. The first one is `popup
 ![Chrome extension architecture](https://github.com/maximgeller/projects/blob/master/chrome_extension/img/popuparc.png?raw=true)
 [Source](https://developer.chrome.com/extensions/overview)
 
-We're going to utilize Chrome's API in order to 
+We're going to utilize Chrome's API in order to allow the different files to send messages to each other and store text in the browser's storage. 
+## popup.js
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTMxNTU0NjQsLTUxNjM1NDYxOCw0OD
+eyJoaXN0b3J5IjpbLTE3Nzc5MTkxMDYsLTUxNjM1NDYxOCw0OD
 U3NzQ3MjQsMTk4NjkzNzA3OF19
 -->
