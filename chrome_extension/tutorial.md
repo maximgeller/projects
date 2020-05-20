@@ -15,15 +15,47 @@ Wow, so there are actually a number of files that go into this. We're going to d
 One other file you'll need is an icon. If you want to make your own then check out [Figma](https://www.figma.com/), otherwise download the same icon I created from my repository [here](https://github.com/maximgeller/projects/blob/master/chrome_extension/img/icon48.png?raw=true). Add it to the same folder as the other files.
 
 # Writing the Manifest and HTML
-The first thing we'll need to do is write the "manifest" of the extension. This JSON file tells Google Chrome a lot of information about your extension: what it does, what permissions it needs, and what scripts it runs. Next, we'll create an html page that we want to display in the popup when you click its icon in the toolbar. After this, we'll have a minimum working product we can look at!
+The first thing we'll need to do is write the "manifest" of the extension. This JSON file tells Google Chrome a lot of information about your extension: what it does, what permissions it needs, any icons used, and what scripts it runs. Next, we'll create an html page that we want to display in the popup when you click its icon in the toolbar. After this, we'll have a minimum working product we can look at!
 ## manifest.json
-Okay, let's actually write some code. Open up the `enter code here`
+Okay, let's actually write some code. Open up the `manifest.json` file and put in some of this info.
+```json
+{
+"manifest_version": 2,
+"name": "Easy Text Saver",
+"version": "1.0",
+"description": "Paste your highlighted text into a file from anywhere on the web.",
+"permissions": [
+	"activeTab",
+	"storage"
+],
+"icons": {
+	"48" : "icon48.png"
+},
+"browser_action": {
+	"default_icon": "icon48.png",
+	"default_popup": "popup.html",
+	"default_title": "Easy Text Saver"
+},
+"background": {
+
+"scripts": [
+
+"background.js"
+
+],
+
+"persistent": false
+
+}
+
+}
+```
 ## popup.html
 # JavaScript & The Chrome API
 ![Chrome extension architecture](https://github.com/maximgeller/projects/blob/master/chrome_extension/img/popuparc.png?raw=true)
 [Source](https://developer.chrome.com/extensions/overview)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTgxMzY0NDUsNDg1Nzc0NzI0LDE5OD
-Y5MzcwNzhdfQ==
+eyJoaXN0b3J5IjpbMzQyNjU3OTI2LDQ4NTc3NDcyNCwxOTg2OT
+M3MDc4XX0=
 -->
