@@ -104,8 +104,9 @@ window.onload  =  function() {
 	});
 });
 ```
-Okay, we did a lot here. First we defined a function that sends a message that contains the highlighted text. Then we defined a function that contains the response *from* `background.js` that will contain the array of all clipped text. Right now this is set to `null` because we haven't 
+Okay, we did a lot here. First we defined a function that sends a message that contains the highlighted text. Then we defined a function that contains the response *from* `background.js` that will contain the array of all clipped text. Right now this is set to `null` because we haven't actually encoded yet what the response is equal to. However, we know we will want to set it to be located under the `div` with `id="output"`. 
+Let's write our 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODI2NzI3MDAsLTM4OTQ2OTUwOCwtNT
-E2MzU0NjE4LDQ4NTc3NDcyNCwxOTg2OTM3MDc4XX0=
+eyJoaXN0b3J5IjpbLTI1NDkwMzY4MCwtMzg5NDY5NTA4LC01MT
+YzNTQ2MTgsNDg1Nzc0NzI0LDE5ODY5MzcwNzhdfQ==
 -->
