@@ -70,13 +70,13 @@ Cool, let's make our html page for the extension popup. After this, we'll be abl
 ```
 
 ## Loading and Viewing Your Extension
-Awesome, now we are going to take a quick look at how the extension looks in our browser.
+Awesome, now we are going to take a quick look at how the extension looks in our browser. In order to do this, go to [chrome://extensions](chrome://extensions) and flip the developer
 
 # JavaScript & The Chrome API
 ![Chrome extension architecture](https://github.com/maximgeller/projects/blob/master/chrome_extension/img/popuparc.png?raw=true)
 [Source](https://developer.chrome.com/extensions/overview)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjM1NDYxOCw0ODU3NzQ3MjQsMTk4Nj
-kzNzA3OF19
+eyJoaXN0b3J5IjpbNDA2NTA1OTcwLC01MTYzNTQ2MTgsNDg1Nz
+c0NzI0LDE5ODY5MzcwNzhdfQ==
 -->
