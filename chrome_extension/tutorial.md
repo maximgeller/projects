@@ -15,6 +15,7 @@ Wow, so there are actually a number of files that go into this. We're going to d
 One other file you'll need is an icon. If you want to make your own then check out [Figma](https://www.figma.com/), otherwise download the same icon I created from my repository [here](https://github.com/maximgeller/projects/blob/master/chrome_extension/img/icon48.png?raw=true). Add it to the same folder as the other files.
 
 # Writing the Manifest and HTML
+The first thing we'll need to do is write the "manifest" of the extension. This JSON file tells Google Chrome a lot of information about your extension: what it does, what permissions it needs, and what scripts it runs. Next, we'll create an html page that we want to display in the popup when y
 ## manifest.json
 ## popup.html
 # JavaScript & The Chrome API
@@ -22,5 +23,5 @@ One other file you'll need is an icon. If you want to make your own then check o
 [Source](https://developer.chrome.com/extensions/overview)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNDkxODY0NCwxOTg2OTM3MDc4XX0=
+eyJoaXN0b3J5IjpbMzI5MTMwMDQ3LDE5ODY5MzcwNzhdfQ==
 -->
