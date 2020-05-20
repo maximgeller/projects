@@ -99,11 +99,13 @@ window.onload  =  function() {
 	chrome.tabs.executeScript( {
 	code: "window.getSelection().toString();"
 	}, function(selection) {
-	
-}
-}
+	chrome.runtime.sendMessage({selection: selection[0]}, function(response) {
+	document.getElementById("output").innerHTML  =  response.clips;	
+	});
+});
 ```
+Okay, we did a lot here. First we defined a fu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc4MjcyNDEsLTUxNjM1NDYxOCw0ODU3Nz
-Q3MjQsMTk4NjkzNzA3OF19
+eyJoaXN0b3J5IjpbLTg4OTYzNzcwOSwtNTE2MzU0NjE4LDQ4NT
+c3NDcyNCwxOTg2OTM3MDc4XX0=
 -->
