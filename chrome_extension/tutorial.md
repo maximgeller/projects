@@ -86,8 +86,15 @@ window.onload  =  function() {
 }
 ```
 Great! Let's use the Chrome API to run the command that will grab our text for us.
+```javascript
+window.onload  =  function() {
+	chrome.tabs.executeScript( {
+	code: "window.getSelection().toString();"
+	});
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDQ0MzE2ODIsLTUxNjM1NDYxOCw0OD
+eyJoaXN0b3J5IjpbLTE1OTMyODg0NTAsLTUxNjM1NDYxOCw0OD
 U3NzQ3MjQsMTk4NjkzNzA3OF19
 -->
