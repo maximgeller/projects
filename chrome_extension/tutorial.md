@@ -106,10 +106,17 @@ window.onload  =  function() {
 ```
 Okay, we did a lot here. First we defined a function that sends a message that contains the highlighted text. Then we defined a function that contains the response *from* `background.js` that will contain the array of all clipped text. Right now this is set to `null` because we haven't actually encoded yet what the response is equal to. However, we know we will want to set it to be located under the `div` with `id="output"`. 
 
-Let's write our `background.js` code now. This piece of code is going to wait until it gets a request from `popup.js` before adding the `selection` text to 
+Let's write our `background.js` code now. This piece of code is going to wait until it gets a request from `popup.js` before adding the `selection` text to the list (we'll call it `clippings`.
+```javascript
+chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
+	let clippings = [];
+	
+}
+```
+Sweet. Now we're going to use the chrome API to call the array of text that might alread
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNTQyNTc5OCw1NDkxNzAwMTYsLTM4OT
-Q2OTUwOCwtNTE2MzU0NjE4LDQ4NTc3NDcyNCwxOTg2OTM3MDc4
-XX0=
+eyJoaXN0b3J5IjpbLTE0NDE5ODI5MjcsNTQ5MTcwMDE2LC0zOD
+k0Njk1MDgsLTUxNjM1NDYxOCw0ODU3NzQ3MjQsMTk4NjkzNzA3
+OF19
 -->
