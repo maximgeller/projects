@@ -60,19 +60,23 @@ Cool, let's make our html page for the extension popup. After this, we'll be abl
 		<script  src="popup.js"></script>
 	</head>
 	<body>
-		<divid="popup-body">
+		<div id="popup-body">
 		<h2>Easy Text Saver</h2>
 		<h3>Here is your saved text!</h3>
-		<div  id="output"></div>
+		<div id="output"></div>
 		</div>
 	</body>
 </html>
 ```
+
+## Loading and Viewing Your Extension
+Awesome, now we are going to take a quick look at how the extension looks in our browser.
+
 # JavaScript & The Chrome API
 ![Chrome extension architecture](https://github.com/maximgeller/projects/blob/master/chrome_extension/img/popuparc.png?raw=true)
 [Source](https://developer.chrome.com/extensions/overview)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk0OTA5NzcyLDQ4NTc3NDcyNCwxOTg2OT
-M3MDc4XX0=
+eyJoaXN0b3J5IjpbLTUxNjM1NDYxOCw0ODU3NzQ3MjQsMTk4Nj
+kzNzA3OF19
 -->
