@@ -113,10 +113,10 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 	
 }
 ```
-Sweet. Now we're going to use the chrome API to call the array of text that might alread
+Sweet. Now we're going to use the chrome API to call the array of text that might already be 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDE5ODI5MjcsNTQ5MTcwMDE2LC0zOD
-k0Njk1MDgsLTUxNjM1NDYxOCw0ODU3NzQ3MjQsMTk4NjkzNzA3
-OF19
+eyJoaXN0b3J5IjpbMzkyMjQ5MjI1LDU0OTE3MDAxNiwtMzg5ND
+Y5NTA4LC01MTYzNTQ2MTgsNDg1Nzc0NzI0LDE5ODY5MzcwNzhd
+fQ==
 -->
