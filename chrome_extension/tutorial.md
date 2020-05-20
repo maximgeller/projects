@@ -85,16 +85,16 @@ We're going to start by creating a function in `popup.js` that gets the text you
 window.onload  =  function() {
 }
 ```
-Great! Let's use the Chrome API to run the command that will grab our text for us.
+Great! Let's use the Chrome API to enter the code that will grab our text for us.
 ```javascript
 window.onload  =  function() {
 	chrome.tabs.executeScript( {
 	code: "window.getSelection().toString();"
-	});
+	}
 }
 ```
-
+The next part of the function we are going to need to define is the part that will send the text to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTMyODg0NTAsLTUxNjM1NDYxOCw0OD
+eyJoaXN0b3J5IjpbLTIxMzMwNTgzMjksLTUxNjM1NDYxOCw0OD
 U3NzQ3MjQsMTk4NjkzNzA3OF19
 -->
