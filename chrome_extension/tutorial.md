@@ -17,7 +17,7 @@ One other file you'll need is an icon. If you want to make your own then check o
 # Writing the Manifest and HTML
 The first thing we'll need to do is write the "manifest" of the extension. This JSON file tells Google Chrome a lot of information about your extension: what it does, what permissions it needs, any icons used, and what scripts it runs. Next, we'll create an html page that we want to display in the popup when you click its icon in the toolbar. After this, we'll have a minimum working product we can look at!
 ## manifest.json
-Okay, let's actually write some code. Open up the `manifest.json` file and put in some of this info.
+Okay, let's actually write some code. Open up the `manifest.json` file and put in this info:
 ```json
 {
 "manifest_version": 2,
@@ -37,25 +37,20 @@ Okay, let's actually write some code. Open up the `manifest.json` file and put i
 	"default_title": "Easy Text Saver"
 },
 "background": {
-
-"scripts": [
-
-"background.js"
-
-],
-
-"persistent": false
-
-}
-
+	"scripts": [
+		"background.js"
+	],
+	"persistent": false
+	}
 }
 ```
+This is a lot, so let's focus on a few things. Notice that the permissions for this tab are `activeTab` and `sto`
 ## popup.html
 # JavaScript & The Chrome API
 ![Chrome extension architecture](https://github.com/maximgeller/projects/blob/master/chrome_extension/img/popuparc.png?raw=true)
 [Source](https://developer.chrome.com/extensions/overview)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQyNjU3OTI2LDQ4NTc3NDcyNCwxOTg2OT
-M3MDc4XX0=
+eyJoaXN0b3J5IjpbLTUxODY3MTcxOSw0ODU3NzQ3MjQsMTk4Nj
+kzNzA3OF19
 -->
