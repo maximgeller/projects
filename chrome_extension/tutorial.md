@@ -17,12 +17,13 @@ One other file you'll need is an icon. If you want to make your own then check o
 # Writing the Manifest and HTML
 The first thing we'll need to do is write the "manifest" of the extension. This JSON file tells Google Chrome a lot of information about your extension: what it does, what permissions it needs, and what scripts it runs. Next, we'll create an html page that we want to display in the popup when you click its icon in the toolbar. After this, we'll have a minimum working product we can look at!
 ## manifest.json
-Okay, let's actually write some code. 
+Okay, let's actually write some code. Open up the `enter code here`
 ## popup.html
 # JavaScript & The Chrome API
 ![Chrome extension architecture](https://github.com/maximgeller/projects/blob/master/chrome_extension/img/popuparc.png?raw=true)
 [Source](https://developer.chrome.com/extensions/overview)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg1Nzc0NzI0LDE5ODY5MzcwNzhdfQ==
+eyJoaXN0b3J5IjpbLTE5OTgxMzY0NDUsNDg1Nzc0NzI0LDE5OD
+Y5MzcwNzhdfQ==
 -->
