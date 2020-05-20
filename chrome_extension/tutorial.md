@@ -47,13 +47,14 @@ Okay, let's actually write some code. Open up the `manifest.json` file and put i
 This is a lot, so let's focus on a few things. Notice that the permissions for this tab are `activeTab` and `storage`. We need the extension to be able to access the tab you'll be using it on in order to display anything. We need access to the browser's storage to save the items you put in it!
 For icons, I chose to make the default icon 48 px by 48 px. You can play around with making it another common size like 128 px. 
 `browser_action` tells Chrome that this extension should come up in your toolbar and it has a popup that should be read from `popup.html`.
-Finally, `background` refers to the scripts running in the background of the extension. 
+Finally, `background` refers to the scripts running in the background of the extension. `persistent` is set to `false` because this `background.js` does not need to be constantly running.
 ## popup.html
+Cool, let's make our html page for the ex
 # JavaScript & The Chrome API
 ![Chrome extension architecture](https://github.com/maximgeller/projects/blob/master/chrome_extension/img/popuparc.png?raw=true)
 [Source](https://developer.chrome.com/extensions/overview)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNjc3NjI2LDQ4NTc3NDcyNCwxOTg2OT
-M3MDc4XX0=
+eyJoaXN0b3J5IjpbLTcwOTY1MTMyNyw0ODU3NzQ3MjQsMTk4Nj
+kzNzA3OF19
 -->
