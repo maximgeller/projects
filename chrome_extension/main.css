@@ -1,0 +1,21 @@
+html {
+    font-family: "Avenir Next", Helevetica, serif;
+    text-align: center;
+    width: 300px;
+  }
+  
+  body {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  #popup-body #output {
+    text-align: center;
+    font-size: 12px;
+    list-style: "→";
+    margin: 0;
+  }
+  
+  #popup-body #output:hover{
+    text-decoration: line-through;
+  }
