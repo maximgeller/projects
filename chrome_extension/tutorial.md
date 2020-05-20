@@ -49,12 +49,12 @@ For icons, I chose to make the default icon 48 px by 48 px. You can play around 
 `browser_action` tells Chrome that this extension should come up in your toolbar and it has a popup that should be read from `popup.html`.
 Finally, `background` refers to the scripts running in the background of the extension. `persistent` is set to `false` because this `background.js` does not need to be constantly running.
 ## popup.html
-Cool, let's make our html page for the extension popup. After this, we'll be able to load it in and see what it is going to look like! Some things we want to do in this file is make sure we leave a space where we want to inject JavaScript into the popup and also set up 
+Cool, let's make our html page for the extension popup. After this, we'll be able to load it in and see what it is going to look like! Some things we want to do in this file is make sure we leave a space where we want to inject JavaScript into the popup and also set up a `div` tag for where we want the cursor-selected text to go. We're also going to set up a link to our `main.css` stylesheet, but we won't worr
 # JavaScript & The Chrome API
 ![Chrome extension architecture](https://github.com/maximgeller/projects/blob/master/chrome_extension/img/popuparc.png?raw=true)
 [Source](https://developer.chrome.com/extensions/overview)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4NjI3ODk0LDQ4NTc3NDcyNCwxOTg2OT
+eyJoaXN0b3J5IjpbMjMxNTYzMjQ0LDQ4NTc3NDcyNCwxOTg2OT
 M3MDc4XX0=
 -->
