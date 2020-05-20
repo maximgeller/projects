@@ -14,7 +14,7 @@ var text = document.getElementById("output")
 text.addEventListener("click", function(e){
     // console.log("hi one");
     chrome.runtime.sendMessage({empty: "clear"}, function(response) {
-        console.log(response);
+        // console.log(response);
         // console.log("hi");
         text.innerHTML = response.clips;
 
