@@ -9,7 +9,3 @@ intuition
 ## popup.html
 # JavaScript & The Chrome API
 
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODYwMTkwNDAsLTQwMzU0MjI1Ml19
--->
