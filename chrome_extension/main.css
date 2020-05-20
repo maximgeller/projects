@@ -4,18 +4,15 @@ html {
     width: 300px;
   }
   
-  body {
+body {
     max-width: 300px;
-    margin: 0 auto;
-  }
-  
-  #popup-body #output {
+}
+
+#popup-body #output {
     text-align: center;
     font-size: 12px;
-    list-style: "→";
-    margin: 0;
-  }
-  
-  #popup-body #output:hover{
+}
+
+#popup-body #output:hover{
     text-decoration: line-through;
-  }
+}
