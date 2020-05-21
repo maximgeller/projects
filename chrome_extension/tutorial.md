@@ -237,9 +237,9 @@ Some pretty simple adjustments here. I adjusted the default font and sizes for t
 Here's a quick tip: use `#` to access styling in div names like I did. 
 
 # Appendix
-I hope this project was fun and useful. There's a lot of room for improvement here too. Can you figure out how to pass in the array as an unordered list in HTML and use it to delete individual clips rather than the whole thing? The extension could certainly look a lot better too in the image and styling. 
+I hope this project was fun and useful. There's a lot of room for improvement here too. Can you figure out how to pass in the array as an unordered list in HTML and use it to delete individual clips rather than the whole thing? The extension could certainly look a lot better too in the image and styling. Give it a shot and share your results!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwMTM0MzE4LC0xMTE0NDMxODQyLDE3OT
+eyJoaXN0b3J5IjpbODEyNzcyNjczLC0xMTE0NDMxODQyLDE3OT
 AzNTc0MzcsMzI3OTA1ODQzLDM5MjI0OTIyNSw1NDkxNzAwMTYs
 LTM4OTQ2OTUwOCwtNTE2MzU0NjE4LDQ4NTc3NDcyNCwxOTg2OT
 M3MDc4XX0=
