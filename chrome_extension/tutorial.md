@@ -72,7 +72,7 @@ Cool, let's make our html page for the extension popup. After this, we'll be abl
 ## Loading and Viewing Your Extension
 Awesome, now we are going to take a quick look at how the extension looks in our browser. In order to do this, go to [chrome://extensions](chrome://extensions) and flip the developer mode toggle on. Now, you'll see the option to load unpacked extensions. Select that and load the folder that contains all the files we've created. You should now be able to see the icon in your toolbar! Click on it and see what opens up. Not much, right? Let's fix that.
 #### Aside
-Note that whenever you change `manifest.json` you will have to remove and reload the extension in order for the changes to take effect. Your other changes will either take effect automatically or 
+Note that whenever you change `manifest.json` you will have to remove and reload the extension in order for the changes to take effect. Your other changes will either take effect automatically or by clicking the update button in the extensions menu.
 
 # JavaScript & The Chrome API
 ## Extension Architecture
@@ -108,6 +108,7 @@ window.onload  =  function() {
 ```
 Okay, we did a lot here. First we defined a function that sends a message that contains the highlighted text. Then we defined a function that contains the response *from* `background.js` that will contain the array of all clipped text. Right now this is set to `null` because we haven't actually encoded yet what the response is equal to. However, we know we will want to set it to be located under the `div` with `id="output"`. 
 
+## Writing background.js
 Let's write our `background.js` code now. This piece of code is going to wait until it gets a request from `popup.js` before adding the `selection` text to the list (we'll call it `clippings`).
 ```javascript
 // background.js
@@ -154,10 +155,10 @@ The code we've added sends a response in the form of key-value pair `clips: clip
 // popup.js replacing null
 document.getElementById("output").innerHTML  =  response.clips;
 ```
-We're calling response and asking for `clips` which maps to the array `clippings` of all the clipped text. Now it gets appended to the div and is visible in the popup
+We're calling response and asking for `clips` which maps to the array `clippings` of all the clipped text. Now it gets appended to the div and is visible in the popup. Try it out!!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxODg2Mzg4NiwzOTIyNDkyMjUsNTQ5MT
-cwMDE2LC0zODk0Njk1MDgsLTUxNjM1NDYxOCw0ODU3NzQ3MjQs
-MTk4NjkzNzA3OF19
+eyJoaXN0b3J5IjpbMzI3OTA1ODQzLDM5MjI0OTIyNSw1NDkxNz
+AwMTYsLTM4OTQ2OTUwOCwtNTE2MzU0NjE4LDQ4NTc3NDcyNCwx
+OTg2OTM3MDc4XX0=
 -->
