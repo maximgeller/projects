@@ -182,14 +182,15 @@ text.addEventListener("click", function(e) {
 });
 };
 ```
-Now we go back to `background.js` and tell the conditional statements to send back an empty array it receives the message to `clear`.
+Now we go back to `background.js` and tell the conditional statements to send back an empty array it receives the message to `clear`. We'll want to check first if  `request.empty` comes through before looking at `selection`.
 ```javascript
 // background.js
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 	let clippings = [];
 	chrome.storage.sync.get("list", function (result) {
-		if (request.empty == "clear
-		if (request.selection && result.list) {
+		if (request.empty == "clear") {
+			clippings = [];
+		} else if (request.selection && result.list) {
 			clippings = [...result.list, request.selection];
 		} else if (result.list) {
 			clippings = [...result.list];
@@ -207,7 +208,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 
 # Styling with CSS
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDQxMzgzNzgsMzI3OTA1ODQzLDM5Mj
-I0OTIyNSw1NDkxNzAwMTYsLTM4OTQ2OTUwOCwtNTE2MzU0NjE4
-LDQ4NTc3NDcyNCwxOTg2OTM3MDc4XX0=
+eyJoaXN0b3J5IjpbMTc5MDM1NzQzNywzMjc5MDU4NDMsMzkyMj
+Q5MjI1LDU0OTE3MDAxNiwtMzg5NDY5NTA4LC01MTYzNTQ2MTgs
+NDg1Nzc0NzI0LDE5ODY5MzcwNzhdfQ==
 -->
