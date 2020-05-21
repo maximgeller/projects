@@ -119,12 +119,14 @@ Sweet. Now we're going to use the chrome API to call the array of text that migh
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 	let clippings = [];
 	chrome.storage.sync.get("list", function (result) {
-		if (r
+		if (request.selection && result.list) {
+			clippings = [...result.list, request.selection]
+		} else if
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDE2NzUzMzAsMzkyMjQ5MjI1LDU0OT
-E3MDAxNiwtMzg5NDY5NTA4LC01MTYzNTQ2MTgsNDg1Nzc0NzI0
-LDE5ODY5MzcwNzhdfQ==
+eyJoaXN0b3J5IjpbMTcyMzg0NzI2NywzOTIyNDkyMjUsNTQ5MT
+cwMDE2LC0zODk0Njk1MDgsLTUxNjM1NDYxOCw0ODU3NzQ3MjQs
+MTk4NjkzNzA3OF19
 -->
