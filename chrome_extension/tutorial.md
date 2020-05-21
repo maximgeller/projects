@@ -93,7 +93,7 @@ window.onload  =  function() {
 	chrome.tabs.executeScript( {
 	code: "window.getSelection().toString();"
 	}
-}
+	)};
 ```
 The next part of the function we are going to need to define is the part that will send the text to `background.js` in order to be stored by Chrome. We need another function that takes the selected text as a parameter in order to send it. After that, we'll start working on fleshing out `background.js`.
 ```javascript
@@ -105,6 +105,7 @@ window.onload  =  function() {
 	document.getElementById("output").innerHTML  =  null;	
 	});
 });
+};
 ```
 Okay, we did a lot here. First we defined a function that sends a message that contains the highlighted text. Then we defined a function that contains the response *from* `background.js` that will contain the array of all clipped text. Right now this is set to `null` because we haven't actually encoded yet what the response is equal to. However, we know we will want to set it to be located under the `div` with `id="output"`. 
 
@@ -182,7 +183,7 @@ text.addEventListener("click", function(e) {
 
 # Styling with CSS
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEwNDY4MjQyLDMyNzkwNTg0MywzOTIyND
-kyMjUsNTQ5MTcwMDE2LC0zODk0Njk1MDgsLTUxNjM1NDYxOCw0
-ODU3NzQ3MjQsMTk4NjkzNzA3OF19
+eyJoaXN0b3J5IjpbLTg0NTQ2Nzg4OCwzMjc5MDU4NDMsMzkyMj
+Q5MjI1LDU0OTE3MDAxNiwtMzg5NDY5NTA4LC01MTYzNTQ2MTgs
+NDg1Nzc0NzI0LDE5ODY5MzcwNzhdfQ==
 -->
