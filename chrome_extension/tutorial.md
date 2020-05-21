@@ -159,7 +159,7 @@ We're calling response and asking for `clips` which maps to the array `clippings
 
 ## Wait, What About Removing Text?
 You probably quickly noticed a flaw after using this clipper. You can't delete text! Let's make a few changes to our JavaScript files to make this possible. 
-First, we modify `popup.js` to clear all saved text in the array when we click on it. When this happens, it will send a message to `background.js` to return an empty array and update the extension!
+First, we modify `popup.js` to clear all saved text in the array when we click on it. We can use `addEventListener` and tell it to wait for the text to get clicked on. When this happens, it will send a message to `background.js` to return an empty array and update the extension!
 ```javascript
 //popup.js
 window.onload  =  function() {
@@ -171,11 +171,14 @@ window.onload  =  function() {
 	});
 });
 var text = document.getElementById("output")
+
+text.addEventListener("click", function(e) { 
+	chrome.runtime.sendMessage({empty: "clear"}), function(response)
 ```
 
 # Styling with CSS
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcyMzQ3MjkzLDMyNzkwNTg0MywzOTIyND
-kyMjUsNTQ5MTcwMDE2LC0zODk0Njk1MDgsLTUxNjM1NDYxOCw0
-ODU3NzQ3MjQsMTk4NjkzNzA3OF19
+eyJoaXN0b3J5IjpbLTE3NDU3NjkxMTcsMzI3OTA1ODQzLDM5Mj
+I0OTIyNSw1NDkxNzAwMTYsLTM4OTQ2OTUwOCwtNTE2MzU0NjE4
+LDQ4NTc3NDcyNCwxOTg2OTM3MDc4XX0=
 -->
