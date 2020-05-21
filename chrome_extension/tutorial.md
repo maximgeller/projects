@@ -120,13 +120,17 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 	let clippings = [];
 	chrome.storage.sync.get("list", function (result) {
 		if (request.selection && result.list) {
-			clippings = [...result.list, request.selection]
-		} else if
+			clippings = [...result.list, request.selection];
+		} else if (result.list) {
+			clippings = [...result.list];
+		} else {
+			clippings = [request.selection];
+		}
 }
 ```
-
+Awesome, the last thing we need to do in this function is send a response *back* to `popup`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzg0NzI2NywzOTIyNDkyMjUsNTQ5MT
+eyJoaXN0b3J5IjpbMjA5OTY5ODMxNCwzOTIyNDkyMjUsNTQ5MT
 cwMDE2LC0zODk0Njk1MDgsLTUxNjM1NDYxOCw0ODU3NzQ3MjQs
 MTk4NjkzNzA3OF19
 -->
