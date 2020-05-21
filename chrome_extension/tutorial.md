@@ -71,6 +71,8 @@ Cool, let's make our html page for the extension popup. After this, we'll be abl
 
 ## Loading and Viewing Your Extension
 Awesome, now we are going to take a quick look at how the extension looks in our browser. In order to do this, go to [chrome://extensions](chrome://extensions) and flip the developer mode toggle on. Now, you'll see the option to load unpacked extensions. Select that and load the folder that contains all the files we've created. You should now be able to see the icon in your toolbar! Click on it and see what opens up. Not much, right? Let's fix that.
+#### Aside
+Note that whenever you change `manifest.json` you will have to remove and reload the extension in order for the changes to take effect. Your other changes will either take effect automatically or 
 
 # JavaScript & The Chrome API
 ## Extension Architecture
@@ -152,10 +154,10 @@ The code we've added sends a response in the form of key-value pair `clips: clip
 // popup.js replacing null
 document.getElementById("output").innerHTML  =  response.clips;
 ```
-We're calling response and asking for `clips` which maps to the array `clippings`
+We're calling response and asking for `clips` which maps to the array `clippings` of all the clipped text. Now it gets appended to the div and is visible in the popup
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDk4NTUzNSwzOTIyNDkyMjUsNTQ5MT
+eyJoaXN0b3J5IjpbLTUxODg2Mzg4NiwzOTIyNDkyMjUsNTQ5MT
 cwMDE2LC0zODk0Njk1MDgsLTUxNjM1NDYxOCw0ODU3NzQ3MjQs
 MTk4NjkzNzA3OF19
 -->
