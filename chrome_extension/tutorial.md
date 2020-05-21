@@ -210,10 +210,12 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 	return true
 });
 ```
-And with that the code should be good! 
+And with that the code should be good! But it doesn't look the best. Let's add some style to it.
 # Styling with CSS
+The great thing about this is it's totally up to you how you choose to make this extension look. I'll walk through some of the design choices I made, but maybe you can make it look even better!
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjcyNTI4MCwxNzkwMzU3NDM3LDMyNz
+eyJoaXN0b3J5IjpbLTI4NTI3MDUxNywxNzkwMzU3NDM3LDMyNz
 kwNTg0MywzOTIyNDkyMjUsNTQ5MTcwMDE2LC0zODk0Njk1MDgs
 LTUxNjM1NDYxOCw0ODU3NzQ3MjQsMTk4NjkzNzA3OF19
 -->
