@@ -157,8 +157,12 @@ document.getElementById("output").innerHTML  =  response.clips;
 ```
 We're calling response and asking for `clips` which maps to the array `clippings` of all the clipped text. Now it gets appended to the div and is visible in the popup. Try it out!!
 
+## Wait, What About Removing Text?
+You probably quickly noticed a flaw after using 
+
+# Styling with CSS
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI3OTA1ODQzLDM5MjI0OTIyNSw1NDkxNz
-AwMTYsLTM4OTQ2OTUwOCwtNTE2MzU0NjE4LDQ4NTc3NDcyNCwx
-OTg2OTM3MDc4XX0=
+eyJoaXN0b3J5IjpbMjAwNjUxNDI1MSwzMjc5MDU4NDMsMzkyMj
+Q5MjI1LDU0OTE3MDAxNiwtMzg5NDY5NTA4LC01MTYzNTQ2MTgs
+NDg1Nzc0NzI0LDE5ODY5MzcwNzhdfQ==
 -->
