@@ -153,7 +153,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 	return true
 });
 ```
-The code we've added sends a response in the form of key-value pair `clips: clippings`. Notice that we have to include `return true` in the function because  Remember how we set the result of the text earlier to `null` in `popup.js`? Try to fill it in yourself. You'll need to call `response` and the key that corresponds to the array of selected text.
+The code we've added sends a response in the form of key-value pair `clips: clippings`. Notice that we have to include `return true` in the function because otherwise `popup.js` will not be able to receive the message. Remember how we set the result of the text earlier to `null` in `popup.js`? Try to fill it in yourself. You'll need to call `response` and the key that corresponds to the array of selected text.
 <details>
 <summary><b>Solution</b></summary>
 
@@ -239,8 +239,8 @@ Here's a quick tip: use `#` to access styling in div names like I did.
 # Appendix
 I hope this project was fun and useful. There's a lot of room for improvement here too. Can you figure out how to pass in the array as an unordered list in HTML and use it to delete individual clips rather than the whole thing? The extension could certainly look a lot better too in the image and styling. Give it a shot and share your results!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5ODg5NTA0Myw4MTI3NzI2NzMsLTExMT
-Q0MzE4NDIsMTc5MDM1NzQzNywzMjc5MDU4NDMsMzkyMjQ5MjI1
-LDU0OTE3MDAxNiwtMzg5NDY5NTA4LC01MTYzNTQ2MTgsNDg1Nz
-c0NzI0LDE5ODY5MzcwNzhdfQ==
+eyJoaXN0b3J5IjpbLTE5NTY2ODI2MzAsODEyNzcyNjczLC0xMT
+E0NDMxODQyLDE3OTAzNTc0MzcsMzI3OTA1ODQzLDM5MjI0OTIy
+NSw1NDkxNzAwMTYsLTM4OTQ2OTUwOCwtNTE2MzU0NjE4LDQ4NT
+c3NDcyNCwxOTg2OTM3MDc4XX0=
 -->
