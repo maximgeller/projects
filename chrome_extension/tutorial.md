@@ -112,7 +112,7 @@ Let's write our `background.js` code now. This piece of code is going to wait un
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 	let clippings = [];
 	
-}
+});
 ```
 Sweet. Now we're going to use the chrome API to call the array of text that might already be present in `clippings` and add the text we've selected to it. We'll use conditionals here: we want to know if the user selected test and if text is already present, or if the user didn't select anything and wants to see what was stored, or if this is the first addition to the page.
 ```javascript
@@ -126,7 +126,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 		} else {
 			clippings = [request.selection];
 		}
-}
+});
 ```
 Awesome, the last thing we need to do in this function is send a response *back* to `popup.js` with the array in `clippings`.
 ```javascript
@@ -140,11 +140,15 @@ let clippings = [];
 			clippings = [request.selection];
 		}
 		sendResponse({clips: clippings});
-		chrome.storage.sy
-}
+		chrome.storage.sync.set({
+			list: clippings,
+		});
+	});
+	return true
+});
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NDk5Mzk2MCwzOTIyNDkyMjUsNTQ5MT
+eyJoaXN0b3J5IjpbLTI1NzU5NjAxNSwzOTIyNDkyMjUsNTQ5MT
 cwMDE2LC0zODk0Njk1MDgsLTUxNjM1NDYxOCw0ODU3NzQ3MjQs
 MTk4NjkzNzA3OF19
 -->
