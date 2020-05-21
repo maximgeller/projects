@@ -158,11 +158,12 @@ document.getElementById("output").innerHTML  =  response.clips;
 We're calling response and asking for `clips` which maps to the array `clippings` of all the clipped text. Now it gets appended to the div and is visible in the popup. Try it out!!
 
 ## Wait, What About Removing Text?
-You probably quickly noticed a flaw after using 
+You probably quickly noticed a flaw after using this clipper. You can't delete text! Let's make a few changes to our JavaScript files to make this possible. 
+First, we modify `popup.js` to clear all saved text in the array when we click on it. 
 
 # Styling with CSS
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNjUxNDI1MSwzMjc5MDU4NDMsMzkyMj
+eyJoaXN0b3J5IjpbMTU5MTM5NDk4NCwzMjc5MDU4NDMsMzkyMj
 Q5MjI1LDU0OTE3MDAxNiwtMzg5NDY5NTA4LC01MTYzNTQ2MTgs
 NDg1Nzc0NzI0LDE5ODY5MzcwNzhdfQ==
 -->
