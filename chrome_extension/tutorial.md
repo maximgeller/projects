@@ -114,10 +114,17 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 	
 }
 ```
-Sweet. Now we're going to use the chrome API to call the array of text that might already be present in `clippings` and add the text we've selected to it. We'll use conditionals here: we want to know if the user selec
+Sweet. Now we're going to use the chrome API to call the array of text that might already be present in `clippings` and add the text we've selected to it. We'll use conditionals here: we want to know if the user selected test and if text is already present, or if the user didn't select anything and wants to see what was stored, or if this is the first addition to the page.
+```javascript
+chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
+	let clippings = [];
+	chrome.storage.sync.get("list", function (result) {
+		if (r
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTkyMTc4ODcsMzkyMjQ5MjI1LDU0OT
+eyJoaXN0b3J5IjpbLTExNDE2NzUzMzAsMzkyMjQ5MjI1LDU0OT
 E3MDAxNiwtMzg5NDY5NTA4LC01MTYzNTQ2MTgsNDg1Nzc0NzI0
 LDE5ODY5MzcwNzhdfQ==
 -->
