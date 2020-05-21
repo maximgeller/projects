@@ -153,13 +153,16 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 	return true
 });
 ```
-The code we've added sends a response in the form of key-value pair `clips: clippings`. Remember how we set the result of the text earlier to `null` in `popup.js`? Let's fill it in!
-<details><summary><b>Solution</b></summary>
+The code we've added sends a response in the form of key-value pair `clips: clippings`. Remember how we set the result of the text earlier to `null` in `popup.js`? Try to fill it in yourself. You'll need to call `response` and the key that corresponds to the array of selected text.
+<details>
+<summary><b>Solution</b></summary>
+
 ```javascript
 // popup.js replacing null
 document.getElementById("output").innerHTML  =  response.clips;
 ```
-</detai
+
+</details>
 We're calling response and asking for `clips` which maps to the array `clippings` of all the clipped text. Now it gets appended to the div and is visible in the popup. Try it out!!
 
 ## Wait, What About Removing Text?
@@ -207,10 +210,10 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 	return true
 });
 ```
-
+And with that the code should be good! 
 # Styling with CSS
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDMyNjQ2NjYsMTc5MDM1NzQzNywzMj
-c5MDU4NDMsMzkyMjQ5MjI1LDU0OTE3MDAxNiwtMzg5NDY5NTA4
-LC01MTYzNTQ2MTgsNDg1Nzc0NzI0LDE5ODY5MzcwNzhdfQ==
+eyJoaXN0b3J5IjpbMTI1NjcyNTI4MCwxNzkwMzU3NDM3LDMyNz
+kwNTg0MywzOTIyNDkyMjUsNTQ5MTcwMDE2LC0zODk0Njk1MDgs
+LTUxNjM1NDYxOCw0ODU3NzQ3MjQsMTk4NjkzNzA3OF19
 -->
