@@ -76,7 +76,7 @@ Note that whenever you change `manifest.json` you will have to remove and reload
 
 # JavaScript & The Chrome API
 ## Extension Architecture
-We need to JavaScript files to make this extension work. The first one is `popup.js`and this file contains the JavaScript we want to inject into `popup.html`. This will be the text that gets selected by your cursor! It also has to communicate with `background.js` in order to store the text that will get displayed in the popup. Take a look at the overview of the architecture in this image. In our extension, `popup.js` sends a message to `background.js` with the selected text, then `background.js` stores it in Chrome, and sends it back to `popup.js` 
+We need to JavaScript files to make this extension work. The first one is `popup.js`and this file contains the JavaScript we want to inject into `popup.html`. This will be the text that gets selected by your cursor! It also has to communicate with `background.js` in order to store the text that will get displayed in the popup. Take a look at the overview of the architecture in this image. In our extension, `popup.js` sends a message to `background.js` with the selected text, then `background.js` stores it in Chrome, and sends it back to `popup.js` with the updated array of all clipped text!
 ![Chrome extension architecture](https://github.com/maximgeller/projects/blob/master/chrome_extension/img/popuparc.png?raw=true)
 [Source](https://developer.chrome.com/extensions/overview)
 
@@ -239,8 +239,9 @@ Here's a quick tip: use `#` to access styling in div names like I did.
 # Appendix
 I hope this project was fun and useful. There's a lot of room for improvement here too. Can you figure out how to pass in the array as an unordered list in HTML and use it to delete individual clips rather than the whole thing? The extension could certainly look a lot better too in the image and styling. Give it a shot and share your results!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQ2NTUwODcsLTE5NTY2ODI2MzAsOD
-EyNzcyNjczLC0xMTE0NDMxODQyLDE3OTAzNTc0MzcsMzI3OTA1
-ODQzLDM5MjI0OTIyNSw1NDkxNzAwMTYsLTM4OTQ2OTUwOCwtNT
-E2MzU0NjE4LDQ4NTc3NDcyNCwxOTg2OTM3MDc4XX0=
+eyJoaXN0b3J5IjpbLTE5NTc3MDMwMDMsLTExODQ2NTUwODcsLT
+E5NTY2ODI2MzAsODEyNzcyNjczLC0xMTE0NDMxODQyLDE3OTAz
+NTc0MzcsMzI3OTA1ODQzLDM5MjI0OTIyNSw1NDkxNzAwMTYsLT
+M4OTQ2OTUwOCwtNTE2MzU0NjE4LDQ4NTc3NDcyNCwxOTg2OTM3
+MDc4XX0=
 -->
