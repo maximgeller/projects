@@ -148,9 +148,14 @@ let clippings = [];
 });
 ```
 The code we've added sends a response in the form of key-value pair `clips: clippings`. Remember how we set the result of the text earlier to `null` in `popup.js`? Let's fill it in!
+```javascript
+// popup.js replacing null
+document.getElementById("output").innerHTML  =  response.clips;
+```
+We're calling response and asking for `clips` which maps to the array `clippings`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzM3MDYxNjAsMzkyMjQ5MjI1LDU0OT
-E3MDAxNiwtMzg5NDY5NTA4LC01MTYzNTQ2MTgsNDg1Nzc0NzI0
-LDE5ODY5MzcwNzhdfQ==
+eyJoaXN0b3J5IjpbMTE3MDk4NTUzNSwzOTIyNDkyMjUsNTQ5MT
+cwMDE2LC0zODk0Njk1MDgsLTUxNjM1NDYxOCw0ODU3NzQ3MjQs
+MTk4NjkzNzA3OF19
 -->
