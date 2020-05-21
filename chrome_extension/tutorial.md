@@ -154,10 +154,12 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 });
 ```
 The code we've added sends a response in the form of key-value pair `clips: clippings`. Remember how we set the result of the text earlier to `null` in `popup.js`? Let's fill it in!
+<details><summary><b>Solution</b></summary>
 ```javascript
 // popup.js replacing null
 document.getElementById("output").innerHTML  =  response.clips;
 ```
+</detai
 We're calling response and asking for `clips` which maps to the array `clippings` of all the clipped text. Now it gets appended to the div and is visible in the popup. Try it out!!
 
 ## Wait, What About Removing Text?
@@ -208,7 +210,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 
 # Styling with CSS
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MDM1NzQzNywzMjc5MDU4NDMsMzkyMj
-Q5MjI1LDU0OTE3MDAxNiwtMzg5NDY5NTA4LC01MTYzNTQ2MTgs
-NDg1Nzc0NzI0LDE5ODY5MzcwNzhdfQ==
+eyJoaXN0b3J5IjpbLTEzMDMyNjQ2NjYsMTc5MDM1NzQzNywzMj
+c5MDU4NDMsMzkyMjQ5MjI1LDU0OTE3MDAxNiwtMzg5NDY5NTA4
+LC01MTYzNTQ2MTgsNDg1Nzc0NzI0LDE5ODY5MzcwNzhdfQ==
 -->
