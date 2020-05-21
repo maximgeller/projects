@@ -215,12 +215,12 @@ And with that the code should be good! But it doesn't look the best. Let's add s
 The great thing about this is it's totally up to you how you choose to make this extension look. I'll walk through some of the design choices I made, but maybe you can make it look even better!
 ```css
 html {
-	font-family: "Avenir Next", Helevetica, serif;
 	text-align: center;
 	width: 300px;
 }
 
 body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	max-width: 300px;
 }
 
@@ -233,9 +233,10 @@ body {
 	opacity: 0.6;
 }
 ```
-Some pretty simple adjustments here. I adjusted the de
+Some pretty simple adjustments here. I adjusted the default font and sizes for t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTQ0MzE4NDIsMTc5MDM1NzQzNywzMj
-c5MDU4NDMsMzkyMjQ5MjI1LDU0OTE3MDAxNiwtMzg5NDY5NTA4
-LC01MTYzNTQ2MTgsNDg1Nzc0NzI0LDE5ODY5MzcwNzhdfQ==
+eyJoaXN0b3J5IjpbLTY3MDkyMzExNiwtMTExNDQzMTg0MiwxNz
+kwMzU3NDM3LDMyNzkwNTg0MywzOTIyNDkyMjUsNTQ5MTcwMDE2
+LC0zODk0Njk1MDgsLTUxNjM1NDYxOCw0ODU3NzQ3MjQsMTk4Nj
+kzNzA3OF19
 -->
