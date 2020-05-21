@@ -173,12 +173,16 @@ window.onload  =  function() {
 var text = document.getElementById("output")
 
 text.addEventListener("click", function(e) { 
-	chrome.runtime.sendMessage({empty: "clear"}), function(response)
+	chrome.runtime.sendMessage({empty: "clear"}), function(response) {
+	text.innerHTML = response.clips;
+	});
+});
+};
 ```
 
 # Styling with CSS
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDU3NjkxMTcsMzI3OTA1ODQzLDM5Mj
-I0OTIyNSw1NDkxNzAwMTYsLTM4OTQ2OTUwOCwtNTE2MzU0NjE4
-LDQ4NTc3NDcyNCwxOTg2OTM3MDc4XX0=
+eyJoaXN0b3J5IjpbNDEwNDY4MjQyLDMyNzkwNTg0MywzOTIyND
+kyMjUsNTQ5MTcwMDE2LC0zODk0Njk1MDgsLTUxNjM1NDYxOCw0
+ODU3NzQ3MjQsMTk4NjkzNzA3OF19
 -->
