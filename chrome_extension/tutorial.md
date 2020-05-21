@@ -130,6 +130,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 		} else {
 			clippings = [request.selection];
 		}
+	});
 });
 ```
 Awesome, the last thing we need to do in this function is send a response *back* to `popup.js` with the array in `clippings`.
@@ -183,7 +184,7 @@ text.addEventListener("click", function(e) {
 
 # Styling with CSS
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTQ2Nzg4OCwzMjc5MDU4NDMsMzkyMj
+eyJoaXN0b3J5IjpbMTIxNzA2NzExMSwzMjc5MDU4NDMsMzkyMj
 Q5MjI1LDU0OTE3MDAxNiwtMzg5NDY5NTA4LC01MTYzNTQ2MTgs
 NDg1Nzc0NzI0LDE5ODY5MzcwNzhdfQ==
 -->
