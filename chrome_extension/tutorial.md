@@ -135,7 +135,8 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 ```
 Awesome, the last thing we need to do in this function is send a response *back* to `popup.js` with the array in `clippings`.
 ```javascript
-let clippings = [];
+chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
+	let clippings = [];
 	chrome.storage.sync.get("list", function (result) {
 		if (request.selection && result.list) {
 			clippings = [...result.list, request.selection];
@@ -163,7 +164,7 @@ We're calling response and asking for `clips` which maps to the array `clippings
 You probably quickly noticed a flaw after using this clipper. You can't delete text! Let's make a few changes to our JavaScript files to make this possible. 
 First, we modify `popup.js` to clear all saved text in the array when we click on it. We can use `addEventListener` and tell it to wait for the text to get clicked on. When this happens, it will send a message to `background.js` to return an empty array and update the extension!
 ```javascript
-//popup.js
+// popup.js
 window.onload  =  function() {
 	chrome.tabs.executeScript( {
 	code: "window.getSelection().toString();"
@@ -181,10 +182,11 @@ text.addEventListener("click", function(e) {
 });
 };
 ```
+Now we go back to `background.js` and tell the conditional statements to send back an empty array it re
 
 # Styling with CSS
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNzA2NzExMSwzMjc5MDU4NDMsMzkyMj
+eyJoaXN0b3J5IjpbLTMxMTQ0NzU0MiwzMjc5MDU4NDMsMzkyMj
 Q5MjI1LDU0OTE3MDAxNiwtMzg5NDY5NTA4LC01MTYzNTQ2MTgs
 NDg1Nzc0NzI0LDE5ODY5MzcwNzhdfQ==
 -->
