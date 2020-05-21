@@ -147,8 +147,10 @@ let clippings = [];
 	return true
 });
 ```
+The code we've added sends a response in the form of key-value pair `clips: clippings`. Remember how we set the result of the text earlier to `null` in `popup.js`? Let's fill it in!
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NzU5NjAxNSwzOTIyNDkyMjUsNTQ5MT
-cwMDE2LC0zODk0Njk1MDgsLTUxNjM1NDYxOCw0ODU3NzQ3MjQs
-MTk4NjkzNzA3OF19
+eyJoaXN0b3J5IjpbLTEwMzM3MDYxNjAsMzkyMjQ5MjI1LDU0OT
+E3MDAxNiwtMzg5NDY5NTA4LC01MTYzNTQ2MTgsNDg1Nzc0NzI0
+LDE5ODY5MzcwNzhdfQ==
 -->
