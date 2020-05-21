@@ -230,12 +230,12 @@ body {
 }
 
 #popup-body  #output:hover{
-	text-decoration: line-through;
+	opacity: 0.6;
 }
 ```
-Some pretty simple adjustments here. 
+Some pretty simple adjustments here. I adjusted the de
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NjgyNjkwNCwxNzkwMzU3NDM3LDMyNz
-kwNTg0MywzOTIyNDkyMjUsNTQ5MTcwMDE2LC0zODk0Njk1MDgs
-LTUxNjM1NDYxOCw0ODU3NzQ3MjQsMTk4NjkzNzA3OF19
+eyJoaXN0b3J5IjpbLTExMTQ0MzE4NDIsMTc5MDM1NzQzNywzMj
+c5MDU4NDMsMzkyMjQ5MjI1LDU0OTE3MDAxNiwtMzg5NDY5NTA4
+LC01MTYzNTQ2MTgsNDg1Nzc0NzI0LDE5ODY5MzcwNzhdfQ==
 -->
