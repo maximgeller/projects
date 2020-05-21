@@ -233,10 +233,14 @@ body {
 	opacity: 0.6;
 }
 ```
-Some pretty simple adjustments here. I adjusted the default font and sizes for t
+Some pretty simple adjustments here. I adjusted the default font and sizes for the text, and I also added an opacity property when your cursor hovers over text so you know you can click to delete.
+Here's a quick tip: use `#` to access styling in div names like I did. 
+
+# Appendix
+I hope this project was fun and 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MDkyMzExNiwtMTExNDQzMTg0MiwxNz
-kwMzU3NDM3LDMyNzkwNTg0MywzOTIyNDkyMjUsNTQ5MTcwMDE2
-LC0zODk0Njk1MDgsLTUxNjM1NDYxOCw0ODU3NzQ3MjQsMTk4Nj
-kzNzA3OF19
+eyJoaXN0b3J5IjpbLTEwNjM3MjQ5NDIsLTExMTQ0MzE4NDIsMT
+c5MDM1NzQzNywzMjc5MDU4NDMsMzkyMjQ5MjI1LDU0OTE3MDAx
+NiwtMzg5NDY5NTA4LC01MTYzNTQ2MTgsNDg1Nzc0NzI0LDE5OD
+Y5MzcwNzhdfQ==
 -->
