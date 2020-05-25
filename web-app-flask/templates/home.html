@@ -1,6 +1,15 @@
 <html>
     <head>
+        <meta charset="utf-8">
+        <title>My First Web App!</title>
     </head>
     <body>
+        {% extends "template.html" %}
+        {% block content %}
+        
+        <h1>We're going to be building a web app that gives you a daily dashboard!</h1>
+        <p>Things like weather, time, and calendar items can all go here!</p>
+
+        {% endblock %}
     </body>
 </html>
