@@ -36,8 +36,8 @@ def cal():
                 'credentials.json', SCOPES)
             creds = flow.run_local_server(port=0)
         # Save the credentials for the next run
-        with open('token.pickle', 'wb') as token:
-            pickle.dump(creds, token)
+        # with open('token.pickle', 'wb') as token: # can't write in GAE so comment out
+        #     pickle.dump(creds, token)
 
     service = googleapiclient.discovery.build('calendar', 'v3', credentials=creds)
 
