@@ -1,4 +1,30 @@
 .menu li {
     display: inline-block;
+    padding: 20px;
 }
 
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    background-color: whitesmoke;
+  }
+
+h1 {
+    color: #d13161;
+}
+
+a {
+    color: #e81c4f;
+  }
+
+#calendar li {
+    font-size: 20px;
+    list-style: none;
+}
+
+pre {
+    border-left: 2px solid #69c;
+  }
