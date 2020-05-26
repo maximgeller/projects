@@ -3,10 +3,12 @@ from flask import Flask, render_template
 import datetime
 import pickle
 import os.path
-from googleapiclient.discovery import build
+import googleapiclient.discovery
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
+import sys
 
+print(sys.path)
 app = Flask(__name__)
 
 @app.route("/") # default
@@ -37,7 +39,7 @@ def cal():
         with open('token.pickle', 'wb') as token:
             pickle.dump(creds, token)
 
-    service = build('calendar', 'v3', credentials=creds)
+    service = googleapiclient.discovery.build('calendar', 'v3', credentials=creds)
 
     # Call the Calendar API
     now = datetime.datetime.utcnow().isoformat() + 'Z' # 'Z' indicates UTC time
