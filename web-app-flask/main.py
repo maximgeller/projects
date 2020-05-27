@@ -6,9 +6,7 @@ import os.path
 import googleapiclient.discovery
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
-import sys
 
-print(sys.path)
 app = Flask(__name__)
 
 @app.route("/") # default
@@ -53,9 +51,9 @@ def cal():
     if not events:
         print('No upcoming events found.')
     
-    for event in events:
-        start = event['start'].get('dateTime', event['start'].get('date'))
-        print(start, event['summary'])
+    # for event in events:
+    #     start = event['start'].get('dateTime', event['start'].get('date'))
+    #     print(start, event['summary'])
     event_list = [event["summary"] for event in events]
 
     return render_template("cal.html", events=event_list)

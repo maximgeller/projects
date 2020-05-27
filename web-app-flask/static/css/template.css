@@ -1,5 +1,6 @@
 .menu li {
     display: inline-block;
+    text-align: center;
     padding: 20px;
 }
 
@@ -8,7 +9,8 @@ body {
     max-width: 50em;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     line-height: 1.5;
-    padding: 4em 1em;
+    padding: 1em;
+    text-align: center;
     background-color: whitesmoke;
   }
 
@@ -24,7 +26,3 @@ a {
     font-size: 20px;
     list-style: none;
 }
-
-pre {
-    border-left: 2px solid #69c;
-  }
