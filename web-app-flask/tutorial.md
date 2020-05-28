@@ -120,7 +120,19 @@ Finally, let's link our pages together in `main.py` so you can see them all in a
 ```python
 # main.py 
 from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+	return render_template("home.html")
+
+@app.route("/cal")
+def cal():
+	return render_template("cal.html")
 ```
+
+Sweet! Start your local server up 
 
 ## Add CSS!
 # Integrating Google Calendar
@@ -131,8 +143,9 @@ from flask import Flask, render_template
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcwOTEzOTM0LC00NDcyNDI0MzQsLTEzNz
-YxMzUzNjQsLTEzMzcyOTQ1MTgsLTEwNjg1MzIxMSwtNDMwMzk1
-ODM4LC0xMzY2NzYyOTMsMjE1Mjk3MjMxLDE4OTE4NjMxMTIsLT
-gxMzQ4ODMyMywxNDUyNjQ4Nzg0LC0xMTE0ODM4MDk0XX0=
+eyJoaXN0b3J5IjpbLTE4MTY1Mjk2NTAsMjcwOTEzOTM0LC00ND
+cyNDI0MzQsLTEzNzYxMzUzNjQsLTEzMzcyOTQ1MTgsLTEwNjg1
+MzIxMSwtNDMwMzk1ODM4LC0xMzY2NzYyOTMsMjE1Mjk3MjMxLD
+E4OTE4NjMxMTIsLTgxMzQ4ODMyMywxNDUyNjQ4Nzg0LC0xMTE0
+ODM4MDk0XX0=
 -->
