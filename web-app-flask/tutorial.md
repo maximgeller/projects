@@ -28,7 +28,17 @@ python main.py
 Your terminal will prompt you to navigate to your localhost at the port 5000 where a local server has been created in order to view your app. [Check it out](http://127.0.0.1:5000/)!
 
 ## Making Our Own Pages
-Now let's create a second page that we will use to put our calendar in. Set the route to anything you want and create a function of the same name and have it return whatever you want for now. Follow the structure that we
+Now let's create a second page that we will use to put our calendar in. Set the route to anything you want and create a function of the same name and have it return whatever you want for now. Follow the structure that we used for the home page.
+
+<details>
+<summary><b>Solution</b></summary>
+
+```python
+@app.route("/cal")
+	def cal():
+```
+</details>
+
 ## Add CSS!
 # Integrating Google Calendar
 # Deploying Your App
@@ -38,7 +48,7 @@ Now let's create a second page that we will use to put our calendar in. Set the 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM0NzgyMTMsMjE1Mjk3MjMxLDE4OTE4Nj
-MxMTIsLTgxMzQ4ODMyMywxNDUyNjQ4Nzg0LC0xMTE0ODM4MDk0
-XX0=
+eyJoaXN0b3J5IjpbLTIxNDM5MzgxODgsMjE1Mjk3MjMxLDE4OT
+E4NjMxMTIsLTgxMzQ4ODMyMywxNDUyNjQ4Nzg0LC0xMTE0ODM4
+MDk0XX0=
 -->
