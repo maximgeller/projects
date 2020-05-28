@@ -209,10 +209,10 @@ def  cal():
 			flow = InstalledAppFlow.from_client_secrets_file(
 	'credentials.json', SCOPES)
 			creds = flow.run_local_server(port=0)
-	# Save the credentials for the next run
-	# with open('token.pickle', 'wb') as token: # can't write in GAE so comment out
-	# pickle.dump(creds, token)
-	service = googleapiclient.discovery.build('calendar', 'v3', credentials=creds)
+			# Save the credentials for the next run
+			# with open('token.pickle', 'wb') as token: # can't write in GAE so comment out
+			# pickle.dump(creds, token)
+		service = googleapiclient.discovery.build('calendar', 'v3', credentials=creds)
 	# Call the Calendar API
 	now = datetime.datetime.utcnow().isoformat() +  'Z'  # 'Z' indicates UTC time
 	print('Getting the upcoming 10 events')
@@ -241,10 +241,10 @@ if  __name__  ==  "__main__":
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUyNTcxMjI2LDE2NDE5MDg0ODcsNTc3NT
-Y4MDgxLC0xNjYzNTExMDEsLTEwMzQyOTg3NTYsLTEyNjQ4NTk4
-MzUsMjcwOTEzOTM0LC00NDcyNDI0MzQsLTEzNzYxMzUzNjQsLT
-EzMzcyOTQ1MTgsLTEwNjg1MzIxMSwtNDMwMzk1ODM4LC0xMzY2
-NzYyOTMsMjE1Mjk3MjMxLDE4OTE4NjMxMTIsLTgxMzQ4ODMyMy
-wxNDUyNjQ4Nzg0LC0xMTE0ODM4MDk0XX0=
+eyJoaXN0b3J5IjpbMTg3OTY2MTE3MCwxNjQxOTA4NDg3LDU3Nz
+U2ODA4MSwtMTY2MzUxMTAxLC0xMDM0Mjk4NzU2LC0xMjY0ODU5
+ODM1LDI3MDkxMzkzNCwtNDQ3MjQyNDM0LC0xMzc2MTM1MzY0LC
+0xMzM3Mjk0NTE4LC0xMDY4NTMyMTEsLTQzMDM5NTgzOCwtMTM2
+Njc2MjkzLDIxNTI5NzIzMSwxODkxODYzMTEyLC04MTM0ODgzMj
+MsMTQ1MjY0ODc4NCwtMTExNDgzODA5NF19
 -->
