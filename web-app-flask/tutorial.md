@@ -116,7 +116,11 @@ Create a similar page for the calendar! Following the format above, make an html
 ```
 </details>
 
-Finally, let's link our pages together in `main.py` so you can see them all in action! We'll need to import `render_template` from 
+Finally, let's link our pages together in `main.py` so you can see them all in action! We'll need to import `render_template` from `flask` which will allow us to use the HTML pages as the pages for the web app.
+```python
+# main.py 
+from flask import Flask, render_template
+```
 
 ## Add CSS!
 # Integrating Google Calendar
@@ -127,8 +131,8 @@ Finally, let's link our pages together in `main.py` so you can see them all in a
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzODg2Njg4NCwtNDQ3MjQyNDM0LC0xMz
-c2MTM1MzY0LC0xMzM3Mjk0NTE4LC0xMDY4NTMyMTEsLTQzMDM5
-NTgzOCwtMTM2Njc2MjkzLDIxNTI5NzIzMSwxODkxODYzMTEyLC
-04MTM0ODgzMjMsMTQ1MjY0ODc4NCwtMTExNDgzODA5NF19
+eyJoaXN0b3J5IjpbMjcwOTEzOTM0LC00NDcyNDI0MzQsLTEzNz
+YxMzUzNjQsLTEzMzcyOTQ1MTgsLTEwNjg1MzIxMSwtNDMwMzk1
+ODM4LC0xMzY2NzYyOTMsMjE1Mjk3MjMxLDE4OTE4NjMxMTIsLT
+gxMzQ4ODMyMywxNDUyNjQ4Nzg0LC0xMTE0ODM4MDk0XX0=
 -->
