@@ -53,11 +53,11 @@ Something cool we can do with our web app is to use templates to set up what all
 	</head>
 	<body>
 		<header>
-			<div  class="container">
-				<h1  class="logo">My Upcoming Events</h1>
-				<ul  class="menu">
-				<li><a  href="{{ url_for('home') }}">Home</a></li>
-				<li><a  href="{{ url_for('cal') }}">Calendar</a></li>
+			<div class="container">
+				<h1 >My Upcoming Events</h1>
+				<ul class="menu">
+					<li><a  href="{{ url_for('home') }}">Home</a></li>
+					<li><a  href="{{ url_for('cal') }}">Calendar</a></li>
 				</ul>
 			</div>
 		</header>
@@ -69,6 +69,8 @@ Something cool we can do with our web app is to use templates to set up what all
 </html>
 ```
 
+This HTML is pretty much boilerpla
+
 ## Add CSS!
 # Integrating Google Calendar
 # Deploying Your App
@@ -78,7 +80,8 @@ Something cool we can do with our web app is to use templates to set up what all
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0ODIwNzcxLC0xMDY4NTMyMTEsLTQzMD
-M5NTgzOCwtMTM2Njc2MjkzLDIxNTI5NzIzMSwxODkxODYzMTEy
-LC04MTM0ODgzMjMsMTQ1MjY0ODc4NCwtMTExNDgzODA5NF19
+eyJoaXN0b3J5IjpbLTQ5NDU5OTU0NywtMTA2ODUzMjExLC00Mz
+AzOTU4MzgsLTEzNjY3NjI5MywyMTUyOTcyMzEsMTg5MTg2MzEx
+MiwtODEzNDg4MzIzLDE0NTI2NDg3ODQsLTExMTQ4MzgwOTRdfQ
+==
 -->
