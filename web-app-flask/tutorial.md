@@ -300,17 +300,17 @@ vendor.add('lib')
 ```
 ## Deploying 
 
-In order to deploy, you'll have to initialize Google cloud by `cd`'ing all the way into the Google Cloud directory and italicizing it by typing `gcloud init`.  
+In order to deploy, you'll have to initialize Google cloud by `cd`'ing all the way into the Google Cloud directory and italicizing it by typing `gcloud init`.  Once it's all set up, deploy your app by typing `gcloud app deploy`. Google App Engine will generate a URL to see your live web app! 
 # Appendix
 ## What's Next?
 
 ### References & Resources
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTAwMjI3MDUsODY2MzE5NDc4LDEwOT
-QxNjgwMzYsMTY0MTkwODQ4Nyw1Nzc1NjgwODEsLTE2NjM1MTEw
-MSwtMTAzNDI5ODc1NiwtMTI2NDg1OTgzNSwyNzA5MTM5MzQsLT
-Q0NzI0MjQzNCwtMTM3NjEzNTM2NCwtMTMzNzI5NDUxOCwtMTA2
-ODUzMjExLC00MzAzOTU4MzgsLTEzNjY3NjI5MywyMTUyOTcyMz
-EsMTg5MTg2MzExMiwtODEzNDg4MzIzLDE0NTI2NDg3ODQsLTEx
-MTQ4MzgwOTRdfQ==
+eyJoaXN0b3J5IjpbMjAwNzg1MjUyMiw4NjYzMTk0NzgsMTA5ND
+E2ODAzNiwxNjQxOTA4NDg3LDU3NzU2ODA4MSwtMTY2MzUxMTAx
+LC0xMDM0Mjk4NzU2LC0xMjY0ODU5ODM1LDI3MDkxMzkzNCwtND
+Q3MjQyNDM0LC0xMzc2MTM1MzY0LC0xMzM3Mjk0NTE4LC0xMDY4
+NTMyMTEsLTQzMDM5NTgzOCwtMTM2Njc2MjkzLDIxNTI5NzIzMS
+wxODkxODYzMTEyLC04MTM0ODgzMjMsMTQ1MjY0ODc4NCwtMTEx
+NDgzODA5NF19
 -->
