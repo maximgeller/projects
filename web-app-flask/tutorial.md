@@ -234,14 +234,14 @@ Once you have this code, you'll want to grab the calendar ID from google you wan
 
 # Deploying Your App
 It would be awesome to have a working URL for your app that you can always access! As it is a web app and not a static website, we'll need to use a host that allows web apps. For this project, let's use Google App Engine. 
-Before we can use it, you'll have to install the Google Cloud SDK which you can find [here](https://cloud.google.com/sdk/install)
+Before we can use it, you'll have to install the Google Cloud SDK which you can find [here](https://cloud.google.com/sdk/install). You also need to create a Google Cloud project (if you haven't already) by [signing up for Google Cloud](https://cloud.google.com/). 
 ## Setting Up Google App Engine
 # Appendix
 ## What's Next?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MzM3NTQ5NCwxNjQxOTA4NDg3LDU3Nz
+eyJoaXN0b3J5IjpbLTgwNjg2NzMwOSwxNjQxOTA4NDg3LDU3Nz
 U2ODA4MSwtMTY2MzUxMTAxLC0xMDM0Mjk4NzU2LC0xMjY0ODU5
 ODM1LDI3MDkxMzkzNCwtNDQ3MjQyNDM0LC0xMzc2MTM1MzY0LC
 0xMzM3Mjk0NTE4LC0xMDY4NTMyMTEsLTQzMDM5NTgzOCwtMTM2
