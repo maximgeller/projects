@@ -233,14 +233,14 @@ if  __name__  ==  "__main__":
 Once you have this code, you'll want to grab the calendar ID from google you want to integrate by going to its settings and then pasting it in the `events_result` variable. If your `credentials.json` are saved in your directory, you should have a working web app at this point! Start the localhost and have a look and play around with it. 
 
 # Deploying Your App
-It would be awesome to have a 
+It would be awesome to have a working URL for your app that you can always access! As it is a web app and not a static website, we'll need to use a host that allows web apps. For this project, let's use Google App Engine. 
 ## Setting Up Google App Engine
 # Appendix
 ## What's Next?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MzY5MjY3MCwxNjQxOTA4NDg3LDU3Nz
+eyJoaXN0b3J5IjpbLTkxODc3NzE4OSwxNjQxOTA4NDg3LDU3Nz
 U2ODA4MSwtMTY2MzUxMTAxLC0xMDM0Mjk4NzU2LC0xMjY0ODU5
 ODM1LDI3MDkxMzkzNCwtNDQ3MjQyNDM0LC0xMzc2MTM1MzY0LC
 0xMzM3Mjk0NTE4LC0xMDY4NTMyMTEsLTQzMDM5NTgzOCwtMTM2
