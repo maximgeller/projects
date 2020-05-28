@@ -96,24 +96,26 @@ Create a similar page for the calendar! Following the format above, make an html
 ```html
 <html>
 	<head>
-	<meta  charset="utf-8">
-	<title>Upcoming Schedule</title>
+		<meta  charset="utf-8">
+		<title>Upcoming Schedule</title>
 	</head>
 	<body>
-	{% extends "template.html" %}
-	{% block content %}
-	<h1>Here's what you got lined up!</h1>
-	<div  id="list">
-	<ul>
-	<li> Item 1! </li>
-	</ul>
-	</div>
-	{% endblock %}
+		{% extends "template.html" %}
+		{% block content %}
+		
+		<h1>Here's what you got lined up!</h1>
+			<div  id="list">
+				<ul>
+					<li> Item 1! </li>
+				</ul>
+			</div>
+			
+		{% endblock %}
 	</body>
 </html>
 ```
-Try running the script and appending `/cal` (or whatever you used) to the address bar and see if your message returns!
 </details>
+
 
 ## Add CSS!
 # Integrating Google Calendar
@@ -124,8 +126,8 @@ Try running the script and appending `/cal` (or whatever you used) to the addres
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MTMyMzQwOCwtMTMzNzI5NDUxOCwtMT
-A2ODUzMjExLC00MzAzOTU4MzgsLTEzNjY3NjI5MywyMTUyOTcy
-MzEsMTg5MTg2MzExMiwtODEzNDg4MzIzLDE0NTI2NDg3ODQsLT
-ExMTQ4MzgwOTRdfQ==
+eyJoaXN0b3J5IjpbLTEzNzYxMzUzNjQsLTEzMzcyOTQ1MTgsLT
+EwNjg1MzIxMSwtNDMwMzk1ODM4LC0xMzY2NzYyOTMsMjE1Mjk3
+MjMxLDE4OTE4NjMxMTIsLTgxMzQ4ODMyMywxNDUyNjQ4Nzg0LC
+0xMTE0ODM4MDk0XX0=
 -->
