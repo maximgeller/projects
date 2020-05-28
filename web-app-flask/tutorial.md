@@ -69,8 +69,9 @@ Something cool we can do with our web app is to use templates to set up what all
 </html>
 ```
 
-This HTML is pretty much boilerplate with some exceptions. You probably noticed a key difference in that there are curly brackets all over the place on it. We use them to pass messages from the Python file into the HTML. The rest is just syntax really. Right now, the template links to all the different URLs for your different pages and also to display all the content that you will insert in your other HTML files. This template will act as a header for all of your pages in the web app. Here's a good reference that dives into this a bit further.
+This HTML is pretty much boilerplate with some exceptions. You probably noticed a key difference in that there are curly brackets all over the place on it. We use them to pass messages from the Python file into the HTML. The rest is just syntax really. Right now, the template links to all the different URLs for your different pages and also to display all the content that you will insert in your other HTML files. This template will act as a header for all of your pages in the web app. Here's a good reference that dives into this [a bit further.](https://www.techiediaries.com/flask-tutorial-templates/)
 
+The other two things we need to do is cr
 ## Add CSS!
 # Integrating Google Calendar
 # Deploying Your App
@@ -80,8 +81,8 @@ This HTML is pretty much boilerplate with some exceptions. You probably noticed 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzQ4NTA3ODUsLTEzMzcyOTQ1MTgsLT
-EwNjg1MzIxMSwtNDMwMzk1ODM4LC0xMzY2NzYyOTMsMjE1Mjk3
-MjMxLDE4OTE4NjMxMTIsLTgxMzQ4ODMyMywxNDUyNjQ4Nzg0LC
-0xMTE0ODM4MDk0XX0=
+eyJoaXN0b3J5IjpbMzU5MzgyNjY3LC0xMzM3Mjk0NTE4LC0xMD
+Y4NTMyMTEsLTQzMDM5NTgzOCwtMTM2Njc2MjkzLDIxNTI5NzIz
+MSwxODkxODYzMTEyLC04MTM0ODgzMjMsMTQ1MjY0ODc4NCwtMT
+ExNDgzODA5NF19
 -->
