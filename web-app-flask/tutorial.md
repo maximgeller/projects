@@ -21,11 +21,11 @@ if  __name__  ==  "__main__":
 	app.run(debug=True)
 ```
 
-This is the bare bones structure of the web app. We set the default landing page directabove a function called `home` that just returns a string. At the bottom, you'll see that a conditional that will let the application run only if the script itself, `main.py` is being called. This is not the same as `__main__` though. If `main.py` were called something else, the script would still run as long as it was properly run from the terminal. If we tried to import this into another file and call that file's name, our app would not run. Run the script by typing this in your command line:
+This is the bare bones structure of the web app. We set the default landing page directly above a function called `home` that just returns a string. At the bottom, you'll see that a conditional that will let the application run only if the script itself, `main.py`, is being called. This is not the same as `__main__` though. If `main.py` were called something else, the script would still run as long as it was properly run from the terminal. If we tried to import this into another file and call that file's name, our app would not run. Run the script by typing this in your command line:
 ```bash
 python main.py
 ```
-Your terminal will prompt you to navigate to your localhost at the port 5000 where a local server has been created in order to view your app. [Check it out](http://127.0.0.1:5000/)!
+Your terminal will prompt you to navigate to your localhost at the port 5000 where a local server has been created in order to view your app. [Check it out!](http://127.0.0.1:5000/)
 
 ## Making Our Own Pages
 Now let's create a second page that we will use to put our calendar in. Set the route to anything you want and create a function of the same name and have it return whatever you want for now. Follow the structure that we used for the home page.
@@ -69,7 +69,7 @@ Something cool we can do with our web app is to use templates to set up what all
 </html>
 ```
 
-This HTML is pretty much boilerplate with some exceptions. You probably noticed a key difference in that there are curly brackets all over the place on it. We use them to pass messages from the Python file into the HTML. The rest is just syntax really. Right now, the template links to all the different URLs for your different pages and also to display all the content that you will insert in your other HTML files. This template will act as a header for all of your pages in the web app. Here's a good reference that dives into this [a bit further.](https://www.techiediaries.com/flask-tutorial-templates/)
+This HTML is pretty much boilerplate with some exceptions. You probably noticed a key difference in that there are curly brackets all over the place on it. We use them to pass messages from the Python file into the HTML. The rest is just syntax. Right now, the template links to all the different URLs for your different pages and also to display all the content that you will insert in your other HTML files. This template will act as a header for all of your pages in the web app. Here's a good reference that dives into this [a bit further.](https://www.techiediaries.com/flask-tutorial-templates/)
 
 The other two things we need to do is create HTML pages for your landing page and calendar and link them all together in `main.py`.  In your templates folder, create two new files called `home.html` and `cal.html`.
 Fill it with your own boilerplate code or use this one here. The only requirement is that it extends the template as you're about to see.
@@ -315,11 +315,11 @@ This is a pretty minimal web app, but it could be the basis of your personal pro
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0ODU0MTI2LDIwOTI0NzAyMjAsNzAyNT
-IxMDU3LDcxOTEyNTQ0OSwyMDA3ODUyNTIyLDg2NjMxOTQ3OCwx
-MDk0MTY4MDM2LDE2NDE5MDg0ODcsNTc3NTY4MDgxLC0xNjYzNT
-ExMDEsLTEwMzQyOTg3NTYsLTEyNjQ4NTk4MzUsMjcwOTEzOTM0
-LC00NDcyNDI0MzQsLTEzNzYxMzUzNjQsLTEzMzcyOTQ1MTgsLT
-EwNjg1MzIxMSwtNDMwMzk1ODM4LC0xMzY2NzYyOTMsMjE1Mjk3
-MjMxXX0=
+eyJoaXN0b3J5IjpbMTE4MTc0MTYyMCwyMDkyNDcwMjIwLDcwMj
+UyMTA1Nyw3MTkxMjU0NDksMjAwNzg1MjUyMiw4NjYzMTk0Nzgs
+MTA5NDE2ODAzNiwxNjQxOTA4NDg3LDU3NzU2ODA4MSwtMTY2Mz
+UxMTAxLC0xMDM0Mjk4NzU2LC0xMjY0ODU5ODM1LDI3MDkxMzkz
+NCwtNDQ3MjQyNDM0LC0xMzc2MTM1MzY0LC0xMzM3Mjk0NTE4LC
+0xMDY4NTMyMTEsLTQzMDM5NTgzOCwtMTM2Njc2MjkzLDIxNTI5
+NzIzMV19
 -->
