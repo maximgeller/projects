@@ -167,7 +167,9 @@ a {
 }
 ```
 
-I particularly recommend doing something similar to what I did in the first block by setting `display: inline-block;` because it will list your navigation bar horizontally. As a reminder, use the dot to access the elements that 
+I particularly recommend doing something similar to what I did in the first block by setting `display: inline-block;` because it will list your navigation bar horizontally. As a reminder, use the dot to access the elements that are set to be equal to a class e.g. `class="menu"` and the `#` symbol to access elements that are set equal to an id like `id="list"`.
+
+YOu
 
 # Integrating Google Calendar
 # Deploying Your App
@@ -177,9 +179,10 @@ I particularly recommend doing something similar to what I did in the first bloc
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjM1MTEwMSwtMTAzNDI5ODc1NiwtMT
-I2NDg1OTgzNSwyNzA5MTM5MzQsLTQ0NzI0MjQzNCwtMTM3NjEz
-NTM2NCwtMTMzNzI5NDUxOCwtMTA2ODUzMjExLC00MzAzOTU4Mz
-gsLTEzNjY3NjI5MywyMTUyOTcyMzEsMTg5MTg2MzExMiwtODEz
-NDg4MzIzLDE0NTI2NDg3ODQsLTExMTQ4MzgwOTRdfQ==
+eyJoaXN0b3J5IjpbMjA1MDIxMDIyNiwtMTY2MzUxMTAxLC0xMD
+M0Mjk4NzU2LC0xMjY0ODU5ODM1LDI3MDkxMzkzNCwtNDQ3MjQy
+NDM0LC0xMzc2MTM1MzY0LC0xMzM3Mjk0NTE4LC0xMDY4NTMyMT
+EsLTQzMDM5NTgzOCwtMTM2Njc2MjkzLDIxNTI5NzIzMSwxODkx
+ODYzMTEyLC04MTM0ODgzMjMsMTQ1MjY0ODc4NCwtMTExNDgzOD
+A5NF19
 -->
