@@ -69,7 +69,7 @@ Something cool we can do with our web app is to use templates to set up what all
 </html>
 ```
 
-This HTML is pretty much boilerplate with some exceptions. You probably noticed a key difference in that there are curly brackets all over the place on it. We use them to pass messages from the Python file into the HTML. The rest is just syntax really. 
+This HTML is pretty much boilerplate with some exceptions. You probably noticed a key difference in that there are curly brackets all over the place on it. We use them to pass messages from the Python file into the HTML. The rest is just syntax really. Right now, the template links 
 
 ## Add CSS!
 # Integrating Google Calendar
@@ -80,8 +80,8 @@ This HTML is pretty much boilerplate with some exceptions. You probably noticed 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3OTMzODkxMywtMTMzNzI5NDUxOCwtMT
-A2ODUzMjExLC00MzAzOTU4MzgsLTEzNjY3NjI5MywyMTUyOTcy
-MzEsMTg5MTg2MzExMiwtODEzNDg4MzIzLDE0NTI2NDg3ODQsLT
-ExMTQ4MzgwOTRdfQ==
+eyJoaXN0b3J5IjpbLTE4MzczMzM5NDUsLTEzMzcyOTQ1MTgsLT
+EwNjg1MzIxMSwtNDMwMzk1ODM4LC0xMzY2NzYyOTMsMjE1Mjk3
+MjMxLDE4OTE4NjMxMTIsLTgxMzQ4ODMyMywxNDUyNjQ4Nzg0LC
+0xMTE0ODM4MDk0XX0=
 -->
