@@ -12,8 +12,9 @@ app = Flask(__name__)
 
 @app.route("/") # this route is the default one
 def home():
-	return "Hell
+	return "Hello World!"
 ```
+
 
 ## Making Our Own Pages
 ## Add CSS!
@@ -25,7 +26,7 @@ def home():
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTA0NzY5MiwyMTUyOTcyMzEsMTg5MT
+eyJoaXN0b3J5IjpbMjA5MTQ5ODg0MCwyMTUyOTcyMzEsMTg5MT
 g2MzExMiwtODEzNDg4MzIzLDE0NTI2NDg3ODQsLTExMTQ4Mzgw
 OTRdfQ==
 -->
