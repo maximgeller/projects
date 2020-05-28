@@ -302,16 +302,16 @@ vendor.add('lib')
 
 In order to deploy, you'll have to initialize Google cloud by `cd`'ing all the way into the Google Cloud directory and italicizing it by typing `gcloud init`.  Once it's all set up, deploy your app by typing `gcloud app deploy`. Google App Engine will generate a URL to see your live web app! 
 # Appendix
-Deploying the app can be tricky sometimes, so if it doesn't work check the error console and see if you can resolve whatever issues pop up. 
+Deploying the app can be tricky sometimes, so if it doesn't work check the error console and see if you can resolve whatever issues pop up. Feel free to get in touch with me if 
 ## What's Next?
-
+This is a pretty minimal web app, but it could be the basis of your personal productivity dashboard! Try and see if you can integrate other APIs that can fetch the weather, latest news, or whatever you want! 
 ### References & Resources
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE5MTI1NDQ5LDIwMDc4NTI1MjIsODY2Mz
-E5NDc4LDEwOTQxNjgwMzYsMTY0MTkwODQ4Nyw1Nzc1NjgwODEs
-LTE2NjM1MTEwMSwtMTAzNDI5ODc1NiwtMTI2NDg1OTgzNSwyNz
-A5MTM5MzQsLTQ0NzI0MjQzNCwtMTM3NjEzNTM2NCwtMTMzNzI5
-NDUxOCwtMTA2ODUzMjExLC00MzAzOTU4MzgsLTEzNjY3NjI5My
-wyMTUyOTcyMzEsMTg5MTg2MzExMiwtODEzNDg4MzIzLDE0NTI2
-NDg3ODRdfQ==
+eyJoaXN0b3J5IjpbMTYxMDI4MjkwNiw3MTkxMjU0NDksMjAwNz
+g1MjUyMiw4NjYzMTk0NzgsMTA5NDE2ODAzNiwxNjQxOTA4NDg3
+LDU3NzU2ODA4MSwtMTY2MzUxMTAxLC0xMDM0Mjk4NzU2LC0xMj
+Y0ODU5ODM1LDI3MDkxMzkzNCwtNDQ3MjQyNDM0LC0xMzc2MTM1
+MzY0LC0xMzM3Mjk0NTE4LC0xMDY4NTMyMTEsLTQzMDM5NTgzOC
+wtMTM2Njc2MjkzLDIxNTI5NzIzMSwxODkxODYzMTEyLC04MTM0
+ODgzMjNdfQ==
 -->
