@@ -21,7 +21,7 @@ if  __name__  ==  "__main__":
 	app.run(debug=True)
 ```
 
-This is the bare bones structure of the web app. We set the default landing page to above a function called `home` that just returns a string. At the bottom, you'll see that a conditional that will let the application run only if the script itself, `main.py` is being called. This is not the same as `__main__` though. If  If we tried to import this into another file and call that file's name, our app would not run. Run the script by typing this in your command line:
+This is the bare bones structure of the web app. We set the default landing page to above a function called `home` that just returns a string. At the bottom, you'll see that a conditional that will let the application run only if the script itself, `main.py` is being called. This is not the same as `__main__` though. If `main.py` were called something else, the script would still run as long as it was properly run from the terminal. If we tried to import this into another file and call that file's name, our app would not run. Run the script by typing this in your command line:
 ```bash
 python main.py
 ```
@@ -51,7 +51,7 @@ Try running the script and appending `/cal` (or whatever you used) to the addres
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ0NDc2OTM4LC0xMzY2NzYyOTMsMjE1Mj
-k3MjMxLDE4OTE4NjMxMTIsLTgxMzQ4ODMyMywxNDUyNjQ4Nzg0
-LC0xMTE0ODM4MDk0XX0=
+eyJoaXN0b3J5IjpbLTQzMDM5NTgzOCwtMTM2Njc2MjkzLDIxNT
+I5NzIzMSwxODkxODYzMTEyLC04MTM0ODgzMjMsMTQ1MjY0ODc4
+NCwtMTExNDgzODA5NF19
 -->
