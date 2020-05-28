@@ -41,6 +41,8 @@ def cal():
 Try running the script and appending `/cal` (or whatever you used) to the address bar and see if your message returns!
 </details>
 
+## Templates
+
 
 ## Add CSS!
 # Integrating Google Calendar
@@ -51,7 +53,7 @@ Try running the script and appending `/cal` (or whatever you used) to the addres
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMDM5NTgzOCwtMTM2Njc2MjkzLDIxNT
-I5NzIzMSwxODkxODYzMTEyLC04MTM0ODgzMjMsMTQ1MjY0ODc4
-NCwtMTExNDgzODA5NF19
+eyJoaXN0b3J5IjpbLTEwNjg1MzIxMSwtNDMwMzk1ODM4LC0xMz
+Y2NzYyOTMsMjE1Mjk3MjMxLDE4OTE4NjMxMTIsLTgxMzQ4ODMy
+MywxNDUyNjQ4Nzg0LC0xMTE0ODM4MDk0XX0=
 -->
