@@ -172,7 +172,7 @@ I particularly recommend doing something similar to what I did in the first bloc
 You can always do some styling now and come back later. Now, let's move on to integrating Google Calendar!!
 
 # Integrating Google Calendar
-We're going to primarily follow Google's quickstart guide for making requests to their API, but with some adjustments. [You can find it here!](https://developers.google.com/calendar/quickstart/python)
+We're going to primarily follow Google's quickstart guide for making requests to their API, but with some adjustments. [You can find it here!](https://developers.google.com/calendar/quickstart/python) Follow the link to turn enable the API (you may have to create a Google Cloud project to do so) and select the option for creating a desktop app. You should then be able to download a file called `credentials.json` and place it in your project folder. Then install the API client from your command
 
 # Deploying Your App
 ## Setting Up Google App Engine
@@ -181,10 +181,10 @@ We're going to primarily follow Google's quickstart guide for making requests to
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MTkwODQ4Nyw1Nzc1NjgwODEsLTE2Nj
-M1MTEwMSwtMTAzNDI5ODc1NiwtMTI2NDg1OTgzNSwyNzA5MTM5
-MzQsLTQ0NzI0MjQzNCwtMTM3NjEzNTM2NCwtMTMzNzI5NDUxOC
-wtMTA2ODUzMjExLC00MzAzOTU4MzgsLTEzNjY3NjI5MywyMTUy
-OTcyMzEsMTg5MTg2MzExMiwtODEzNDg4MzIzLDE0NTI2NDg3OD
-QsLTExMTQ4MzgwOTRdfQ==
+eyJoaXN0b3J5IjpbMTE3NDQwNjYwNSwxNjQxOTA4NDg3LDU3Nz
+U2ODA4MSwtMTY2MzUxMTAxLC0xMDM0Mjk4NzU2LC0xMjY0ODU5
+ODM1LDI3MDkxMzkzNCwtNDQ3MjQyNDM0LC0xMzc2MTM1MzY0LC
+0xMzM3Mjk0NTE4LC0xMDY4NTMyMTEsLTQzMDM5NTgzOCwtMTM2
+Njc2MjkzLDIxNTI5NzIzMSwxODkxODYzMTEyLC04MTM0ODgzMj
+MsMTQ1MjY0ODc4NCwtMTExNDgzODA5NF19
 -->
