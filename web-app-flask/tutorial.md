@@ -306,20 +306,20 @@ Deploying the app can be tricky sometimes, so if it doesn't work check the error
 ## What's Next?
 This is a pretty minimal web app, but it could be the basis of your personal productivity dashboard! Try and see if you can integrate other APIs that can fetch the weather, latest news, or whatever you want! 
 ### References & Resources
-Google Cloud SDK Quickstart
+[Google Cloud SDK Quickstart](https://cloud.google.com/sdk/docs/downloads-interactive)
 
 [Google Calendar API Quickstart Code](https://developers.google.com/calendar/quickstart/python)
 
-FreeCodeCamp Flask Tutorial 
+[FreeCodeCamp Flask Tutorial](https://www.freecodecamp.org/news/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492/) 
 (shoutout to them for being the inspiration for this project!)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjQzNzQ1NjksNzE5MTI1NDQ5LDIwMD
-c4NTI1MjIsODY2MzE5NDc4LDEwOTQxNjgwMzYsMTY0MTkwODQ4
-Nyw1Nzc1NjgwODEsLTE2NjM1MTEwMSwtMTAzNDI5ODc1NiwtMT
-I2NDg1OTgzNSwyNzA5MTM5MzQsLTQ0NzI0MjQzNCwtMTM3NjEz
-NTM2NCwtMTMzNzI5NDUxOCwtMTA2ODUzMjExLC00MzAzOTU4Mz
-gsLTEzNjY3NjI5MywyMTUyOTcyMzEsMTg5MTg2MzExMiwtODEz
-NDg4MzIzXX0=
+eyJoaXN0b3J5IjpbNzAyNTIxMDU3LDcxOTEyNTQ0OSwyMDA3OD
+UyNTIyLDg2NjMxOTQ3OCwxMDk0MTY4MDM2LDE2NDE5MDg0ODcs
+NTc3NTY4MDgxLC0xNjYzNTExMDEsLTEwMzQyOTg3NTYsLTEyNj
+Q4NTk4MzUsMjcwOTEzOTM0LC00NDcyNDI0MzQsLTEzNzYxMzUz
+NjQsLTEzMzcyOTQ1MTgsLTEwNjg1MzIxMSwtNDMwMzk1ODM4LC
+0xMzY2NzYyOTMsMjE1Mjk3MjMxLDE4OTE4NjMxMTIsLTgxMzQ4
+ODMyM119
 -->
