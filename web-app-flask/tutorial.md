@@ -42,7 +42,7 @@ Try running the script and appending `/cal` (or whatever you used) to the addres
 </details>
 
 ## Templates
-Something cool we can do with our web app is to use templates to set up what all the different pages look like using HTML rather than a single line return statement in the Python code. 
+Something cool we can do with our web app is to use templates to set up what all the different pages look like using HTML rather than a single line return statement in the Python code. In your project's main folder, create a new folder called `templates` and create a `template.html` file inside it. Let's use this starter file for the 
 
 ## Add CSS!
 # Integrating Google Calendar
@@ -53,7 +53,7 @@ Something cool we can do with our web app is to use templates to set up what all
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NjQ0MjY2OSwtMTA2ODUzMjExLC00Mz
+eyJoaXN0b3J5IjpbMTIwMTMzOTI2OSwtMTA2ODUzMjExLC00Mz
 AzOTU4MzgsLTEzNjY3NjI5MywyMTUyOTcyMzEsMTg5MTg2MzEx
 MiwtODEzNDg4MzIzLDE0NTI2NDg3ODQsLTExMTQ4MzgwOTRdfQ
 ==
