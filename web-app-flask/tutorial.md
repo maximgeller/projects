@@ -42,7 +42,32 @@ Try running the script and appending `/cal` (or whatever you used) to the addres
 </details>
 
 ## Templates
-Something cool we can do with our web app is to use templates to set up what all the different pages look like using HTML rather than a single line return statement in the Python code. In your project's main folder, create a new folder called `templates` and create a `template.html` file inside it. Let's use this starter file for the 
+Something cool we can do with our web app is to use templates to set up what all the different pages look like using HTML rather than a single line return statement in the Python code. In your project's main folder, create a new folder called `templates` and create a `template.html` file inside it. Let's use this starter file for the template, but feel free to modify what you wish.
+
+```html
+<html>
+	<head>
+		<meta  charset="utf-8">
+		<title>Flask Parent Template</title>
+		<link  rel="stylesheet"  href="{{ url_for('static',  filename='css/template.css') }}">
+	</head>
+	<body>
+		<header>
+			<div  class="container">
+				<h1  class="logo">My Upcoming Events</h1>
+				<ul  class="menu">
+				<li><a  href="{{ url_for('home') }}">Home</a></li>
+				<li><a  href="{{ url_for('cal') }}">Calendar</a></li>
+				</ul>
+			</div>
+		</header>
+
+	{% block content %}
+	{% endblock %}
+
+	</body>
+</html>
+```
 
 ## Add CSS!
 # Integrating Google Calendar
@@ -53,8 +78,7 @@ Something cool we can do with our web app is to use templates to set up what all
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTMzOTI2OSwtMTA2ODUzMjExLC00Mz
-AzOTU4MzgsLTEzNjY3NjI5MywyMTUyOTcyMzEsMTg5MTg2MzEx
-MiwtODEzNDg4MzIzLDE0NTI2NDg3ODQsLTExMTQ4MzgwOTRdfQ
-==
+eyJoaXN0b3J5IjpbODA0ODIwNzcxLC0xMDY4NTMyMTEsLTQzMD
+M5NTgzOCwtMTM2Njc2MjkzLDIxNTI5NzIzMSwxODkxODYzMTEy
+LC04MTM0ODgzMjMsMTQ1MjY0ODc4NCwtMTExNDgzODA5NF19
 -->
