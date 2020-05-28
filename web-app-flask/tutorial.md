@@ -249,7 +249,7 @@ handlers:
  ```
  
  - requirements.txt
- For this one, open up your terminal and type `pip freeze`. A long list of dependencies (installed packages) will come up. You'll want to copy and paste this list exactly into `requirements.txt`.  I'll put mine in here for reference, but I don't recommend using it yourself since your dependency versions might be different
+ For this one, open up your terminal and type `pip freeze`. A long list of dependencies (installed packages) will come up. You'll want to copy and paste this list exactly into `requirements.txt`.  I'll put mine in here for reference, but I don't recommend using it yourself since your dependency versions might be different.
  <details><summary>My  File</summary>
 
 ```
@@ -297,6 +297,7 @@ from google.appengine.ext import vendor
 # Add any libraries installed in the "lib" folder.
 vendor.add('lib')
 ```
+## Deploying 
 
 
 # Appendix
@@ -304,10 +305,10 @@ vendor.add('lib')
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE0NTk1NzcsMTY0MTkwODQ4Nyw1Nzc1Nj
-gwODEsLTE2NjM1MTEwMSwtMTAzNDI5ODc1NiwtMTI2NDg1OTgz
-NSwyNzA5MTM5MzQsLTQ0NzI0MjQzNCwtMTM3NjEzNTM2NCwtMT
-MzNzI5NDUxOCwtMTA2ODUzMjExLC00MzAzOTU4MzgsLTEzNjY3
-NjI5MywyMTUyOTcyMzEsMTg5MTg2MzExMiwtODEzNDg4MzIzLD
-E0NTI2NDg3ODQsLTExMTQ4MzgwOTRdfQ==
+eyJoaXN0b3J5IjpbMTA5NDE2ODAzNiwxNjQxOTA4NDg3LDU3Nz
+U2ODA4MSwtMTY2MzUxMTAxLC0xMDM0Mjk4NzU2LC0xMjY0ODU5
+ODM1LDI3MDkxMzkzNCwtNDQ3MjQyNDM0LC0xMzc2MTM1MzY0LC
+0xMzM3Mjk0NTE4LC0xMDY4NTMyMTEsLTQzMDM5NTgzOCwtMTM2
+Njc2MjkzLDIxNTI5NzIzMSwxODkxODYzMTEyLC04MTM0ODgzMj
+MsMTQ1MjY0ODc4NCwtMTExNDgzODA5NF19
 -->
