@@ -74,7 +74,21 @@ This HTML is pretty much boilerplate with some exceptions. You probably noticed 
 The other two things we need to do is create HTML pages for your landing page and calendar and link them all together in `main.py`.  In your templates folder, create two new files called `home.html` and `cal.html`.
 Fill it with your own boilerplate code or use this one here. The only requirement is that it extends the template as you're about to see.
 ```html
+<html>
+	<head>
+		<meta  charset="utf-8">
+		<title>My First Web App!</title>
+	</head>
+	<body>
+		{% extends "template.html" %}
+		{% block content %}
+		<h1>Welcome! Navigate to the calendar to see your upcoming events!</h1>
+		{% endblock %}
+	</body>
+</html>
+```
 
+Create a similar page for the calendar! Use 
 ## Add CSS!
 # Integrating Google Calendar
 # Deploying Your App
@@ -84,8 +98,8 @@ Fill it with your own boilerplate code or use this one here. The only requiremen
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU0MTQ3ODE4LC0xMzM3Mjk0NTE4LC0xMD
-Y4NTMyMTEsLTQzMDM5NTgzOCwtMTM2Njc2MjkzLDIxNTI5NzIz
-MSwxODkxODYzMTEyLC04MTM0ODgzMjMsMTQ1MjY0ODc4NCwtMT
-ExNDgzODA5NF19
+eyJoaXN0b3J5IjpbLTIwNTY0ODAxNzEsLTEzMzcyOTQ1MTgsLT
+EwNjg1MzIxMSwtNDMwMzk1ODM4LC0xMzY2NzYyOTMsMjE1Mjk3
+MjMxLDE4OTE4NjMxMTIsLTgxMzQ4ODMyMywxNDUyNjQ4Nzg0LC
+0xMTE0ODM4MDk0XX0=
 -->
