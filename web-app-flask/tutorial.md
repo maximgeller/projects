@@ -313,13 +313,13 @@ This is a pretty minimal web app, but it could be the basis of your personal pro
 [FreeCodeCamp Flask Tutorial](https://www.freecodecamp.org/news/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492/) 
 (shoutout to them for being the inspiration for this project!)
 
-
+[Flask Templates](https://www.techiediaries.com/flask-tutorial-templates/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTc0MTYyMCwyMDkyNDcwMjIwLDcwMj
-UyMTA1Nyw3MTkxMjU0NDksMjAwNzg1MjUyMiw4NjYzMTk0Nzgs
-MTA5NDE2ODAzNiwxNjQxOTA4NDg3LDU3NzU2ODA4MSwtMTY2Mz
-UxMTAxLC0xMDM0Mjk4NzU2LC0xMjY0ODU5ODM1LDI3MDkxMzkz
-NCwtNDQ3MjQyNDM0LC0xMzc2MTM1MzY0LC0xMzM3Mjk0NTE4LC
-0xMDY4NTMyMTEsLTQzMDM5NTgzOCwtMTM2Njc2MjkzLDIxNTI5
-NzIzMV19
+eyJoaXN0b3J5IjpbLTE2MzIwMDc4OTcsMjA5MjQ3MDIyMCw3MD
+I1MjEwNTcsNzE5MTI1NDQ5LDIwMDc4NTI1MjIsODY2MzE5NDc4
+LDEwOTQxNjgwMzYsMTY0MTkwODQ4Nyw1Nzc1NjgwODEsLTE2Nj
+M1MTEwMSwtMTAzNDI5ODc1NiwtMTI2NDg1OTgzNSwyNzA5MTM5
+MzQsLTQ0NzI0MjQzNCwtMTM3NjEzNTM2NCwtMTMzNzI5NDUxOC
+wtMTA2ODUzMjExLC00MzAzOTU4MzgsLTEzNjY3NjI5MywyMTUy
+OTcyMzFdfQ==
 -->
