@@ -172,6 +172,7 @@ I particularly recommend doing something similar to what I did in the first bloc
 You can always do some styling now and come back later. Now, let's move on to integrating Google Calendar!!
 
 # Integrating Google Calendar
+
 # Deploying Your App
 ## Setting Up Google App Engine
 # Appendix
@@ -179,10 +180,10 @@ You can always do some styling now and come back later. Now, let's move on to in
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3NTY4MDgxLC0xNjYzNTExMDEsLTEwMz
-QyOTg3NTYsLTEyNjQ4NTk4MzUsMjcwOTEzOTM0LC00NDcyNDI0
-MzQsLTEzNzYxMzUzNjQsLTEzMzcyOTQ1MTgsLTEwNjg1MzIxMS
-wtNDMwMzk1ODM4LC0xMzY2NzYyOTMsMjE1Mjk3MjMxLDE4OTE4
-NjMxMTIsLTgxMzQ4ODMyMywxNDUyNjQ4Nzg0LC0xMTE0ODM4MD
-k0XX0=
+eyJoaXN0b3J5IjpbLTE5NTk1NTA0NjUsNTc3NTY4MDgxLC0xNj
+YzNTExMDEsLTEwMzQyOTg3NTYsLTEyNjQ4NTk4MzUsMjcwOTEz
+OTM0LC00NDcyNDI0MzQsLTEzNzYxMzUzNjQsLTEzMzcyOTQ1MT
+gsLTEwNjg1MzIxMSwtNDMwMzk1ODM4LC0xMzY2NzYyOTMsMjE1
+Mjk3MjMxLDE4OTE4NjMxMTIsLTgxMzQ4ODMyMywxNDUyNjQ4Nz
+g0LC0xMTE0ODM4MDk0XX0=
 -->
