@@ -172,6 +172,7 @@ I particularly recommend doing something similar to what I did in the first bloc
 You can always do some styling now and come back later. Now, let's move on to integrating Google Calendar!!
 
 # Integrating Google Calendar
+We're going to primarily follow Google's quickstart guide for making requests to their API, but with some adjustments. [You can find it here!](https://developers.google.com/calendar/quickstart/python)
 
 # Deploying Your App
 ## Setting Up Google App Engine
@@ -180,10 +181,10 @@ You can always do some styling now and come back later. Now, let's move on to in
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTk1NTA0NjUsNTc3NTY4MDgxLC0xNj
-YzNTExMDEsLTEwMzQyOTg3NTYsLTEyNjQ4NTk4MzUsMjcwOTEz
-OTM0LC00NDcyNDI0MzQsLTEzNzYxMzUzNjQsLTEzMzcyOTQ1MT
-gsLTEwNjg1MzIxMSwtNDMwMzk1ODM4LC0xMzY2NzYyOTMsMjE1
-Mjk3MjMxLDE4OTE4NjMxMTIsLTgxMzQ4ODMyMywxNDUyNjQ4Nz
-g0LC0xMTE0ODM4MDk0XX0=
+eyJoaXN0b3J5IjpbMTY0MTkwODQ4Nyw1Nzc1NjgwODEsLTE2Nj
+M1MTEwMSwtMTAzNDI5ODc1NiwtMTI2NDg1OTgzNSwyNzA5MTM5
+MzQsLTQ0NzI0MjQzNCwtMTM3NjEzNTM2NCwtMTMzNzI5NDUxOC
+wtMTA2ODUzMjExLC00MzAzOTU4MzgsLTEzNjY3NjI5MywyMTUy
+OTcyMzEsMTg5MTg2MzExMiwtODEzNDg4MzIzLDE0NTI2NDg3OD
+QsLTExMTQ4MzgwOTRdfQ==
 -->
