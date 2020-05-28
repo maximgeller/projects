@@ -35,8 +35,10 @@ Now let's create a second page that we will use to put our calendar in. Set the 
 
 ```python
 @app.route("/cal")
-	def cal():
+def cal():
+	return "Here's what you got coming up"
 ```
+Try r
 </details>
 
 ## Add CSS!
@@ -48,7 +50,7 @@ Now let's create a second page that we will use to put our calendar in. Set the 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDM5MzgxODgsMjE1Mjk3MjMxLDE4OT
-E4NjMxMTIsLTgxMzQ4ODMyMywxNDUyNjQ4Nzg0LC0xMTE0ODM4
-MDk0XX0=
+eyJoaXN0b3J5IjpbMTYxNzM5NzQ0MCwyMTUyOTcyMzEsMTg5MT
+g2MzExMiwtODEzNDg4MzIzLDE0NTI2NDg3ODQsLTExMTQ4Mzgw
+OTRdfQ==
 -->
