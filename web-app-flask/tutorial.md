@@ -174,7 +174,7 @@ You can always do some styling now and come back later. Now, let's move on to in
 # Integrating Google Calendar
 We're going to primarily follow Google's quickstart guide for making requests to their API, but with some adjustments. [You can find it here!](https://developers.google.com/calendar/quickstart/python) Follow the link to turn enable the API (you may have to create a Google Cloud project to do so) and select the option for creating a desktop app. You should then be able to download a file called `credentials.json` and place it in your project folder. Then install the API client from your terminal using this command: `
 pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib`.  
-The third step is to copy over their quickstart code into `main.py`. However, we're going to be making some changes to it in order to suit our purposes. either way, 
+The third step is to copy over their quickstart code into `main.py`. However, we're going to be making some changes to it in order to suit our purposes. Either way, we'll definitely need to use the import statements they provide. Here's what your `main.py` file should look like after you do all of this
 
 
 # Deploying Your App
@@ -184,7 +184,7 @@ The third step is to copy over their quickstart code into `main.py`. However, we
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjUyNDY0NSwxNjQxOTA4NDg3LDU3Nz
+eyJoaXN0b3J5IjpbLTM5ODkyMDYwNCwxNjQxOTA4NDg3LDU3Nz
 U2ODA4MSwtMTY2MzUxMTAxLC0xMDM0Mjk4NzU2LC0xMjY0ODU5
 ODM1LDI3MDkxMzkzNCwtNDQ3MjQyNDM0LC0xMzc2MTM1MzY0LC
 0xMzM3Mjk0NTE4LC0xMDY4NTMyMTEsLTQzMDM5NTgzOCwtMTM2
