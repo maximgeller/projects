@@ -236,16 +236,28 @@ Once you have this code, you'll want to grab the calendar ID from google you wan
 It would be awesome to have a working URL for your app that you can always access! As it is a web app and not a static website, we'll need to use a host that allows web apps. For this project, let's use Google App Engine. 
 Before we can use it, you'll have to install the Google Cloud SDK which you can find [here]([https://cloud.google.com/sdk/docs/quickstarts](https://cloud.google.com/sdk/docs/quickstarts)). You also need to create a Google Cloud project (if you haven't already) by [signing up for Google Cloud](https://cloud.google.com/). 
 ## Setting Up Google App Engine
-We need to create three files in our main folder in order to use Google 
+We need to create three files in our main folder in order to use Google App Engine offered by Google Cloud. Create the following files in your project folder:
+ - app.yaml
+ ```
+ runtime: python37
+  
+handlers:
+- url: /static
+	static_dir: static
+- url: /.*
+	script: auto
+ ```
+ - requirements.txt
+ - appengine_config.py
 # Appendix
 ## What's Next?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDQ2NjY2MzUsMTY0MTkwODQ4Nyw1Nz
-c1NjgwODEsLTE2NjM1MTEwMSwtMTAzNDI5ODc1NiwtMTI2NDg1
-OTgzNSwyNzA5MTM5MzQsLTQ0NzI0MjQzNCwtMTM3NjEzNTM2NC
-wtMTMzNzI5NDUxOCwtMTA2ODUzMjExLC00MzAzOTU4MzgsLTEz
-NjY3NjI5MywyMTUyOTcyMzEsMTg5MTg2MzExMiwtODEzNDg4Mz
-IzLDE0NTI2NDg3ODQsLTExMTQ4MzgwOTRdfQ==
+eyJoaXN0b3J5IjpbMTk4MjcyMjUsMTY0MTkwODQ4Nyw1Nzc1Nj
+gwODEsLTE2NjM1MTEwMSwtMTAzNDI5ODc1NiwtMTI2NDg1OTgz
+NSwyNzA5MTM5MzQsLTQ0NzI0MjQzNCwtMTM3NjEzNTM2NCwtMT
+MzNzI5NDUxOCwtMTA2ODUzMjExLC00MzAzOTU4MzgsLTEzNjY3
+NjI5MywyMTUyOTcyMzEsMTg5MTg2MzExMiwtODEzNDg4MzIzLD
+E0NTI2NDg3ODQsLTExMTQ4MzgwOTRdfQ==
 -->
