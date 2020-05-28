@@ -69,7 +69,7 @@ Something cool we can do with our web app is to use templates to set up what all
 </html>
 ```
 
-This HTML is pretty much boilerpla
+This HTML is pretty much boilerplate with some exceptions. You probably noticed a key difference in that there are curly brackets all over the place on it. 
 
 ## Add CSS!
 # Integrating Google Calendar
@@ -80,8 +80,8 @@ This HTML is pretty much boilerpla
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NDU5OTU0NywtMTA2ODUzMjExLC00Mz
-AzOTU4MzgsLTEzNjY3NjI5MywyMTUyOTcyMzEsMTg5MTg2MzEx
-MiwtODEzNDg4MzIzLDE0NTI2NDg3ODQsLTExMTQ4MzgwOTRdfQ
-==
+eyJoaXN0b3J5IjpbLTEzMzcyOTQ1MTgsLTEwNjg1MzIxMSwtND
+MwMzk1ODM4LC0xMzY2NzYyOTMsMjE1Mjk3MjMxLDE4OTE4NjMx
+MTIsLTgxMzQ4ODMyMywxNDUyNjQ4Nzg0LC0xMTE0ODM4MDk0XX
+0=
 -->
