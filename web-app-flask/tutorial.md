@@ -88,7 +88,19 @@ Fill it with your own boilerplate code or use this one here. The only requiremen
 </html>
 ```
 
-Create a similar page for the calendar! Use 
+Create a similar page for the calendar! Following the format above, make an html page called `cal.html` that extends `template.html`, blocks off content, and in that block contains tags for an unordered list with a single list item (`<ul>` and `<li>` tags, respectively).
+
+<details>
+<summary><b>Solution</b></summary>
+
+```python
+@app.route("/cal")
+def cal():
+	return "Here's what you got coming up"
+```
+Try running the script and appending `/cal` (or whatever you used) to the address bar and see if your message returns!
+</details>
+
 ## Add CSS!
 # Integrating Google Calendar
 # Deploying Your App
@@ -98,8 +110,8 @@ Create a similar page for the calendar! Use
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTY0ODAxNzEsLTEzMzcyOTQ1MTgsLT
-EwNjg1MzIxMSwtNDMwMzk1ODM4LC0xMzY2NzYyOTMsMjE1Mjk3
-MjMxLDE4OTE4NjMxMTIsLTgxMzQ4ODMyMywxNDUyNjQ4Nzg0LC
-0xMTE0ODM4MDk0XX0=
+eyJoaXN0b3J5IjpbNzcyMTMyMTg1LC0xMzM3Mjk0NTE4LC0xMD
+Y4NTMyMTEsLTQzMDM5NTgzOCwtMTM2Njc2MjkzLDIxNTI5NzIz
+MSwxODkxODYzMTEyLC04MTM0ODgzMjMsMTQ1MjY0ODc4NCwtMT
+ExNDgzODA5NF19
 -->
