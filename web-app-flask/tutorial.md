@@ -4,7 +4,7 @@ Web development in...*Python*??? Yup, it's true. In this project, we'll be makin
 ## Dependencies
 If you've touched Python and HTML/CSS before, this tutorial is for you. Also, you'll need a Google account for deploying your app and getting a live URL for it. While this is not necessary, it's a really cool way to share what you've built with your friends.
 ## Intuition
-What's the difference between a web app and a static website? Well, a static website is just that, static. The information it is always the same and you can't interact with it. In more technical speak, there is no **back end**. A web app however, does have a back end! It's what we're writing in Python. In this tutorial, our back end will interact with the Google Calendar API to pull the events you have coming up on your calendar and display them to you. Now, your website has a layer of interactivity to it. Every time you'll load the calendar page, it will refresh with the events that are coming up for you. 
+What's the difference between a **web app** and a **static website?** Well, a static website is just that, static. The information it is always the same and you can't interact with it. In more technical speak, there is no **back end**. A web app however, does have a back end! It's what we're writing in Python. In this tutorial, our back end will interact with the Google Calendar API to pull the events you have coming up on your calendar and display them to you. Now, your website has a layer of interactivity to it. Every time you'll load the calendar page, it will refresh with the events that are coming up for you. 
 
 # Setting up Flask
 First things first, we're going to create a folder that will contain all the files we'll need to have. In your folder, create a file called `main.py`. This is the file that we'll be running to execute all the code you're about to write. In this file, we will first import `flask` and set up the home page of the app.
@@ -21,7 +21,7 @@ if  __name__  ==  "__main__":
 	app.run(debug=True)
 ```
 
-This is the bare bones structure of the web app. We set the default landing page to above a function called `home` that just returns a string. At the bottom, you'll see that a conditional that will let the application run only if the script itself, `main.py` is being called. This is not the same as `__main__` though. If `main.py` were called something else, the script would still run as long as it was properly run from the terminal. If we tried to import this into another file and call that file's name, our app would not run. Run the script by typing this in your command line:
+This is the bare bones structure of the web app. We set the default landing page directabove a function called `home` that just returns a string. At the bottom, you'll see that a conditional that will let the application run only if the script itself, `main.py` is being called. This is not the same as `__main__` though. If `main.py` were called something else, the script would still run as long as it was properly run from the terminal. If we tried to import this into another file and call that file's name, our app would not run. Run the script by typing this in your command line:
 ```bash
 python main.py
 ```
@@ -315,11 +315,11 @@ This is a pretty minimal web app, but it could be the basis of your personal pro
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MjQ3MDIyMCw3MDI1MjEwNTcsNzE5MT
-I1NDQ5LDIwMDc4NTI1MjIsODY2MzE5NDc4LDEwOTQxNjgwMzYs
-MTY0MTkwODQ4Nyw1Nzc1NjgwODEsLTE2NjM1MTEwMSwtMTAzND
-I5ODc1NiwtMTI2NDg1OTgzNSwyNzA5MTM5MzQsLTQ0NzI0MjQz
-NCwtMTM3NjEzNTM2NCwtMTMzNzI5NDUxOCwtMTA2ODUzMjExLC
-00MzAzOTU4MzgsLTEzNjY3NjI5MywyMTUyOTcyMzEsMTg5MTg2
-MzExMl19
+eyJoaXN0b3J5IjpbOTA0ODU0MTI2LDIwOTI0NzAyMjAsNzAyNT
+IxMDU3LDcxOTEyNTQ0OSwyMDA3ODUyNTIyLDg2NjMxOTQ3OCwx
+MDk0MTY4MDM2LDE2NDE5MDg0ODcsNTc3NTY4MDgxLC0xNjYzNT
+ExMDEsLTEwMzQyOTg3NTYsLTEyNjQ4NTk4MzUsMjcwOTEzOTM0
+LC00NDcyNDI0MzQsLTEzNzYxMzUzNjQsLTEzMzcyOTQ1MTgsLT
+EwNjg1MzIxMSwtNDMwMzk1ODM4LC0xMzY2NzYyOTMsMjE1Mjk3
+MjMxXX0=
 -->
