@@ -56,8 +56,8 @@ Something cool we can do with our web app is to use templates to set up what all
 			<div class="container">
 				<h1 >My Upcoming Events</h1>
 				<ul class="menu">
-					<li><a  href="{{ url_for('home') }}">Home</a></li>
-					<li><a  href="{{ url_for('cal') }}">Calendar</a></li>
+					<li><a href="{{ url_for('home') }}">Home</a></li>
+					<li><a href="{{ url_for('cal') }}">Calendar</a></li>
 				</ul>
 			</div>
 		</header>
@@ -69,7 +69,7 @@ Something cool we can do with our web app is to use templates to set up what all
 </html>
 ```
 
-This HTML is pretty much boilerplate with some exceptions. You probably noticed a key difference in that there are curly brackets all over the place on it. We use them to pass messages from the Python file into the HTML. The rest is just syntax really. Right now, the template links 
+This HTML is pretty much boilerplate with some exceptions. You probably noticed a key difference in that there are curly brackets all over the place on it. We use them to pass messages from the Python file into the HTML. The rest is just syntax really. Right now, the template links to all the different URLs for your different pages
 
 ## Add CSS!
 # Integrating Google Calendar
@@ -80,8 +80,8 @@ This HTML is pretty much boilerplate with some exceptions. You probably noticed 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzczMzM5NDUsLTEzMzcyOTQ1MTgsLT
-EwNjg1MzIxMSwtNDMwMzk1ODM4LC0xMzY2NzYyOTMsMjE1Mjk3
-MjMxLDE4OTE4NjMxMTIsLTgxMzQ4ODMyMywxNDUyNjQ4Nzg0LC
-0xMTE0ODM4MDk0XX0=
+eyJoaXN0b3J5IjpbLTc4MjgyMDYyLC0xMzM3Mjk0NTE4LC0xMD
+Y4NTMyMTEsLTQzMDM5NTgzOCwtMTM2Njc2MjkzLDIxNTI5NzIz
+MSwxODkxODYzMTEyLC04MTM0ODgzMjMsMTQ1MjY0ODc4NCwtMT
+ExNDgzODA5NF19
 -->
