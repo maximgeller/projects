@@ -169,7 +169,7 @@ a {
 
 I particularly recommend doing something similar to what I did in the first block by setting `display: inline-block;` because it will list your navigation bar horizontally. As a reminder, use the dot to access the elements that are set to be equal to a class e.g. `class="menu"` and the `#` symbol to access elements that are set equal to an id like `id="list"`.
 
-YOu
+You can always do some styling now and come back later. Now, let's move on to integrating Google Calendar!!
 
 # Integrating Google Calendar
 # Deploying Your App
@@ -179,10 +179,10 @@ YOu
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MDIxMDIyNiwtMTY2MzUxMTAxLC0xMD
-M0Mjk4NzU2LC0xMjY0ODU5ODM1LDI3MDkxMzkzNCwtNDQ3MjQy
-NDM0LC0xMzc2MTM1MzY0LC0xMzM3Mjk0NTE4LC0xMDY4NTMyMT
-EsLTQzMDM5NTgzOCwtMTM2Njc2MjkzLDIxNTI5NzIzMSwxODkx
-ODYzMTEyLC04MTM0ODgzMjMsMTQ1MjY0ODc4NCwtMTExNDgzOD
-A5NF19
+eyJoaXN0b3J5IjpbNTc3NTY4MDgxLC0xNjYzNTExMDEsLTEwMz
+QyOTg3NTYsLTEyNjQ4NTk4MzUsMjcwOTEzOTM0LC00NDcyNDI0
+MzQsLTEzNzYxMzUzNjQsLTEzMzcyOTQ1MTgsLTEwNjg1MzIxMS
+wtNDMwMzk1ODM4LC0xMzY2NzYyOTMsMjE1Mjk3MjMxLDE4OTE4
+NjMxMTIsLTgxMzQ4ODMyMywxNDUyNjQ4Nzg0LC0xMTE0ODM4MD
+k0XX0=
 -->
