@@ -167,7 +167,7 @@ a {
 }
 ```
 
-I particularly recommend doing something similar to what I did in the first bl
+I particularly recommend doing something similar to what I did in the first block by setting `display: inline-block;` because it will list your navigation bar horizontally. As a reminder, use the dot to access the elements that 
 
 # Integrating Google Calendar
 # Deploying Your App
@@ -177,7 +177,7 @@ I particularly recommend doing something similar to what I did in the first bl
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMjQ5OTExOSwtMTAzNDI5ODc1NiwtMT
+eyJoaXN0b3J5IjpbLTE2NjM1MTEwMSwtMTAzNDI5ODc1NiwtMT
 I2NDg1OTgzNSwyNzA5MTM5MzQsLTQ0NzI0MjQzNCwtMTM3NjEz
 NTM2NCwtMTMzNzI5NDUxOCwtMTA2ODUzMjExLC00MzAzOTU4Mz
 gsLTEzNjY3NjI5MywyMTUyOTcyMzEsMTg5MTg2MzExMiwtODEz
