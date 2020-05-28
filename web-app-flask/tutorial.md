@@ -308,17 +308,18 @@ This is a pretty minimal web app, but it could be the basis of your personal pro
 ### References & Resources
 Google Cloud SDK Quickstart
 
-Google Calendar API Quickstart Code
+[Google Calendar API Quickstart Code](https://developers.google.com/calendar/quickstart/python)
 
-FreeCodeCamp Flask Tutorial
+FreeCodeCamp Flask Tutorial 
+(shoutout to them for being the inspiration for this project!)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NzI4NjM1Nyw3MTkxMjU0NDksMjAwNz
-g1MjUyMiw4NjYzMTk0NzgsMTA5NDE2ODAzNiwxNjQxOTA4NDg3
-LDU3NzU2ODA4MSwtMTY2MzUxMTAxLC0xMDM0Mjk4NzU2LC0xMj
-Y0ODU5ODM1LDI3MDkxMzkzNCwtNDQ3MjQyNDM0LC0xMzc2MTM1
-MzY0LC0xMzM3Mjk0NTE4LC0xMDY4NTMyMTEsLTQzMDM5NTgzOC
-wtMTM2Njc2MjkzLDIxNTI5NzIzMSwxODkxODYzMTEyLC04MTM0
-ODgzMjNdfQ==
+eyJoaXN0b3J5IjpbLTE2NjQzNzQ1NjksNzE5MTI1NDQ5LDIwMD
+c4NTI1MjIsODY2MzE5NDc4LDEwOTQxNjgwMzYsMTY0MTkwODQ4
+Nyw1Nzc1NjgwODEsLTE2NjM1MTEwMSwtMTAzNDI5ODc1NiwtMT
+I2NDg1OTgzNSwyNzA5MTM5MzQsLTQ0NzI0MjQzNCwtMTM3NjEz
+NTM2NCwtMTMzNzI5NDUxOCwtMTA2ODUzMjExLC00MzAzOTU4Mz
+gsLTEzNjY3NjI5MywyMTUyOTcyMzEsMTg5MTg2MzExMiwtODEz
+NDg4MzIzXX0=
 -->
