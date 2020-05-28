@@ -210,7 +210,7 @@ def cal():
 	'credentials.json', SCOPES)
 			creds = flow.run_local_server(port=0)
 			# Save the credentials for the next run
-			# with open('token.pickle', 'wb') as token: # can't write in GAE so comment out
+			# with open('token.pickle', 'wb') as token: # can't write files in Google App Engine so comment out or delete
 			# pickle.dump(creds, token)
 	service = googleapiclient.discovery.build('calendar', 'v3', credentials=creds)
 	# Call the Calendar API
@@ -230,7 +230,7 @@ def cal():
 if  __name__  ==  "__main__":
 	app.run(debug=True)
 ```
-Once you have this code, you'll want to grab the calendar ID from google you want to integ
+Once you have this code, you'll want to grab the calendar ID from google you want to integrate by going to its settings and then pasting it in the `events_result` variable. If your `credentials.json` are saved i
 
 # Deploying Your App
 ## Setting Up Google App Engine
@@ -239,10 +239,10 @@ Once you have this code, you'll want to grab the calendar ID from google you wan
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NTc3NjA4MCwxNjQxOTA4NDg3LDU3Nz
-U2ODA4MSwtMTY2MzUxMTAxLC0xMDM0Mjk4NzU2LC0xMjY0ODU5
-ODM1LDI3MDkxMzkzNCwtNDQ3MjQyNDM0LC0xMzc2MTM1MzY0LC
-0xMzM3Mjk0NTE4LC0xMDY4NTMyMTEsLTQzMDM5NTgzOCwtMTM2
-Njc2MjkzLDIxNTI5NzIzMSwxODkxODYzMTEyLC04MTM0ODgzMj
-MsMTQ1MjY0ODc4NCwtMTExNDgzODA5NF19
+eyJoaXN0b3J5IjpbLTQwOTc4OTk3LDE2NDE5MDg0ODcsNTc3NT
+Y4MDgxLC0xNjYzNTExMDEsLTEwMzQyOTg3NTYsLTEyNjQ4NTk4
+MzUsMjcwOTEzOTM0LC00NDcyNDI0MzQsLTEzNzYxMzUzNjQsLT
+EzMzcyOTQ1MTgsLTEwNjg1MzIxMSwtNDMwMzk1ODM4LC0xMzY2
+NzYyOTMsMjE1Mjk3MjMxLDE4OTE4NjMxMTIsLTgxMzQ4ODMyMy
+wxNDUyNjQ4Nzg0LC0xMTE0ODM4MDk0XX0=
 -->
