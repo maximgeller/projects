@@ -20,7 +20,12 @@ def home():
 if  __name__  ==  "__main__":
 	app.run(debug=True)
 ```
-This is the bare bones structure of the web app. We set the default landing page to above a function called `home` that just returns a string. At the bottom, you'll see that a conditional that will let the application run only if the script itself, `main.py` is being called. If we tried to import this into another file and call that file's name, our app would not run. 
+
+This is the bare bones structure of the web app. We set the default landing page to above a function called `home` that just returns a string. At the bottom, you'll see that a conditional that will let the application run only if the script itself, `main.py` is being called. If we tried to import this into another file and call that file's name, our app would not run. Run the script by typing this in your command line:
+```bash
+python main.py
+```
+Your terminal will prompt you to navigate t
 
 ## Making Our Own Pages
 ## Add CSS!
@@ -32,7 +37,7 @@ This is the bare bones structure of the web app. We set the default landing page
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NTM1NDc3NiwyMTUyOTcyMzEsMTg5MT
-g2MzExMiwtODEzNDg4MzIzLDE0NTI2NDg3ODQsLTExMTQ4Mzgw
-OTRdfQ==
+eyJoaXN0b3J5IjpbMjI2MjIxNDM0LDIxNTI5NzIzMSwxODkxOD
+YzMTEyLC04MTM0ODgzMjMsMTQ1MjY0ODc4NCwtMTExNDgzODA5
+NF19
 -->
