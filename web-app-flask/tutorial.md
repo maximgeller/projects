@@ -176,7 +176,60 @@ We're going to primarily follow Google's quickstart guide for making requests to
 pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib`.  
 The third step is to copy over their quickstart code into `main.py`. However, we're going to be making some changes to it in order to suit our purposes. Either way, we'll definitely need to use the import statements they provide. Here's what your `main.py` file should look like after you do all of this
 ```python
+from  __future__  import print_function
+from flask import Flask, render_template
+import datetime
+import pickle
+import os.path
+import googleapiclient.discovery
+from google_auth_oauthlib.flow import InstalledAppFlow
+from google.auth.transport.requests import Request
 
+app =  Flask(__name__)
+
+@app.route("/") # default
+def  home():
+return  render_template("home.html")
+  
+@app.route("/cal")
+def  cal():
+creds =  None
+SCOPES  = ['https://www.googleapis.com/auth/calendar.readonly']
+# The file token.pickle stores the user's access and refresh tokens, and is
+# created automatically when the authorization flow completes for the first
+# time.
+if os.path.exists('token.pickle'):
+with  open('token.pickle', 'rb') as token:
+creds = pickle.load(token)
+# If there are no (valid) credentials available, let the user log in.
+if  not creds or  not creds.valid:
+if creds and creds.expired and creds.refresh_token:
+creds.refresh(Request())
+else:
+flow = InstalledAppFlow.from_client_secrets_file(
+'credentials.json', SCOPES)
+creds = flow.run_local_server(port=0)
+# Save the credentials for the next run
+# with open('token.pickle', 'wb') as token: # can't write in GAE so comment out
+# pickle.dump(creds, token)
+service = googleapiclient.discovery.build('calendar', 'v3', credentials=creds)
+# Call the Calendar API
+now = datetime.datetime.utcnow().isoformat() +  'Z'  # 'Z' indicates UTC time
+print('Getting the upcoming 10 events')
+events_result = service.events().list(calendarId='umich.edu_np1e462n0pa3te0ilfjgih14gk@group.calendar.google.com',
+timeMin=now,
+maxResults=10, singleEvents=True,
+orderBy='startTime').execute()
+events = events_result.get('items', [])
+if  not events:
+print('No upcoming events found.')
+# for event in events:
+# start = event['start'].get('dateTime', event['start'].get('date'))
+# print(start, event['summary'])
+event_list = [event["summary"] for event in events]
+return  render_template("cal.html", events=event_list)
+if  __name__  ==  "__main__":
+app.run(debug=True)
 ```
 
 
@@ -187,10 +240,10 @@ The third step is to copy over their quickstart code into `main.py`. However, we
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjAxNDcyNDYsMTY0MTkwODQ4Nyw1Nz
-c1NjgwODEsLTE2NjM1MTEwMSwtMTAzNDI5ODc1NiwtMTI2NDg1
-OTgzNSwyNzA5MTM5MzQsLTQ0NzI0MjQzNCwtMTM3NjEzNTM2NC
-wtMTMzNzI5NDUxOCwtMTA2ODUzMjExLC00MzAzOTU4MzgsLTEz
-NjY3NjI5MywyMTUyOTcyMzEsMTg5MTg2MzExMiwtODEzNDg4Mz
-IzLDE0NTI2NDg3ODQsLTExMTQ4MzgwOTRdfQ==
+eyJoaXN0b3J5IjpbNDU5OTc3Nzc2LDE2NDE5MDg0ODcsNTc3NT
+Y4MDgxLC0xNjYzNTExMDEsLTEwMzQyOTg3NTYsLTEyNjQ4NTk4
+MzUsMjcwOTEzOTM0LC00NDcyNDI0MzQsLTEzNzYxMzUzNjQsLT
+EzMzcyOTQ1MTgsLTEwNjg1MzIxMSwtNDMwMzk1ODM4LC0xMzY2
+NzYyOTMsMjE1Mjk3MjMxLDE4OTE4NjMxMTIsLTgxMzQ4ODMyMy
+wxNDUyNjQ4Nzg0LC0xMTE0ODM4MDk0XX0=
 -->
