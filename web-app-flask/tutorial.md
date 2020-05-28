@@ -249,14 +249,79 @@ handlers:
  ```
  
  - requirements.txt
- For this one, open up your terminal and type `pip freeze`. A long list of dependencies (installed packages) will come up. You'll want to copy and paste this list exactly into `requirements.txt`. 
+ For this one, open up your terminal and type `pip freeze`. A long list of dependencies (installed packages) will come up. You'll want to copy and paste this list exactly into `requirements.txt`.  I'll put mine in here for reference, but I don't recommend using it yourself since your dependency versions might be different
+ <details><summary>My  file</summary>
+```
+appdirs==1.4.4
+
+cachetools==4.1.0
+
+certifi==2020.4.5.1
+
+chardet==3.0.4
+
+click==7.1.2
+
+distlib==0.3.0
+
+filelock==3.0.12
+
+Flask==1.1.2
+
+google-api-core==1.17.0
+
+google-api-python-client==1.8.3
+
+google-auth==1.15.0
+
+google-auth-httplib2==0.0.3
+
+google-auth-oauthlib==0.4.1
+
+googleapis-common-protos==1.51.0
+
+gunicorn==20.0.4
+
+httplib2==0.18.1
+
+idna==2.9
+
+itsdangerous==1.1.0
+
+Jinja2==2.11.2
+
+MarkupSafe==1.1.1
+
+oauth2client==4.1.3
+
+oauthlib==3.1.0
+
+protobuf==3.11.3
+
+pyasn1==0.4.8
+
+pyasn1-modules==0.2.8
+
+pytz==2020.1
+
+requests==2.23.0
+requests-oauthlib==1.3.0
+rsa==4.0
+six==1.15.0
+uritemplate==3.0.1
+urllib3==1.25.9
+virtualenv==20.0.21
+Werkzeug==1.0.1
+```
+<details>
+
  - appengine_config.py
 # Appendix
 ## What's Next?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMTA1NDEwMSwxNjQxOTA4NDg3LDU3Nz
+eyJoaXN0b3J5IjpbLTkwMzc5NTk2MiwxNjQxOTA4NDg3LDU3Nz
 U2ODA4MSwtMTY2MzUxMTAxLC0xMDM0Mjk4NzU2LC0xMjY0ODU5
 ODM1LDI3MDkxMzkzNCwtNDQ3MjQyNDM0LC0xMzc2MTM1MzY0LC
 0xMzM3Mjk0NTE4LC0xMDY4NTMyMTEsLTQzMDM5NTgzOCwtMTM2
