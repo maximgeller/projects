@@ -15,12 +15,12 @@ app = Flask(__name__)
 
 @app.route("/") # this route is the default one
 def home():
-	return "Hello World!"
+	return "My name is Max!"
 
 if  __name__  ==  "__main__":
 	app.run(debug=True)
 ```
-This is the barebones structure of the web app.
+This is the bare bones structure of the web app. We set the default landing page to above a function called `home` that just returns a string. At the bottom, you'll see that a conditional that w
 
 ## Making Our Own Pages
 ## Add CSS!
@@ -32,7 +32,7 @@ This is the barebones structure of the web app.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MTI2MTEyOSwyMTUyOTcyMzEsMTg5MT
+eyJoaXN0b3J5IjpbLTc2MTIzNjM2MywyMTUyOTcyMzEsMTg5MT
 g2MzExMiwtODEzNDg4MzIzLDE0NTI2NDg3ODQsLTExMTQ4Mzgw
 OTRdfQ==
 -->
