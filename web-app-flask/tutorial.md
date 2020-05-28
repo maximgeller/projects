@@ -135,6 +135,7 @@ def cal():
 Sweet! Start your local server up and you should be able to navigate between both of your pages from the browser!
 
 ## Add CSS!
+Your pages are probably pretty barren right now, right? Let's add a CSS 
 # Integrating Google Calendar
 # Deploying Your App
 ## Setting Up Google App Engine
@@ -143,9 +144,9 @@ Sweet! Start your local server up and you should be able to navigate between bot
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQ4NTk4MzUsMjcwOTEzOTM0LC00ND
-cyNDI0MzQsLTEzNzYxMzUzNjQsLTEzMzcyOTQ1MTgsLTEwNjg1
-MzIxMSwtNDMwMzk1ODM4LC0xMzY2NzYyOTMsMjE1Mjk3MjMxLD
-E4OTE4NjMxMTIsLTgxMzQ4ODMyMywxNDUyNjQ4Nzg0LC0xMTE0
-ODM4MDk0XX0=
+eyJoaXN0b3J5IjpbLTg5NTgyMzMwNCwtMTI2NDg1OTgzNSwyNz
+A5MTM5MzQsLTQ0NzI0MjQzNCwtMTM3NjEzNTM2NCwtMTMzNzI5
+NDUxOCwtMTA2ODUzMjExLC00MzAzOTU4MzgsLTEzNjY3NjI5My
+wyMTUyOTcyMzEsMTg5MTg2MzExMiwtODEzNDg4MzIzLDE0NTI2
+NDg3ODQsLTExMTQ4MzgwOTRdfQ==
 -->
