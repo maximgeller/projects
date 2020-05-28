@@ -38,8 +38,9 @@ Now let's create a second page that we will use to put our calendar in. Set the 
 def cal():
 	return "Here's what you got coming up"
 ```
-Try r
+Try running the script and appending `/cal` (or whatever you used) to the address bar and see if your message returns!
 </details>
+
 
 ## Add CSS!
 # Integrating Google Calendar
@@ -50,7 +51,7 @@ Try r
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNzM5NzQ0MCwyMTUyOTcyMzEsMTg5MT
+eyJoaXN0b3J5IjpbLTEzNjY3NjI5MywyMTUyOTcyMzEsMTg5MT
 g2MzExMiwtODEzNDg4MzIzLDE0NTI2NDg3ODQsLTExMTQ4Mzgw
 OTRdfQ==
 -->
