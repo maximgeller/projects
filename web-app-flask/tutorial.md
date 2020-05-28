@@ -185,14 +185,14 @@ import googleapiclient.discovery
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 
-app =  Flask(__name__)
+app = Flask(__name__)
 
 @app.route("/") # default
-def  home():
+def home():
 	return  render_template("home.html")
   
 @app.route("/cal")
-def  cal():
+def cal():
 	creds =  None
 	SCOPES  = ['https://www.googleapis.com/auth/calendar.readonly']
 	# The file token.pickle stores the user's access and refresh tokens, and is
@@ -202,7 +202,7 @@ def  cal():
 		with  open('token.pickle', 'rb') as token:
 			creds = pickle.load(token)
 	# If there are no (valid) credentials available, let the user log in.
-	if  not creds or  not creds.valid:
+	if not creds or not creds.valid:
 		if creds and creds.expired and creds.refresh_token:
 			creds.refresh(Request())
 		else:
@@ -212,11 +212,11 @@ def  cal():
 			# Save the credentials for the next run
 			# with open('token.pickle', 'wb') as token: # can't write in GAE so comment out
 			# pickle.dump(creds, token)
-		service = googleapiclient.discovery.build('calendar', 'v3', credentials=creds)
+	service = googleapiclient.discovery.build('calendar', 'v3', credentials=creds)
 	# Call the Calendar API
 	now = datetime.datetime.utcnow().isoformat() +  'Z'  # 'Z' indicates UTC time
 	print('Getting the upcoming 10 events')
-	events_result = service.events().list(calendarId='umich.edu_np1e462n0pa3te0ilfjgih14gk@group.calendar.google.com',
+	events_result = service.events().list(calendarId='find your cal id from google and paste it here',
 	timeMin=now,
 	maxResults=10, singleEvents=True,
 	orderBy='startTime').execute()
@@ -241,10 +241,10 @@ if  __name__  ==  "__main__":
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3OTY2MTE3MCwxNjQxOTA4NDg3LDU3Nz
-U2ODA4MSwtMTY2MzUxMTAxLC0xMDM0Mjk4NzU2LC0xMjY0ODU5
-ODM1LDI3MDkxMzkzNCwtNDQ3MjQyNDM0LC0xMzc2MTM1MzY0LC
-0xMzM3Mjk0NTE4LC0xMDY4NTMyMTEsLTQzMDM5NTgzOCwtMTM2
-Njc2MjkzLDIxNTI5NzIzMSwxODkxODYzMTEyLC04MTM0ODgzMj
-MsMTQ1MjY0ODc4NCwtMTExNDgzODA5NF19
+eyJoaXN0b3J5IjpbODM3MTA2MjgwLDE2NDE5MDg0ODcsNTc3NT
+Y4MDgxLC0xNjYzNTExMDEsLTEwMzQyOTg3NTYsLTEyNjQ4NTk4
+MzUsMjcwOTEzOTM0LC00NDcyNDI0MzQsLTEzNzYxMzUzNjQsLT
+EzMzcyOTQ1MTgsLTEwNjg1MzIxMSwtNDMwMzk1ODM4LC0xMzY2
+NzYyOTMsMjE1Mjk3MjMxLDE4OTE4NjMxMTIsLTgxMzQ4ODMyMy
+wxNDUyNjQ4Nzg0LC0xMTE0ODM4MDk0XX0=
 -->
