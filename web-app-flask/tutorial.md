@@ -132,7 +132,7 @@ def cal():
 	return render_template("cal.html")
 ```
 
-Sweet! Start your local server up 
+Sweet! Start your local server up and you should be able to navigate between both of your pages from the browser!
 
 ## Add CSS!
 # Integrating Google Calendar
@@ -143,7 +143,7 @@ Sweet! Start your local server up
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTY1Mjk2NTAsMjcwOTEzOTM0LC00ND
+eyJoaXN0b3J5IjpbLTEyNjQ4NTk4MzUsMjcwOTEzOTM0LC00ND
 cyNDI0MzQsLTEzNzYxMzUzNjQsLTEzMzcyOTQ1MTgsLTEwNjg1
 MzIxMSwtNDMwMzk1ODM4LC0xMzY2NzYyOTMsMjE1Mjk3MjMxLD
 E4OTE4NjMxMTIsLTgxMzQ4ODMyMywxNDUyNjQ4Nzg0LC0xMTE0
