@@ -175,7 +175,9 @@ You can always do some styling now and come back later. Now, let's move on to in
 We're going to primarily follow Google's quickstart guide for making requests to their API, but with some adjustments. [You can find it here!](https://developers.google.com/calendar/quickstart/python) Follow the link to turn enable the API (you may have to create a Google Cloud project to do so) and select the option for creating a desktop app. You should then be able to download a file called `credentials.json` and place it in your project folder. Then install the API client from your terminal using this command: `
 pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib`.  
 The third step is to copy over their quickstart code into `main.py`. However, we're going to be making some changes to it in order to suit our purposes. Either way, we'll definitely need to use the import statements they provide. Here's what your `main.py` file should look like after you do all of this
+```python
 
+```
 
 
 # Deploying Your App
@@ -185,10 +187,10 @@ The third step is to copy over their quickstart code into `main.py`. However, we
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMyNjYxMDc0LDE2NDE5MDg0ODcsNTc3NT
-Y4MDgxLC0xNjYzNTExMDEsLTEwMzQyOTg3NTYsLTEyNjQ4NTk4
-MzUsMjcwOTEzOTM0LC00NDcyNDI0MzQsLTEzNzYxMzUzNjQsLT
-EzMzcyOTQ1MTgsLTEwNjg1MzIxMSwtNDMwMzk1ODM4LC0xMzY2
-NzYyOTMsMjE1Mjk3MjMxLDE4OTE4NjMxMTIsLTgxMzQ4ODMyMy
-wxNDUyNjQ4Nzg0LC0xMTE0ODM4MDk0XX0=
+eyJoaXN0b3J5IjpbLTE0NjAxNDcyNDYsMTY0MTkwODQ4Nyw1Nz
+c1NjgwODEsLTE2NjM1MTEwMSwtMTAzNDI5ODc1NiwtMTI2NDg1
+OTgzNSwyNzA5MTM5MzQsLTQ0NzI0MjQzNCwtMTM3NjEzNTM2NC
+wtMTMzNzI5NDUxOCwtMTA2ODUzMjExLC00MzAzOTU4MzgsLTEz
+NjY3NjI5MywyMTUyOTcyMzEsMTg5MTg2MzExMiwtODEzNDg4Mz
+IzLDE0NTI2NDg3ODQsLTExMTQ4MzgwOTRdfQ==
 -->
