@@ -116,6 +116,7 @@ Create a similar page for the calendar! Following the format above, make an html
 ```
 </details>
 
+Finally, let's link our pages together in `main.py` so you can see them all in action! We'll need to import `render_template` from 
 
 ## Add CSS!
 # Integrating Google Calendar
@@ -126,8 +127,8 @@ Create a similar page for the calendar! Following the format above, make an html
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzI0MjQzNCwtMTM3NjEzNTM2NCwtMT
-MzNzI5NDUxOCwtMTA2ODUzMjExLC00MzAzOTU4MzgsLTEzNjY3
-NjI5MywyMTUyOTcyMzEsMTg5MTg2MzExMiwtODEzNDg4MzIzLD
-E0NTI2NDg3ODQsLTExMTQ4MzgwOTRdfQ==
+eyJoaXN0b3J5IjpbMTIzODg2Njg4NCwtNDQ3MjQyNDM0LC0xMz
+c2MTM1MzY0LC0xMzM3Mjk0NTE4LC0xMDY4NTMyMTEsLTQzMDM5
+NTgzOCwtMTM2Njc2MjkzLDIxNTI5NzIzMSwxODkxODYzMTEyLC
+04MTM0ODgzMjMsMTQ1MjY0ODc4NCwtMTExNDgzODA5NF19
 -->
