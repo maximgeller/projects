@@ -135,7 +135,7 @@ def cal():
 Sweet! Start your local server up and you should be able to navigate between both of your pages from the browser!
 
 ## Add CSS!
-Your pages are probably pretty barren right now, right? Let's add a CSS file in order to spice it up a little. Flask looks for CSS in a specific way: you'll have to create a folder called `static` in your main project folder, then inside it 
+Your pages are probably pretty barren right now, right? Let's add a CSS file in order to spice it up a little. Flask looks for CSS in a specific way: you'll have to create a folder called `static` in your main project folder, then inside it create *another* folder called `css` 
 # Integrating Google Calendar
 # Deploying Your App
 ## Setting Up Google App Engine
@@ -144,9 +144,9 @@ Your pages are probably pretty barren right now, right? Let's add a CSS file in 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzQyOTg3NTYsLTEyNjQ4NTk4MzUsMj
-cwOTEzOTM0LC00NDcyNDI0MzQsLTEzNzYxMzUzNjQsLTEzMzcy
-OTQ1MTgsLTEwNjg1MzIxMSwtNDMwMzk1ODM4LC0xMzY2NzYyOT
-MsMjE1Mjk3MjMxLDE4OTE4NjMxMTIsLTgxMzQ4ODMyMywxNDUy
-NjQ4Nzg0LC0xMTE0ODM4MDk0XX0=
+eyJoaXN0b3J5IjpbODk2NjAxMjczLC0xMDM0Mjk4NzU2LC0xMj
+Y0ODU5ODM1LDI3MDkxMzkzNCwtNDQ3MjQyNDM0LC0xMzc2MTM1
+MzY0LC0xMzM3Mjk0NTE4LC0xMDY4NTMyMTEsLTQzMDM5NTgzOC
+wtMTM2Njc2MjkzLDIxNTI5NzIzMSwxODkxODYzMTEyLC04MTM0
+ODgzMjMsMTQ1MjY0ODc4NCwtMTExNDgzODA5NF19
 -->
