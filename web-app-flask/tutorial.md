@@ -93,10 +93,24 @@ Create a similar page for the calendar! Following the format above, make an html
 <details>
 <summary><b>Solution</b></summary>
 
-```python
-@app.route("/cal")
-def cal():
-	return "Here's what you got coming up"
+```html
+<html>
+	<head>
+	<meta  charset="utf-8">
+	<title>Upcoming Schedule</title>
+	</head>
+	<body>
+	{% extends "template.html" %}
+	{% block content %}
+	<h1>Here's what you got lined up!</h1>
+	<div  id="list">
+	<ul>
+	<li> Item 1! </li>
+	</ul>
+	</div>
+	{% endblock %}
+	</body>
+</html>
 ```
 Try running the script and appending `/cal` (or whatever you used) to the address bar and see if your message returns!
 </details>
@@ -110,8 +124,8 @@ Try running the script and appending `/cal` (or whatever you used) to the addres
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyMTMyMTg1LC0xMzM3Mjk0NTE4LC0xMD
-Y4NTMyMTEsLTQzMDM5NTgzOCwtMTM2Njc2MjkzLDIxNTI5NzIz
-MSwxODkxODYzMTEyLC04MTM0ODgzMjMsMTQ1MjY0ODc4NCwtMT
-ExNDgzODA5NF19
+eyJoaXN0b3J5IjpbMTc1MTMyMzQwOCwtMTMzNzI5NDUxOCwtMT
+A2ODUzMjExLC00MzAzOTU4MzgsLTEzNjY3NjI5MywyMTUyOTcy
+MzEsMTg5MTg2MzExMiwtODEzNDg4MzIzLDE0NTI2NDg3ODQsLT
+ExMTQ4MzgwOTRdfQ==
 -->
