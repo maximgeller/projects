@@ -8,7 +8,11 @@ First things first, we're going to create a folder that will contain all the fil
 ```python
 from flask import Flask
  
+app = Flask(__name__)
 
+@app.route("/") # this route is the default one
+def home():
+	return "Hell
 ```
 
 ## Making Our Own Pages
@@ -21,7 +25,7 @@ from flask import Flask
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc4ODU3OTg1LDIxNTI5NzIzMSwxODkxOD
-YzMTEyLC04MTM0ODgzMjMsMTQ1MjY0ODc4NCwtMTExNDgzODA5
-NF19
+eyJoaXN0b3J5IjpbMTIwNTA0NzY5MiwyMTUyOTcyMzEsMTg5MT
+g2MzExMiwtODEzNDg4MzIzLDE0NTI2NDg3ODQsLTExMTQ4Mzgw
+OTRdfQ==
 -->
