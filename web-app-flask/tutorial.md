@@ -25,7 +25,7 @@ This is the bare bones structure of the web app. We set the default landing page
 ```bash
 python main.py
 ```
-Your terminal will prompt you to navigate t
+Your terminal will prompt you to navigate to localhost://5000 where a local server has been created in order to view your app. Check it out!
 
 ## Making Our Own Pages
 ## Add CSS!
@@ -37,7 +37,7 @@ Your terminal will prompt you to navigate t
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI2MjIxNDM0LDIxNTI5NzIzMSwxODkxOD
-YzMTEyLC04MTM0ODgzMjMsMTQ1MjY0ODc4NCwtMTExNDgzODA5
-NF19
+eyJoaXN0b3J5IjpbLTc3NjE0MzU1OCwyMTUyOTcyMzEsMTg5MT
+g2MzExMiwtODEzNDg4MzIzLDE0NTI2NDg3ODQsLTExMTQ4Mzgw
+OTRdfQ==
 -->
