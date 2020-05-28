@@ -216,23 +216,21 @@ def cal():
 	# Call the Calendar API
 	now = datetime.datetime.utcnow().isoformat() +  'Z'  # 'Z' indicates UTC time
 	print('Getting the upcoming 10 events')
-	events_result = service.events().list(calendarId='find your cal id from google and paste it here',
-	timeMin=now,
-	maxResults=10, singleEvents=True,
-	orderBy='startTime').execute()
+	events_result = service.events().list(calendarId='find your cal id from google and paste it here', timeMin=now, maxResults=10, singleEvents=True, orderBy='startTime').execute()
 	events = events_result.get('items', [])
-	if  not events:
-	print('No upcoming events found.')
+	if not events:
+		print('No upcoming events found.')
 	# for event in events:
 	# start = event['start'].get('dateTime', event['start'].get('date'))
 	# print(start, event['summary'])
 	event_list = [event["summary"] for event in events]
+	
 	return  render_template("cal.html", events=event_list)
 	
 if  __name__  ==  "__main__":
 	app.run(debug=True)
 ```
-
+Once you have this code, you'll want to grab the calendar ID from google you want to integ
 
 # Deploying Your App
 ## Setting Up Google App Engine
@@ -241,10 +239,10 @@ if  __name__  ==  "__main__":
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM3MTA2MjgwLDE2NDE5MDg0ODcsNTc3NT
-Y4MDgxLC0xNjYzNTExMDEsLTEwMzQyOTg3NTYsLTEyNjQ4NTk4
-MzUsMjcwOTEzOTM0LC00NDcyNDI0MzQsLTEzNzYxMzUzNjQsLT
-EzMzcyOTQ1MTgsLTEwNjg1MzIxMSwtNDMwMzk1ODM4LC0xMzY2
-NzYyOTMsMjE1Mjk3MjMxLDE4OTE4NjMxMTIsLTgxMzQ4ODMyMy
-wxNDUyNjQ4Nzg0LC0xMTE0ODM4MDk0XX0=
+eyJoaXN0b3J5IjpbMTc1NTc3NjA4MCwxNjQxOTA4NDg3LDU3Nz
+U2ODA4MSwtMTY2MzUxMTAxLC0xMDM0Mjk4NzU2LC0xMjY0ODU5
+ODM1LDI3MDkxMzkzNCwtNDQ3MjQyNDM0LC0xMzc2MTM1MzY0LC
+0xMzM3Mjk0NTE4LC0xMDY4NTMyMTEsLTQzMDM5NTgzOCwtMTM2
+Njc2MjkzLDIxNTI5NzIzMSwxODkxODYzMTEyLC04MTM0ODgzMj
+MsMTQ1MjY0ODc4NCwtMTExNDgzODA5NF19
 -->
