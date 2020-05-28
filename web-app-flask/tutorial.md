@@ -237,7 +237,7 @@ It would be awesome to have a working URL for your app that you can always acces
 Before we can use it, you'll have to install the Google Cloud SDK which you can find [here]([https://cloud.google.com/sdk/docs/quickstarts](https://cloud.google.com/sdk/docs/quickstarts)). You also need to create a Google Cloud project (if you haven't already) by [signing up for Google Cloud](https://cloud.google.com/). 
 
 ## Setting Up Google App Engine
-We need to create three files in our main folder in order to use Google App Engine offered by Google Cloud. Create the following files in your project folder:
+We need to create three files in our main folder in order to use the Google App Engine offered by Google Cloud. Create the following files in your project folder:
  - app.yaml
  ```
  runtime: python37
@@ -302,7 +302,7 @@ vendor.add('lib')
 
 In order to deploy, you'll have to initialize Google cloud by `cd`'ing all the way into the Google Cloud directory and italicizing it by typing `gcloud init`.  Once it's all set up, deploy your app by typing `gcloud app deploy`. Google App Engine will generate a URL to see your live web app! 
 # Appendix
-Deploying the app can be tricky sometimes, so if it doesn't work check the error console and see if you can resolve whatever issues pop up. 
+Deploying the app can be tricky sometimes, so if it doesn't work check the error console in the Google Cloud Platform dashbo and see if you can resolve whatever issues pop up. 
 ## What's Next?
 This is a pretty minimal web app, but it could be the basis of your personal productivity dashboard! Try and see if you can integrate other APIs that can fetch the weather, latest news, or whatever you want! 
 ### References & Resources
@@ -315,11 +315,11 @@ This is a pretty minimal web app, but it could be the basis of your personal pro
 
 [Flask Templates](https://www.techiediaries.com/flask-tutorial-templates/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzIwMDc4OTcsMjA5MjQ3MDIyMCw3MD
-I1MjEwNTcsNzE5MTI1NDQ5LDIwMDc4NTI1MjIsODY2MzE5NDc4
-LDEwOTQxNjgwMzYsMTY0MTkwODQ4Nyw1Nzc1NjgwODEsLTE2Nj
-M1MTEwMSwtMTAzNDI5ODc1NiwtMTI2NDg1OTgzNSwyNzA5MTM5
-MzQsLTQ0NzI0MjQzNCwtMTM3NjEzNTM2NCwtMTMzNzI5NDUxOC
-wtMTA2ODUzMjExLC00MzAzOTU4MzgsLTEzNjY3NjI5MywyMTUy
-OTcyMzFdfQ==
+eyJoaXN0b3J5IjpbMjQzNzY2ODQyLDIwOTI0NzAyMjAsNzAyNT
+IxMDU3LDcxOTEyNTQ0OSwyMDA3ODUyNTIyLDg2NjMxOTQ3OCwx
+MDk0MTY4MDM2LDE2NDE5MDg0ODcsNTc3NTY4MDgxLC0xNjYzNT
+ExMDEsLTEwMzQyOTg3NTYsLTEyNjQ4NTk4MzUsMjcwOTEzOTM0
+LC00NDcyNDI0MzQsLTEzNzYxMzUzNjQsLTEzMzcyOTQ1MTgsLT
+EwNjg1MzIxMSwtNDMwMzk1ODM4LC0xMzY2NzYyOTMsMjE1Mjk3
+MjMxXX0=
 -->
