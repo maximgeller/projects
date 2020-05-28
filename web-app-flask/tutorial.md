@@ -4,6 +4,7 @@ Web development in...*Python*??? Yup, it's true. In this project, we'll be makin
 ## Dependencies
 If you've touched Python and HTML/CSS before, this tutorial is for you. Also, you'll need a Google account for deploying your app and getting a live URL for it. While this is not necessary, it's a really cool way to share what you've built with your friends.
 # Setting up Flask
+First things first, we're going to create a folder with the first 
 ## Making Our Own Pages
 ## Add CSS!
 # Integrating Google Calendar
@@ -14,6 +15,6 @@ If you've touched Python and HTML/CSS before, this tutorial is for you. Also, yo
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MTg2MzExMiwtODEzNDg4MzIzLDE0NT
-I2NDg3ODQsLTExMTQ4MzgwOTRdfQ==
+eyJoaXN0b3J5IjpbLTE1ODY0NTE5ODIsMTg5MTg2MzExMiwtOD
+EzNDg4MzIzLDE0NTI2NDg3ODQsLTExMTQ4MzgwOTRdfQ==
 -->
