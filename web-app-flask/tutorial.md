@@ -4,7 +4,7 @@ Web development in...*Python*??? Yup, it's true. In this project, we'll be makin
 ## Dependencies
 If you've touched Python and HTML/CSS before, this tutorial is for you. Also, you'll need a Google account for deploying your app and getting a live URL for it. While this is not necessary, it's a really cool way to share what you've built with your friends.
 ## Intuition
-What's the difference between a web app and a static website? Well, a static website is just that, static. The information it is always the same and you can't interact with it. In more technical speak, there is no **back-en
+What's the difference between a web app and a static website? Well, a static website is just that, static. The information it is always the same and you can't interact with it. In more technical speak, there is no **back end**. A web app however, does have a back end! It's what we're writing in Python. In this tutorial, our back end will interact with the Google Calendar API to pull the events you have coming up on your calendar and d
 # Setting up Flask
 First things first, we're going to create a folder that will contain all the files we'll need to have. In your folder, create a file called `main.py`. This is the file that we'll be running to execute all the code you're about to write. In this file, we will first import `flask` and set up the home page of the app.
 ```python
@@ -31,7 +31,7 @@ This is the barebones structure of the web app.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NzA2ODgwOSwyMTUyOTcyMzEsMTg5MT
+eyJoaXN0b3J5IjpbLTY2NTE2MTcwMiwyMTUyOTcyMzEsMTg5MT
 g2MzExMiwtODEzNDg4MzIzLDE0NTI2NDg3ODQsLTExMTQ4Mzgw
 OTRdfQ==
 -->
