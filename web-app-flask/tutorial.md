@@ -6,6 +6,10 @@ If you've touched Python and HTML/CSS before, this tutorial is for you. Also, yo
 ## Intuition
 What's the difference between a **web app** and a **static website?** Well, a static website is just that, static. The information it is always the same and you can't interact with it. In more technical speak, there is no **back end**. A web app however, does have a back end! It's what we're writing in Python. In this tutorial, our back end will interact with the Google Calendar API to pull the events you have coming up on your calendar and display them to you. Now, your website has a layer of interactivity to it. Every time you'll load the calendar page, it will refresh with the events that are coming up for you. 
 
+![website vs web app](https://www.liainfraservices.com/blog/wp-content/uploads/2019/10/website_webapp_infographics_liai.jpg)
+
+[Source](https://www.liainfraservices.com/blog/website-vs-web-application/)
+
 # Setting up Flask
 First things first, we're going to create a folder that will contain all the files we'll need to have. In your folder, create a file called `main.py`. This is the file that we'll be running to execute all the code you're about to write. In this file, we will first import `flask` and set up the home page of the app.
 ```python
@@ -316,11 +320,11 @@ This is a pretty minimal web app, but it could be the basis of your personal pro
 
 [Flask Templates](https://www.techiediaries.com/flask-tutorial-templates/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA2ODMxMzUsMjA5MjQ3MDIyMCw3MD
-I1MjEwNTcsNzE5MTI1NDQ5LDIwMDc4NTI1MjIsODY2MzE5NDc4
-LDEwOTQxNjgwMzYsMTY0MTkwODQ4Nyw1Nzc1NjgwODEsLTE2Nj
-M1MTEwMSwtMTAzNDI5ODc1NiwtMTI2NDg1OTgzNSwyNzA5MTM5
-MzQsLTQ0NzI0MjQzNCwtMTM3NjEzNTM2NCwtMTMzNzI5NDUxOC
-wtMTA2ODUzMjExLC00MzAzOTU4MzgsLTEzNjY3NjI5MywyMTUy
-OTcyMzFdfQ==
+eyJoaXN0b3J5IjpbLTI4MDY3Mjk5NCwyMDkyNDcwMjIwLDcwMj
+UyMTA1Nyw3MTkxMjU0NDksMjAwNzg1MjUyMiw4NjYzMTk0Nzgs
+MTA5NDE2ODAzNiwxNjQxOTA4NDg3LDU3NzU2ODA4MSwtMTY2Mz
+UxMTAxLC0xMDM0Mjk4NzU2LC0xMjY0ODU5ODM1LDI3MDkxMzkz
+NCwtNDQ3MjQyNDM0LC0xMzc2MTM1MzY0LC0xMzM3Mjk0NTE4LC
+0xMDY4NTMyMTEsLTQzMDM5NTgzOCwtMTM2Njc2MjkzLDIxNTI5
+NzIzMV19
 -->
