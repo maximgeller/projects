@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My Kanban</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://livejs.com/live.js"></script>
+  </head>
+  <body>
+    <!-- put your kanban div here -->
+    <div id="kanban">
+        <div ondragover="allowDrop(event)" ondrop="drop(event, this)" id="todo" class="column">
+            <h1 class="label" id="todo-label">todo</h1>
+            <button id="newButton">+New</button>
+        </div>
+        <div ondragover="allowDrop(event)" ondrop="drop(event, this)" class="column">
+            <h1 class="label" id="doing-label">doing</h1>
+        </div>
+        <div ondragover="allowDrop(event)" ondrop="drop(event, this)" class="column">
+            <h1 class="label" id="done-label">done</h1>
+        </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+html, body {
+    font-family: 'Segoe UI';
+}
+
+#kanban {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 20em;
+}
+
+.todo {
+    padding: 15px;
+    border: 1px solid #aaa;
+    outline: none;
+    box-shadow: 0.5px 0.5px 3px #999;
+    margin-top: 10px;
+}
+
+.label {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+#todo-label {
+    background-color: #E03E3E;
+}
+
+#doing-label {
+    background-color: #DFAB01;
+}
+
+#done-label {
+    background-color: #0F7B6C;
+}
